@@ -3068,672 +3068,3551 @@ var require_sweetalert2_all = __commonJS((exports, module) => {
   }(document, ":root{--swal2-outline: 0 0 0 3px rgba(100, 150, 200, 0.5);--swal2-container-padding: 0.625em;--swal2-backdrop: rgba(0, 0, 0, 0.4);--swal2-backdrop-transition: background-color 0.15s;--swal2-width: 32em;--swal2-padding: 0 0 1.25em;--swal2-border: none;--swal2-border-radius: 0.3125rem;--swal2-background: white;--swal2-color: #545454;--swal2-show-animation: swal2-show 0.3s;--swal2-hide-animation: swal2-hide 0.15s forwards;--swal2-icon-zoom: 1;--swal2-title-padding: 0.8em 1em 0;--swal2-html-container-padding: 1em 1.6em 0.3em;--swal2-input-border: 1px solid #d9d9d9;--swal2-input-border-radius: 0.1875em;--swal2-input-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px transparent;--swal2-input-background: transparent;--swal2-input-transition: border-color 0.2s, box-shadow 0.2s;--swal2-input-hover-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px transparent;--swal2-input-focus-border: 1px solid #b4dbed;--swal2-input-focus-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px rgba(100, 150, 200, 0.5);--swal2-progress-step-background: #add8e6;--swal2-validation-message-background: #f0f0f0;--swal2-validation-message-color: #666;--swal2-footer-border-color: #eee;--swal2-footer-background: transparent;--swal2-footer-color: inherit;--swal2-timer-progress-bar-background: rgba(0, 0, 0, 0.3);--swal2-close-button-position: initial;--swal2-close-button-inset: auto;--swal2-close-button-font-size: 2.5em;--swal2-close-button-color: #ccc;--swal2-close-button-transition: color 0.2s, box-shadow 0.2s;--swal2-close-button-outline: initial;--swal2-close-button-box-shadow: inset 0 0 0 3px transparent;--swal2-close-button-focus-box-shadow: inset var(--swal2-outline);--swal2-close-button-hover-transform: none;--swal2-actions-justify-content: center;--swal2-actions-width: auto;--swal2-actions-margin: 1.25em auto 0;--swal2-actions-padding: 0;--swal2-actions-border-radius: 0;--swal2-actions-background: transparent;--swal2-action-button-transition: background-color 0.2s, box-shadow 0.2s;--swal2-action-button-hover: black 10%;--swal2-action-button-active: black 10%;--swal2-confirm-button-box-shadow: none;--swal2-confirm-button-border-radius: 0.25em;--swal2-confirm-button-background-color: #7066e0;--swal2-confirm-button-color: #fff;--swal2-deny-button-box-shadow: none;--swal2-deny-button-border-radius: 0.25em;--swal2-deny-button-background-color: #dc3741;--swal2-deny-button-color: #fff;--swal2-cancel-button-box-shadow: none;--swal2-cancel-button-border-radius: 0.25em;--swal2-cancel-button-background-color: #6e7881;--swal2-cancel-button-color: #fff;--swal2-toast-show-animation: swal2-toast-show 0.5s;--swal2-toast-hide-animation: swal2-toast-hide 0.1s forwards;--swal2-toast-border: none;--swal2-toast-box-shadow: 0 0 1px hsl(0deg 0% 0% / 0.075), 0 1px 2px hsl(0deg 0% 0% / 0.075), 1px 2px 4px hsl(0deg 0% 0% / 0.075), 1px 3px 8px hsl(0deg 0% 0% / 0.075), 2px 4px 16px hsl(0deg 0% 0% / 0.075)}[data-swal2-theme=dark]{--swal2-dark-theme-black: #19191a;--swal2-dark-theme-white: #e1e1e1;--swal2-background: var(--swal2-dark-theme-black);--swal2-color: var(--swal2-dark-theme-white);--swal2-footer-border-color: #555;--swal2-input-background: color-mix(in srgb, var(--swal2-dark-theme-black), var(--swal2-dark-theme-white) 10%);--swal2-validation-message-background: color-mix( in srgb, var(--swal2-dark-theme-black), var(--swal2-dark-theme-white) 10% );--swal2-validation-message-color: var(--swal2-dark-theme-white);--swal2-timer-progress-bar-background: rgba(255, 255, 255, 0.7)}@media(prefers-color-scheme: dark){[data-swal2-theme=auto]{--swal2-dark-theme-black: #19191a;--swal2-dark-theme-white: #e1e1e1;--swal2-background: var(--swal2-dark-theme-black);--swal2-color: var(--swal2-dark-theme-white);--swal2-footer-border-color: #555;--swal2-input-background: color-mix(in srgb, var(--swal2-dark-theme-black), var(--swal2-dark-theme-white) 10%);--swal2-validation-message-background: color-mix( in srgb, var(--swal2-dark-theme-black), var(--swal2-dark-theme-white) 10% );--swal2-validation-message-color: var(--swal2-dark-theme-white);--swal2-timer-progress-bar-background: rgba(255, 255, 255, 0.7)}}body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto !important}body.swal2-no-backdrop .swal2-container{background-color:rgba(0,0,0,0) !important;pointer-events:none}body.swal2-no-backdrop .swal2-container .swal2-popup{pointer-events:auto}body.swal2-no-backdrop .swal2-container .swal2-modal{box-shadow:0 0 10px var(--swal2-backdrop)}body.swal2-toast-shown .swal2-container{box-sizing:border-box;width:360px;max-width:100%;background-color:rgba(0,0,0,0);pointer-events:none}body.swal2-toast-shown .swal2-container.swal2-top{inset:0 auto auto 50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{inset:0 0 auto auto}body.swal2-toast-shown .swal2-container.swal2-top-start,body.swal2-toast-shown .swal2-container.swal2-top-left{inset:0 auto auto 0}body.swal2-toast-shown .swal2-container.swal2-center-start,body.swal2-toast-shown .swal2-container.swal2-center-left{inset:50% auto auto 0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{inset:50% auto auto 50%;transform:translate(-50%, -50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{inset:50% 0 auto auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-start,body.swal2-toast-shown .swal2-container.swal2-bottom-left{inset:auto auto 0 0}body.swal2-toast-shown .swal2-container.swal2-bottom{inset:auto auto 0 50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{inset:auto 0 0 auto}@media print{body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown){overflow-y:scroll !important}body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown) .swal2-container{position:static !important}}div:where(.swal2-container){display:grid;position:fixed;z-index:1060;inset:0;box-sizing:border-box;grid-template-areas:\"top-start     top            top-end\" \"center-start  center         center-end\" \"bottom-start  bottom-center  bottom-end\";grid-template-rows:minmax(min-content, auto) minmax(min-content, auto) minmax(min-content, auto);height:100%;padding:var(--swal2-container-padding);overflow-x:hidden;transition:var(--swal2-backdrop-transition);-webkit-overflow-scrolling:touch}div:where(.swal2-container).swal2-backdrop-show,div:where(.swal2-container).swal2-noanimation{background:var(--swal2-backdrop)}div:where(.swal2-container).swal2-backdrop-hide{background:rgba(0,0,0,0) !important}div:where(.swal2-container).swal2-top-start,div:where(.swal2-container).swal2-center-start,div:where(.swal2-container).swal2-bottom-start{grid-template-columns:minmax(0, 1fr) auto auto}div:where(.swal2-container).swal2-top,div:where(.swal2-container).swal2-center,div:where(.swal2-container).swal2-bottom{grid-template-columns:auto minmax(0, 1fr) auto}div:where(.swal2-container).swal2-top-end,div:where(.swal2-container).swal2-center-end,div:where(.swal2-container).swal2-bottom-end{grid-template-columns:auto auto minmax(0, 1fr)}div:where(.swal2-container).swal2-top-start>.swal2-popup{align-self:start}div:where(.swal2-container).swal2-top>.swal2-popup{grid-column:2;place-self:start center}div:where(.swal2-container).swal2-top-end>.swal2-popup,div:where(.swal2-container).swal2-top-right>.swal2-popup{grid-column:3;place-self:start end}div:where(.swal2-container).swal2-center-start>.swal2-popup,div:where(.swal2-container).swal2-center-left>.swal2-popup{grid-row:2;align-self:center}div:where(.swal2-container).swal2-center>.swal2-popup{grid-column:2;grid-row:2;place-self:center center}div:where(.swal2-container).swal2-center-end>.swal2-popup,div:where(.swal2-container).swal2-center-right>.swal2-popup{grid-column:3;grid-row:2;place-self:center end}div:where(.swal2-container).swal2-bottom-start>.swal2-popup,div:where(.swal2-container).swal2-bottom-left>.swal2-popup{grid-column:1;grid-row:3;align-self:end}div:where(.swal2-container).swal2-bottom>.swal2-popup{grid-column:2;grid-row:3;place-self:end center}div:where(.swal2-container).swal2-bottom-end>.swal2-popup,div:where(.swal2-container).swal2-bottom-right>.swal2-popup{grid-column:3;grid-row:3;place-self:end end}div:where(.swal2-container).swal2-grow-row>.swal2-popup,div:where(.swal2-container).swal2-grow-fullscreen>.swal2-popup{grid-column:1/4;width:100%}div:where(.swal2-container).swal2-grow-column>.swal2-popup,div:where(.swal2-container).swal2-grow-fullscreen>.swal2-popup{grid-row:1/4;align-self:stretch}div:where(.swal2-container).swal2-no-transition{transition:none !important}div:where(.swal2-container)[popover]{width:auto;border:0}div:where(.swal2-container) div:where(.swal2-popup){display:none;position:relative;box-sizing:border-box;grid-template-columns:minmax(0, 100%);width:var(--swal2-width);max-width:100%;padding:var(--swal2-padding);border:var(--swal2-border);border-radius:var(--swal2-border-radius);background:var(--swal2-background);color:var(--swal2-color);font-family:inherit;font-size:1rem}div:where(.swal2-container) div:where(.swal2-popup):focus{outline:none}div:where(.swal2-container) div:where(.swal2-popup).swal2-loading{overflow-y:hidden}div:where(.swal2-container) div:where(.swal2-popup).swal2-draggable{cursor:grab}div:where(.swal2-container) div:where(.swal2-popup).swal2-draggable div:where(.swal2-icon){cursor:grab}div:where(.swal2-container) div:where(.swal2-popup).swal2-dragging{cursor:grabbing}div:where(.swal2-container) div:where(.swal2-popup).swal2-dragging div:where(.swal2-icon){cursor:grabbing}div:where(.swal2-container) h2:where(.swal2-title){position:relative;max-width:100%;margin:0;padding:var(--swal2-title-padding);color:inherit;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;overflow-wrap:break-word;cursor:initial}div:where(.swal2-container) div:where(.swal2-actions){display:flex;z-index:1;box-sizing:border-box;flex-wrap:wrap;align-items:center;justify-content:var(--swal2-actions-justify-content);width:var(--swal2-actions-width);margin:var(--swal2-actions-margin);padding:var(--swal2-actions-padding);border-radius:var(--swal2-actions-border-radius);background:var(--swal2-actions-background)}div:where(.swal2-container) div:where(.swal2-loader){display:none;align-items:center;justify-content:center;width:2.2em;height:2.2em;margin:0 1.875em;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border-width:.25em;border-style:solid;border-radius:100%;border-color:#2778c4 rgba(0,0,0,0) #2778c4 rgba(0,0,0,0)}div:where(.swal2-container) button:where(.swal2-styled){margin:.3125em;padding:.625em 1.1em;transition:var(--swal2-action-button-transition);border:none;box-shadow:0 0 0 3px rgba(0,0,0,0);font-weight:500}div:where(.swal2-container) button:where(.swal2-styled):not([disabled]){cursor:pointer}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm){border-radius:var(--swal2-confirm-button-border-radius);background:initial;background-color:var(--swal2-confirm-button-background-color);box-shadow:var(--swal2-confirm-button-box-shadow);color:var(--swal2-confirm-button-color);font-size:1em}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm):hover{background-color:color-mix(in srgb, var(--swal2-confirm-button-background-color), var(--swal2-action-button-hover))}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm):active{background-color:color-mix(in srgb, var(--swal2-confirm-button-background-color), var(--swal2-action-button-active))}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-deny){border-radius:var(--swal2-deny-button-border-radius);background:initial;background-color:var(--swal2-deny-button-background-color);box-shadow:var(--swal2-deny-button-box-shadow);color:var(--swal2-deny-button-color);font-size:1em}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-deny):hover{background-color:color-mix(in srgb, var(--swal2-deny-button-background-color), var(--swal2-action-button-hover))}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-deny):active{background-color:color-mix(in srgb, var(--swal2-deny-button-background-color), var(--swal2-action-button-active))}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel){border-radius:var(--swal2-cancel-button-border-radius);background:initial;background-color:var(--swal2-cancel-button-background-color);box-shadow:var(--swal2-cancel-button-box-shadow);color:var(--swal2-cancel-button-color);font-size:1em}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel):hover{background-color:color-mix(in srgb, var(--swal2-cancel-button-background-color), var(--swal2-action-button-hover))}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel):active{background-color:color-mix(in srgb, var(--swal2-cancel-button-background-color), var(--swal2-action-button-active))}div:where(.swal2-container) button:where(.swal2-styled):focus-visible{outline:none;box-shadow:var(--swal2-action-button-focus-box-shadow)}div:where(.swal2-container) button:where(.swal2-styled)[disabled]:not(.swal2-loading){opacity:.4}div:where(.swal2-container) button:where(.swal2-styled)::-moz-focus-inner{border:0}div:where(.swal2-container) div:where(.swal2-footer){margin:1em 0 0;padding:1em 1em 0;border-top:1px solid var(--swal2-footer-border-color);background:var(--swal2-footer-background);color:var(--swal2-footer-color);font-size:1em;text-align:center;cursor:initial}div:where(.swal2-container) .swal2-timer-progress-bar-container{position:absolute;right:0;bottom:0;left:0;grid-column:auto !important;overflow:hidden;border-bottom-right-radius:var(--swal2-border-radius);border-bottom-left-radius:var(--swal2-border-radius)}div:where(.swal2-container) div:where(.swal2-timer-progress-bar){width:100%;height:.25em;background:var(--swal2-timer-progress-bar-background)}div:where(.swal2-container) img:where(.swal2-image){max-width:100%;margin:2em auto 1em;cursor:initial}div:where(.swal2-container) button:where(.swal2-close){position:var(--swal2-close-button-position);inset:var(--swal2-close-button-inset);z-index:2;align-items:center;justify-content:center;width:1.2em;height:1.2em;margin-top:0;margin-right:0;margin-bottom:-1.2em;padding:0;overflow:hidden;transition:var(--swal2-close-button-transition);border:none;border-radius:var(--swal2-border-radius);outline:var(--swal2-close-button-outline);background:rgba(0,0,0,0);color:var(--swal2-close-button-color);font-family:monospace;font-size:var(--swal2-close-button-font-size);cursor:pointer;justify-self:end}div:where(.swal2-container) button:where(.swal2-close):hover{transform:var(--swal2-close-button-hover-transform);background:rgba(0,0,0,0);color:#f27474}div:where(.swal2-container) button:where(.swal2-close):focus-visible{outline:none;box-shadow:var(--swal2-close-button-focus-box-shadow)}div:where(.swal2-container) button:where(.swal2-close)::-moz-focus-inner{border:0}div:where(.swal2-container) div:where(.swal2-html-container){z-index:1;justify-content:center;margin:0;padding:var(--swal2-html-container-padding);overflow:auto;color:inherit;font-size:1.125em;font-weight:normal;line-height:normal;text-align:center;overflow-wrap:break-word;word-break:break-word;cursor:initial}div:where(.swal2-container) input:where(.swal2-input),div:where(.swal2-container) input:where(.swal2-file),div:where(.swal2-container) textarea:where(.swal2-textarea),div:where(.swal2-container) select:where(.swal2-select),div:where(.swal2-container) div:where(.swal2-radio),div:where(.swal2-container) label:where(.swal2-checkbox){margin:1em 2em 3px}div:where(.swal2-container) input:where(.swal2-input),div:where(.swal2-container) input:where(.swal2-file),div:where(.swal2-container) textarea:where(.swal2-textarea){box-sizing:border-box;width:auto;transition:var(--swal2-input-transition);border:var(--swal2-input-border);border-radius:var(--swal2-input-border-radius);background:var(--swal2-input-background);box-shadow:var(--swal2-input-box-shadow);color:inherit;font-size:1.125em}div:where(.swal2-container) input:where(.swal2-input).swal2-inputerror,div:where(.swal2-container) input:where(.swal2-file).swal2-inputerror,div:where(.swal2-container) textarea:where(.swal2-textarea).swal2-inputerror{border-color:#f27474 !important;box-shadow:0 0 2px #f27474 !important}div:where(.swal2-container) input:where(.swal2-input):hover,div:where(.swal2-container) input:where(.swal2-file):hover,div:where(.swal2-container) textarea:where(.swal2-textarea):hover{box-shadow:var(--swal2-input-hover-box-shadow)}div:where(.swal2-container) input:where(.swal2-input):focus,div:where(.swal2-container) input:where(.swal2-file):focus,div:where(.swal2-container) textarea:where(.swal2-textarea):focus{border:var(--swal2-input-focus-border);outline:none;box-shadow:var(--swal2-input-focus-box-shadow)}div:where(.swal2-container) input:where(.swal2-input)::placeholder,div:where(.swal2-container) input:where(.swal2-file)::placeholder,div:where(.swal2-container) textarea:where(.swal2-textarea)::placeholder{color:#ccc}div:where(.swal2-container) .swal2-range{margin:1em 2em 3px;background:var(--swal2-background)}div:where(.swal2-container) .swal2-range input{width:80%}div:where(.swal2-container) .swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}div:where(.swal2-container) .swal2-range input,div:where(.swal2-container) .swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}div:where(.swal2-container) .swal2-input{height:2.625em;padding:0 .75em}div:where(.swal2-container) .swal2-file{width:75%;margin-right:auto;margin-left:auto;background:var(--swal2-input-background);font-size:1.125em}div:where(.swal2-container) .swal2-textarea{height:6.75em;padding:.75em}div:where(.swal2-container) .swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:var(--swal2-input-background);color:inherit;font-size:1.125em}div:where(.swal2-container) .swal2-radio,div:where(.swal2-container) .swal2-checkbox{align-items:center;justify-content:center;background:var(--swal2-background);color:inherit}div:where(.swal2-container) .swal2-radio label,div:where(.swal2-container) .swal2-checkbox label{margin:0 .6em;font-size:1.125em}div:where(.swal2-container) .swal2-radio input,div:where(.swal2-container) .swal2-checkbox input{flex-shrink:0;margin:0 .4em}div:where(.swal2-container) label:where(.swal2-input-label){display:flex;justify-content:center;margin:1em auto 0}div:where(.swal2-container) div:where(.swal2-validation-message){align-items:center;justify-content:center;margin:1em 0 0;padding:.625em;overflow:hidden;background:var(--swal2-validation-message-background);color:var(--swal2-validation-message-color);font-size:1em;font-weight:300}div:where(.swal2-container) div:where(.swal2-validation-message)::before{content:\"!\";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}div:where(.swal2-container) .swal2-progress-steps{flex-wrap:wrap;align-items:center;max-width:100%;margin:1.25em auto;padding:0;background:rgba(0,0,0,0);font-weight:600}div:where(.swal2-container) .swal2-progress-steps li{display:inline-block;position:relative}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step{z-index:20;flex-shrink:0;width:2em;height:2em;border-radius:2em;background:#2778c4;color:#fff;line-height:2em;text-align:center}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#2778c4}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:var(--swal2-progress-step-background);color:#fff}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:var(--swal2-progress-step-background)}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step-line{z-index:10;flex-shrink:0;width:2.5em;height:.4em;margin:0 -1px;background:#2778c4}div:where(.swal2-icon){position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:2.5em auto .6em;zoom:var(--swal2-icon-zoom);border:.25em solid rgba(0,0,0,0);border-radius:50%;border-color:#000;font-family:inherit;line-height:5em;cursor:default;user-select:none}div:where(.swal2-icon) .swal2-icon-content{display:flex;align-items:center;font-size:3.75em}div:where(.swal2-icon).swal2-error{border-color:#f27474;color:#f27474}div:where(.swal2-icon).swal2-error .swal2-x-mark{position:relative;flex-grow:1}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-error.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-error.swal2-icon-show .swal2-x-mark{animation:swal2-animate-error-x-mark .5s}div:where(.swal2-icon).swal2-warning{border-color:#f8bb86;color:#f8bb86}div:where(.swal2-icon).swal2-warning.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-warning.swal2-icon-show .swal2-icon-content{animation:swal2-animate-i-mark .5s}div:where(.swal2-icon).swal2-info{border-color:#3fc3ee;color:#3fc3ee}div:where(.swal2-icon).swal2-info.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-info.swal2-icon-show .swal2-icon-content{animation:swal2-animate-i-mark .8s}div:where(.swal2-icon).swal2-question{border-color:#87adbd;color:#87adbd}div:where(.swal2-icon).swal2-question.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-question.swal2-icon-show .swal2-icon-content{animation:swal2-animate-question-mark .8s}div:where(.swal2-icon).swal2-success{border-color:#a5dc86;color:#a5dc86}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;border-radius:50%}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line][class$=left]{top:-0.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line][class$=right]{top:-0.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}div:where(.swal2-icon).swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-0.25em;left:-0.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}div:where(.swal2-icon).swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}div:where(.swal2-icon).swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}div:where(.swal2-icon).swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-line-tip{animation:swal2-animate-success-line-tip .75s}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-line-long{animation:swal2-animate-success-line-long .75s}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-circular-line-right{animation:swal2-rotate-success-circular-line 4.25s ease-in}[class^=swal2]{-webkit-tap-highlight-color:rgba(0,0,0,0)}.swal2-show{animation:var(--swal2-show-animation)}.swal2-hide{animation:var(--swal2-hide-animation)}.swal2-noanimation{transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{margin-right:initial;margin-left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}.swal2-toast{box-sizing:border-box;grid-column:1/4 !important;grid-row:1/4 !important;grid-template-columns:min-content auto min-content;padding:1em;overflow-y:hidden;border:var(--swal2-toast-border);background:var(--swal2-background);box-shadow:var(--swal2-toast-box-shadow);pointer-events:auto}.swal2-toast>*{grid-column:2}.swal2-toast h2:where(.swal2-title){margin:.5em 1em;padding:0;font-size:1em;text-align:initial}.swal2-toast .swal2-loading{justify-content:center}.swal2-toast input:where(.swal2-input){height:2em;margin:.5em;font-size:1em}.swal2-toast .swal2-validation-message{font-size:1em}.swal2-toast div:where(.swal2-footer){margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-toast button:where(.swal2-close){grid-column:3/3;grid-row:1/99;align-self:center;width:.8em;height:.8em;margin:0;font-size:2em}.swal2-toast div:where(.swal2-html-container){margin:.5em 1em;padding:0;overflow:initial;font-size:1em;text-align:initial}.swal2-toast div:where(.swal2-html-container):empty{padding:0}.swal2-toast .swal2-loader{grid-column:1;grid-row:1/99;align-self:center;width:2em;height:2em;margin:.25em}.swal2-toast .swal2-icon{grid-column:1;grid-row:1/99;align-self:center;width:2em;min-width:2em;height:2em;margin:0 .5em 0 0}.swal2-toast .swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:1.8em;font-weight:bold}.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-toast div:where(.swal2-actions){justify-content:flex-start;height:auto;margin:0;margin-top:.5em;padding:0 .5em}.swal2-toast button:where(.swal2-styled){margin:.25em .5em;padding:.4em .6em;font-size:1em}.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;border-radius:50%}.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-0.8em;left:-0.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-0.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{animation:swal2-toast-animate-success-line-tip .75s}.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{animation:swal2-toast-animate-success-line-long .75s}.swal2-toast.swal2-show{animation:var(--swal2-toast-show-animation)}.swal2-toast.swal2-hide{animation:var(--swal2-toast-hide-animation)}@keyframes swal2-show{0%{transform:translate3d(0, -50px, 0) scale(0.9);opacity:0}100%{transform:translate3d(0, 0, 0) scale(1);opacity:1}}@keyframes swal2-hide{0%{transform:translate3d(0, 0, 0) scale(1);opacity:1}100%{transform:translate3d(0, -50px, 0) scale(0.9);opacity:0}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-0.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(0.4);opacity:0}50%{margin-top:1.625em;transform:scale(0.4);opacity:0}80%{margin-top:-0.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0deg);opacity:1}}@keyframes swal2-rotate-loading{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes swal2-animate-question-mark{0%{transform:rotateY(-360deg)}100%{transform:rotateY(0)}}@keyframes swal2-animate-i-mark{0%{transform:rotateZ(45deg);opacity:0}25%{transform:rotateZ(-25deg);opacity:.4}50%{transform:rotateZ(15deg);opacity:.8}75%{transform:rotateZ(-5deg);opacity:1}100%{transform:rotateX(0);opacity:1}}@keyframes swal2-toast-show{0%{transform:translateY(-0.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(0.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0deg)}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-0.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}");
 });
 
-// node_modules/js-chess-engine/dist/js-chess-engine.js
-var require_js_chess_engine = __commonJS((exports, module) => {
-  (function(t, e) {
-    typeof exports == "object" && typeof module == "object" ? module.exports = e() : typeof define == "function" && define.amd ? define("js-chess-engine", [], e) : typeof exports == "object" ? exports["js-chess-engine"] = e() : t["js-chess-engine"] = e();
-  })(exports, function() {
-    return function(t) {
-      var e = {};
-      function i(n) {
-        if (e[n])
-          return e[n].exports;
-        var o = e[n] = { i: n, l: false, exports: {} };
-        return t[n].call(o.exports, o, o.exports, i), o.l = true, o.exports;
-      }
-      return i.m = t, i.c = e, i.d = function(t2, e2, n) {
-        i.o(t2, e2) || Object.defineProperty(t2, e2, { enumerable: true, get: n });
-      }, i.r = function(t2) {
-        typeof Symbol != "undefined" && Symbol.toStringTag && Object.defineProperty(t2, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(t2, "__esModule", { value: true });
-      }, i.t = function(t2, e2) {
-        if (1 & e2 && (t2 = i(t2)), 8 & e2)
-          return t2;
-        if (4 & e2 && typeof t2 == "object" && t2 && t2.__esModule)
-          return t2;
-        var n = Object.create(null);
-        if (i.r(n), Object.defineProperty(n, "default", { enumerable: true, value: t2 }), 2 & e2 && typeof t2 != "string")
-          for (var o in t2)
-            i.d(n, o, function(e3) {
-              return t2[e3];
-            }.bind(null, o));
-        return n;
-      }, i.n = function(t2) {
-        var e2 = t2 && t2.__esModule ? function() {
-          return t2.default;
-        } : function() {
-          return t2;
-        };
-        return i.d(e2, "a", e2), e2;
-      }, i.o = function(t2, e2) {
-        return Object.prototype.hasOwnProperty.call(t2, e2);
-      }, i.p = "", i(i.s = 0);
-    }([function(t, e, i) {
-      i.r(e), i.d(e, "Game", function() {
-        return $;
-      }), i.d(e, "moves", function() {
-        return J;
-      }), i.d(e, "status", function() {
-        return V;
-      }), i.d(e, "getFen", function() {
-        return Y;
-      }), i.d(e, "move", function() {
-        return z;
-      }), i.d(e, "aiMove", function() {
-        return X;
-      });
-      const n = ["A", "B", "C", "D", "E", "F", "G", "H"], o = ["1", "2", "3", "4", "5", "6", "7", "8"], s = { KING_W: "K", QUEEN_W: "Q", ROOK_W: "R", BISHOP_W: "B", KNIGHT_W: "N", PAWN_W: "P", KING_B: "k", QUEEN_B: "q", ROOK_B: "r", BISHOP_B: "b", KNIGHT_B: "n", PAWN_B: "p" }, r = "black", c = "white", l = [0, 1, 2, 3, 4], a = { 0: 1, 1: 2, 2: 2, 3: 3, 4: 3, 5: 4 }, u = { 0: 2, 1: 2, 2: 4, 3: 4, 4: 5, 5: 5 }, h = { fullMove: 1, halfMove: 0, enPassant: null, isFinished: false, checkMate: false, check: false, turn: c }, g = Object.assign({ pieces: { E1: "K", D1: "Q", A1: "R", H1: "R", C1: "B", F1: "B", B1: "N", G1: "N", A2: "P", B2: "P", C2: "P", D2: "P", E2: "P", F2: "P", G2: "P", H2: "P", E8: "k", D8: "q", A8: "r", H8: "r", C8: "b", F8: "b", B8: "n", G8: "n", A7: "p", B7: "p", C7: "p", D7: "p", E7: "p", F7: "p", G7: "p", H7: "p" }, castling: { whiteShort: true, blackShort: true, whiteLong: true, blackLong: true } }, h), f = { UP: { A1: "A2", A2: "A3", A3: "A4", A4: "A5", A5: "A6", A6: "A7", A7: "A8", A8: null, B1: "B2", B2: "B3", B3: "B4", B4: "B5", B5: "B6", B6: "B7", B7: "B8", B8: null, C1: "C2", C2: "C3", C3: "C4", C4: "C5", C5: "C6", C6: "C7", C7: "C8", C8: null, D1: "D2", D2: "D3", D3: "D4", D4: "D5", D5: "D6", D6: "D7", D7: "D8", D8: null, E1: "E2", E2: "E3", E3: "E4", E4: "E5", E5: "E6", E6: "E7", E7: "E8", E8: null, F1: "F2", F2: "F3", F3: "F4", F4: "F5", F5: "F6", F6: "F7", F7: "F8", F8: null, G1: "G2", G2: "G3", G3: "G4", G4: "G5", G5: "G6", G6: "G7", G7: "G8", G8: null, H1: "H2", H2: "H3", H3: "H4", H4: "H5", H5: "H6", H6: "H7", H7: "H8", H8: null }, DOWN: { A1: null, A2: "A1", A3: "A2", A4: "A3", A5: "A4", A6: "A5", A7: "A6", A8: "A7", B1: null, B2: "B1", B3: "B2", B4: "B3", B5: "B4", B6: "B5", B7: "B6", B8: "B7", C1: null, C2: "C1", C3: "C2", C4: "C3", C5: "C4", C6: "C5", C7: "C6", C8: "C7", D1: null, D2: "D1", D3: "D2", D4: "D3", D5: "D4", D6: "D5", D7: "D6", D8: "D7", E1: null, E2: "E1", E3: "E2", E4: "E3", E5: "E4", E6: "E5", E7: "E6", E8: "E7", F1: null, F2: "F1", F3: "F2", F4: "F3", F5: "F4", F6: "F5", F7: "F6", F8: "F7", G1: null, G2: "G1", G3: "G2", G4: "G3", G5: "G4", G6: "G5", G7: "G6", G8: "G7", H1: null, H2: "H1", H3: "H2", H4: "H3", H5: "H4", H6: "H5", H7: "H6", H8: "H7" }, LEFT: { A1: null, A2: null, A3: null, A4: null, A5: null, A6: null, A7: null, A8: null, B1: "A1", B2: "A2", B3: "A3", B4: "A4", B5: "A5", B6: "A6", B7: "A7", B8: "A8", C1: "B1", C2: "B2", C3: "B3", C4: "B4", C5: "B5", C6: "B6", C7: "B7", C8: "B8", D1: "C1", D2: "C2", D3: "C3", D4: "C4", D5: "C5", D6: "C6", D7: "C7", D8: "C8", E1: "D1", E2: "D2", E3: "D3", E4: "D4", E5: "D5", E6: "D6", E7: "D7", E8: "D8", F1: "E1", F2: "E2", F3: "E3", F4: "E4", F5: "E5", F6: "E6", F7: "E7", F8: "E8", G1: "F1", G2: "F2", G3: "F3", G4: "F4", G5: "F5", G6: "F6", G7: "F7", G8: "F8", H1: "G1", H2: "G2", H3: "G3", H4: "G4", H5: "G5", H6: "G6", H7: "G7", H8: "G8" }, RIGHT: { A1: "B1", A2: "B2", A3: "B3", A4: "B4", A5: "B5", A6: "B6", A7: "B7", A8: "B8", B1: "C1", B2: "C2", B3: "C3", B4: "C4", B5: "C5", B6: "C6", B7: "C7", B8: "C8", C1: "D1", C2: "D2", C3: "D3", C4: "D4", C5: "D5", C6: "D6", C7: "D7", C8: "D8", D1: "E1", D2: "E2", D3: "E3", D4: "E4", D5: "E5", D6: "E6", D7: "E7", D8: "E8", E1: "F1", E2: "F2", E3: "F3", E4: "F4", E5: "F5", E6: "F6", E7: "F7", E8: "F8", F1: "G1", F2: "G2", F3: "G3", F4: "G4", F5: "G5", F6: "G6", F7: "G7", F8: "G8", G1: "H1", G2: "H2", G3: "H3", G4: "H4", G5: "H5", G6: "H6", G7: "H7", G8: "H8", H1: null, H2: null, H3: null, H4: null, H5: null, H6: null, H7: null, H8: null }, UP_LEFT: { A1: null, A2: null, A3: null, A4: null, A5: null, A6: null, A7: null, A8: null, B1: "A2", B2: "A3", B3: "A4", B4: "A5", B5: "A6", B6: "A7", B7: "A8", B8: null, C1: "B2", C2: "B3", C3: "B4", C4: "B5", C5: "B6", C6: "B7", C7: "B8", C8: null, D1: "C2", D2: "C3", D3: "C4", D4: "C5", D5: "C6", D6: "C7", D7: "C8", D8: null, E1: "D2", E2: "D3", E3: "D4", E4: "D5", E5: "D6", E6: "D7", E7: "D8", E8: null, F1: "E2", F2: "E3", F3: "E4", F4: "E5", F5: "E6", F6: "E7", F7: "E8", F8: null, G1: "F2", G2: "F3", G3: "F4", G4: "F5", G5: "F6", G6: "F7", G7: "F8", G8: null, H1: "G2", H2: "G3", H3: "G4", H4: "G5", H5: "G6", H6: "G7", H7: "G8", H8: null }, DOWN_RIGHT: { A1: null, A2: "B1", A3: "B2", A4: "B3", A5: "B4", A6: "B5", A7: "B6", A8: "B7", B1: null, B2: "C1", B3: "C2", B4: "C3", B5: "C4", B6: "C5", B7: "C6", B8: "C7", C1: null, C2: "D1", C3: "D2", C4: "D3", C5: "D4", C6: "D5", C7: "D6", C8: "D7", D1: null, D2: "E1", D3: "E2", D4: "E3", D5: "E4", D6: "E5", D7: "E6", D8: "E7", E1: null, E2: "F1", E3: "F2", E4: "F3", E5: "F4", E6: "F5", E7: "F6", E8: "F7", F1: null, F2: "G1", F3: "G2", F4: "G3", F5: "G4", F6: "G5", F7: "G6", F8: "G7", G1: null, G2: "H1", G3: "H2", G4: "H3", G5: "H4", G6: "H5", G7: "H6", G8: "H7", H1: null, H2: null, H3: null, H4: null, H5: null, H6: null, H7: null, H8: null }, UP_RIGHT: { A1: "B2", A2: "B3", A3: "B4", A4: "B5", A5: "B6", A6: "B7", A7: "B8", A8: null, B1: "C2", B2: "C3", B3: "C4", B4: "C5", B5: "C6", B6: "C7", B7: "C8", B8: null, C1: "D2", C2: "D3", C3: "D4", C4: "D5", C5: "D6", C6: "D7", C7: "D8", C8: null, D1: "E2", D2: "E3", D3: "E4", D4: "E5", D5: "E6", D6: "E7", D7: "E8", D8: null, E1: "F2", E2: "F3", E3: "F4", E4: "F5", E5: "F6", E6: "F7", E7: "F8", E8: null, F1: "G2", F2: "G3", F3: "G4", F4: "G5", F5: "G6", F6: "G7", F7: "G8", F8: null, G1: "H2", G2: "H3", G3: "H4", G4: "H5", G5: "H6", G6: "H7", G7: "H8", G8: null, H1: null, H2: null, H3: null, H4: null, H5: null, H6: null, H7: null, H8: null }, DOWN_LEFT: { A1: null, A2: null, A3: null, A4: null, A5: null, A6: null, A7: null, A8: null, B1: null, B2: "A1", B3: "A2", B4: "A3", B5: "A4", B6: "A5", B7: "A6", B8: "A7", C1: null, C2: "B1", C3: "B2", C4: "B3", C5: "B4", C6: "B5", C7: "B6", C8: "B7", D1: null, D2: "C1", D3: "C2", D4: "C3", D5: "C4", D6: "C5", D7: "C6", D8: "C7", E1: null, E2: "D1", E3: "D2", E4: "D3", E5: "D4", E6: "D5", E7: "D6", E8: "D7", F1: null, F2: "E1", F3: "E2", F4: "E3", F5: "E4", F6: "E5", F7: "E6", F8: "E7", G1: null, G2: "F1", G3: "F2", G4: "F3", G5: "F4", G6: "F5", G7: "F6", G8: "F7", H1: null, H2: "G1", H3: "G2", H4: "G3", H5: "G4", H6: "G5", H7: "G6", H8: "G7" } }, C = [[0, 0, 0, 0, 0, 0, 0, 0], [5, 5, 5, 5, 5, 5, 5, 5], [1, 1, 2, 3, 3, 2, 1, 1], [0.5, 0.5, 1, 2.5, 2.5, 1, 0.5, 0.5], [0, 0, 0, 2, 2, 0, 0, 0], [0.5, 0, 1, 0, 0, 1, 0, 0.5], [0.5, 0, 0, -2, -2, 0, 0, 0.5], [0, 0, 0, 0, 0, 0, 0, 0]], P = [[-4, -3, -2, -2, -2, -2, -3, -4], [-3, -2, 0, 0, 0, 0, -2, -3], [-2, 0, 1, 1.5, 1.5, 1, 0, -2], [-2, 0.5, 1.5, 2, 2, 1.5, 0.5, -2], [-2, 0, 1.5, 2, 2, 1.5, 0, -2], [-2, 0.5, 1, 1.5, 1.5, 1, 0.5, -2], [-3, -2, 0, 0.5, 0.5, 0, -2, -3], [-4, -3, -2, -2, -2, -2, -3, -4]], p = [[-2, -1, -1, -1, -1, -1, -1, -2], [-1, 0, 0, 0, 0, 0, 0, -1], [-1, 0, 0.5, 1, 1, 0.5, 0, -1], [-1, 0.5, 0.5, 1, 1, 0.5, 0.5, -1], [-1, 0, 1, 1, 1, 1, 0, -1], [-1, 1, 1, 1, 1, 1, 1, -1], [-1, 0.5, 0, 0, 0, 0, 0.5, -1], [-2, -1, -1, -1, -1, -1, -1, -2]], E = [[0, 0, 0, 0, 0, 0, 0, 0], [0.5, 1, 1, 1, 1, 1, 1, 0.5], [-0.5, 0, 0, 0, 0, 0, 0, -0.5], [-0.5, 0, 0, 0, 0, 0, 0, -0.5], [-0.5, 0, 0, 0, 0, 0, 0, -0.5], [-0.5, 0, 0, 0, 0, 0, 0, -0.5], [-0.5, 0, 0, 0, 0, 0, 0, -0.5], [0, 0, 0, 0.5, 0.5, 0, 0, 0]], B = [[-3, -4, -4, -5, -5, -4, -4, -3], [-3, -4, -4, -5, -5, -4, -4, -3], [-3, -4, -4, -5, -5, -4, -4, -3], [-3, -4, -4, -5, -5, -4, -4, -3], [-2, -3, -3, -4, -4, -3, -3, -2], [-1, -2, -2, -2, -2, -2, -2, -1], [2, 2, 0, 0, 0, 0, 2, 2], [2, 3, 1, 0, 0, 1, 3, 2]], F = [[-2, -1, -1, -0.5, -0.5, -1, -1, -2], [-1, 0, 0, 0, 0, 0, 0, -1], [-1, 0, 0.5, 0.5, 0.5, 0.5, 0, -1], [-0.5, 0, 0.5, 0.5, 0.5, 0.5, 0, -0.5], [0, 0, 0.5, 0.5, 0.5, 0.5, 0, -0.5], [-1, 0.5, 0.5, 0.5, 0.5, 0.5, 0, -1], [-1, 0, 0.5, 0, 0, 0, 0, -1], [-2, -1, -1, -0.5, -0.5, -1, -1, -2]], G = { P: C.slice().reverse(), p: C, N: P.slice().reverse(), n: P, B: p.slice().reverse(), b: p, R: E.slice().reverse(), r: E, K: B.slice().reverse(), k: B, Q: F.slice().reverse(), q: F };
-      function D(t2) {
-        return f.UP[t2];
-      }
-      function A(t2) {
-        return f.DOWN[t2];
-      }
-      function H(t2) {
-        return f.LEFT[t2];
-      }
-      function b(t2) {
-        return f.RIGHT[t2];
-      }
-      function d(t2) {
-        return f.UP_LEFT[t2];
-      }
-      function k(t2) {
-        return f.UP_RIGHT[t2];
-      }
-      function v(t2) {
-        return f.DOWN_LEFT[t2];
-      }
-      function y(t2) {
-        return f.DOWN_RIGHT[t2];
-      }
-      function w(t2) {
-        const e2 = d(t2);
-        return e2 ? D(e2) : null;
-      }
-      function O(t2) {
-        const e2 = d(t2);
-        return e2 ? H(e2) : null;
-      }
-      function L(t2) {
-        const e2 = k(t2);
-        return e2 ? D(e2) : null;
-      }
-      function m(t2) {
-        const e2 = k(t2);
-        return e2 ? b(e2) : null;
-      }
-      function M(t2) {
-        const e2 = v(t2);
-        return e2 ? A(e2) : null;
-      }
-      function K(t2) {
-        const e2 = v(t2);
-        return e2 ? H(e2) : null;
-      }
-      function N(t2) {
-        const e2 = y(t2);
-        return e2 ? A(e2) : null;
-      }
-      function S(t2) {
-        const e2 = y(t2);
-        return e2 ? b(e2) : null;
-      }
-      function j(t2, e2) {
-        return e2 === c ? f.UP[t2] : f.DOWN[t2];
-      }
-      function _(t2, e2) {
-        return e2 === c ? f.UP_LEFT[t2] : f.DOWN_RIGHT[t2];
-      }
-      function W(t2, e2) {
-        return e2 === c ? f.UP_RIGHT[t2] : f.DOWN_LEFT[t2];
-      }
-      function U(t2, e2) {
-        return e2 === c ? f.DOWN_LEFT[t2] : f.UP_RIGHT[t2];
-      }
-      function R(t2, e2) {
-        return e2 === c ? f.DOWN_RIGHT[t2] : f.UP_LEFT[t2];
-      }
-      function T(t2) {
-        return { k: 10, q: 9, r: 5, b: 3, n: 3, p: 1 }[t2.toLowerCase()] || 0;
-      }
-      function I(t2) {
-        return typeof t2 == "string" && t2.match("^[a-hA-H]{1}[1-8]{1}$");
-      }
-      const x = -1000, Q = 1000;
+// node_modules/js-chess-engine/dist/types/board.types.js
+var require_board_types = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.InternalColor = exports.Piece = undefined;
+  var Piece;
+  (function(Piece2) {
+    Piece2[Piece2["EMPTY"] = 0] = "EMPTY";
+    Piece2[Piece2["WHITE_PAWN"] = 1] = "WHITE_PAWN";
+    Piece2[Piece2["WHITE_KNIGHT"] = 2] = "WHITE_KNIGHT";
+    Piece2[Piece2["WHITE_BISHOP"] = 3] = "WHITE_BISHOP";
+    Piece2[Piece2["WHITE_ROOK"] = 4] = "WHITE_ROOK";
+    Piece2[Piece2["WHITE_QUEEN"] = 5] = "WHITE_QUEEN";
+    Piece2[Piece2["WHITE_KING"] = 6] = "WHITE_KING";
+    Piece2[Piece2["BLACK_PAWN"] = 7] = "BLACK_PAWN";
+    Piece2[Piece2["BLACK_KNIGHT"] = 8] = "BLACK_KNIGHT";
+    Piece2[Piece2["BLACK_BISHOP"] = 9] = "BLACK_BISHOP";
+    Piece2[Piece2["BLACK_ROOK"] = 10] = "BLACK_ROOK";
+    Piece2[Piece2["BLACK_QUEEN"] = 11] = "BLACK_QUEEN";
+    Piece2[Piece2["BLACK_KING"] = 12] = "BLACK_KING";
+  })(Piece || (exports.Piece = Piece = {}));
+  var InternalColor;
+  (function(InternalColor2) {
+    InternalColor2[InternalColor2["WHITE"] = 0] = "WHITE";
+    InternalColor2[InternalColor2["BLACK"] = 1] = "BLACK";
+  })(InternalColor || (exports.InternalColor = InternalColor = {}));
+});
 
-      class q {
-        constructor(t2 = JSON.parse(JSON.stringify(g))) {
-          if (typeof t2 == "object")
-            this.configuration = Object.assign({}, h, t2);
-          else {
-            if (typeof t2 != "string")
-              throw new Error(`Unknown configuration type ${typeof config}.`);
-            this.configuration = Object.assign({}, h, function(t3 = "") {
-              const [e2, i2, s2, l2, a2, u2] = t3.split(" "), h2 = { pieces: Object.fromEntries(e2.split("/").flatMap((t4, e3) => {
-                let i3 = 0;
-                return t4.split("").reduce((t5, s3) => {
-                  const r2 = s3.match(/k|b|q|n|p|r/i);
-                  r2 && (t5.push([`${n[i3]}${o[7 - e3]}`, r2[0]]), i3 += 1);
-                  const c2 = s3.match(/[1-8]/);
-                  return c2 && (i3 += Number(c2)), t5;
-                }, []);
-              })) };
-              return h2.turn = i2 === "b" ? r : c, h2.castling = { whiteLong: false, whiteShort: false, blackLong: false, blackShort: false }, s2.includes("K") && (h2.castling.whiteShort = true), s2.includes("k") && (h2.castling.blackShort = true), s2.includes("Q") && (h2.castling.whiteLong = true), s2.includes("q") && (h2.castling.blackLong = true), I(l2) && (h2.enPassant = l2.toUpperCase()), h2.halfMove = parseInt(a2), h2.fullMove = parseInt(u2), h2;
-            }(t2));
-          }
-          this.configuration.castling || (this.configuration.castling = { whiteShort: true, blackShort: true, whiteLong: true, blackLong: true }), this.history = [];
-        }
-        getAttackingFields(t2 = this.getPlayingColor()) {
-          let e2 = [];
-          for (const i2 in this.configuration.pieces) {
-            const n2 = this.getPiece(i2);
-            this.getPieceColor(n2) === t2 && (e2 = [...e2, ...this.getPieceMoves(n2, i2)]);
-          }
-          return e2;
-        }
-        isAttackingKing(t2 = this.getPlayingColor()) {
-          let e2 = null;
-          for (const i2 in this.configuration.pieces) {
-            const n2 = this.getPiece(i2);
-            if (this.isKing(n2) && this.getPieceColor(n2) !== t2) {
-              e2 = i2;
-              break;
-            }
-          }
-          return this.isPieceUnderAttack(e2);
-        }
-        isPieceUnderAttack(t2) {
-          const e2 = this.getPieceOnLocationColor(t2), i2 = this.getEnemyColor(e2);
-          let n2 = false, o2 = t2, s2 = 0;
-          for (;D(o2) && !n2; ) {
-            o2 = D(o2), s2++;
-            const t3 = this.getPiece(o2);
-            if (t3 && this.getPieceColor(t3) === i2 && (this.isRook(t3) || this.isQueen(t3) || this.isKing(t3) && s2 === 1) && (n2 = true), t3)
-              break;
-          }
-          for (o2 = t2, s2 = 0;A(o2) && !n2; ) {
-            o2 = A(o2), s2++;
-            const t3 = this.getPiece(o2);
-            if (t3 && this.getPieceColor(t3) === i2 && (this.isRook(t3) || this.isQueen(t3) || this.isKing(t3) && s2 === 1) && (n2 = true), t3)
-              break;
-          }
-          for (o2 = t2, s2 = 0;H(o2) && !n2; ) {
-            o2 = H(o2), s2++;
-            const t3 = this.getPiece(o2);
-            if (t3 && this.getPieceColor(t3) === i2 && (this.isRook(t3) || this.isQueen(t3) || this.isKing(t3) && s2 === 1) && (n2 = true), t3)
-              break;
-          }
-          for (o2 = t2, s2 = 0;b(o2) && !n2; ) {
-            o2 = b(o2), s2++;
-            const t3 = this.getPiece(o2);
-            if (t3 && this.getPieceColor(t3) === i2 && (this.isRook(t3) || this.isQueen(t3) || this.isKing(t3) && s2 === 1) && (n2 = true), t3)
-              break;
-          }
-          for (o2 = t2, s2 = 0;W(o2, e2) && !n2; ) {
-            o2 = W(o2, e2), s2++;
-            const t3 = this.getPiece(o2);
-            if (t3 && this.getPieceColor(t3) === i2 && (this.isBishop(t3) || this.isQueen(t3) || s2 === 1 && (this.isKing(t3) || this.isPawn(t3))) && (n2 = true), t3)
-              break;
-          }
-          for (o2 = t2, s2 = 0;_(o2, e2) && !n2; ) {
-            o2 = _(o2, e2), s2++;
-            const t3 = this.getPiece(o2);
-            if (t3 && this.getPieceColor(t3) === i2 && (this.isBishop(t3) || this.isQueen(t3) || s2 === 1 && (this.isKing(t3) || this.isPawn(t3))) && (n2 = true), t3)
-              break;
-          }
-          for (o2 = t2, s2 = 0;R(o2, e2) && !n2; ) {
-            o2 = R(o2, e2), s2++;
-            const t3 = this.getPiece(o2);
-            if (t3 && this.getPieceColor(t3) === i2 && (this.isBishop(t3) || this.isQueen(t3) || this.isKing(t3) && s2 === 1) && (n2 = true), t3)
-              break;
-          }
-          for (o2 = t2, s2 = 0;U(o2, e2) && !n2; ) {
-            o2 = U(o2, e2), s2++;
-            const t3 = this.getPiece(o2);
-            if (t3 && this.getPieceColor(t3) === i2 && (this.isBishop(t3) || this.isQueen(t3) || this.isKing(t3) && s2 === 1) && (n2 = true), t3)
-              break;
-          }
-          o2 = L(t2);
-          let r2 = this.getPiece(o2);
-          return r2 && this.getPieceColor(r2) === i2 && this.isKnight(r2) && (n2 = true), o2 = m(t2), r2 = this.getPiece(o2), r2 && this.getPieceColor(r2) === i2 && this.isKnight(r2) && (n2 = true), o2 = O(t2), r2 = this.getPiece(o2), r2 && this.getPieceColor(r2) === i2 && this.isKnight(r2) && (n2 = true), o2 = w(t2), r2 = this.getPiece(o2), r2 && this.getPieceColor(r2) === i2 && this.isKnight(r2) && (n2 = true), o2 = M(t2), r2 = this.getPiece(o2), r2 && this.getPieceColor(r2) === i2 && this.isKnight(r2) && (n2 = true), o2 = K(t2), r2 = this.getPiece(o2), r2 && this.getPieceColor(r2) === i2 && this.isKnight(r2) && (n2 = true), o2 = N(t2), r2 = this.getPiece(o2), r2 && this.getPieceColor(r2) === i2 && this.isKnight(r2) && (n2 = true), o2 = S(t2), r2 = this.getPiece(o2), r2 && this.getPieceColor(r2) === i2 && this.isKnight(r2) && (n2 = true), n2;
-        }
-        hasPlayingPlayerCheck() {
-          return this.isAttackingKing(this.getNonPlayingColor());
-        }
-        hasNonPlayingPlayerCheck() {
-          return this.isAttackingKing(this.getPlayingColor());
-        }
-        getLowestValuePieceAttackingLocation(t2, e2 = this.getPlayingColor()) {
-          let i2 = null;
-          for (const n2 in this.configuration.pieces) {
-            const o2 = this.getPiece(n2);
-            this.getPieceColor(o2) === e2 && this.getPieceMoves(o2, n2).map((e3) => {
-              e3 === t2 && (i2 === null || T(o2) < i2) && (i2 = T(o2));
-            });
-          }
-          return i2;
-        }
-        getMoves(t2 = this.getPlayingColor(), e2 = null) {
-          const i2 = {};
-          let n2 = 0;
-          for (const e3 in this.configuration.pieces) {
-            const o3 = this.getPiece(e3);
-            if (this.getPieceColor(o3) === t2) {
-              const t3 = this.getPieceMoves(o3, e3);
-              t3.length && n2++, Object.assign(i2, { [e3]: t3 });
-            }
-          }
-          const o2 = this.getAttackingFields(this.getNonPlayingColor());
-          if (this.isLeftCastlingPossible(o2) && (this.isPlayingWhite() && i2.E1.push("C1"), this.isPlayingBlack() && i2.E8.push("C8")), this.isRightCastlingPossible(o2) && (this.isPlayingWhite() && i2.E1.push("G1"), this.isPlayingBlack() && i2.E8.push("G8")), e2 && n2 > e2)
-            return i2;
-          const s2 = {};
-          for (const t3 in i2)
-            i2[t3].map((e3) => {
-              const i3 = { pieces: Object.assign({}, this.configuration.pieces), castling: Object.assign({}, this.configuration.castling) }, n3 = new q(i3);
-              n3.move(t3, e3), (this.isPlayingWhite() && !n3.isAttackingKing(r) || this.isPlayingBlack() && !n3.isAttackingKing(c)) && (s2[t3] || (s2[t3] = []), s2[t3].push(e3));
-            });
-          return Object.keys(s2).length || (this.configuration.isFinished = true, this.hasPlayingPlayerCheck() && (this.configuration.checkMate = true)), s2;
-        }
-        isLeftCastlingPossible(t2) {
-          if (this.isPlayingWhite() && !this.configuration.castling.whiteLong)
-            return false;
-          if (this.isPlayingBlack() && !this.configuration.castling.blackLong)
-            return false;
-          let e2 = null;
-          if (this.isPlayingWhite() && this.getPiece("E1") === "K" && this.getPiece("A1") === "R" && !t2.includes("E1") ? e2 = "E1" : this.isPlayingBlack() && this.getPiece("E8") === "k" && this.getPiece("A8") === "r" && !t2.includes("E8") && (e2 = "E8"), !e2)
-            return false;
-          let i2 = H(e2);
-          return !this.getPiece(i2) && !t2.includes(i2) && (i2 = H(i2), !this.getPiece(i2) && !t2.includes(i2) && (i2 = H(i2), !this.getPiece(i2)));
-        }
-        isRightCastlingPossible(t2) {
-          if (this.isPlayingWhite() && !this.configuration.castling.whiteShort)
-            return false;
-          if (this.isPlayingBlack() && !this.configuration.castling.blackShort)
-            return false;
-          let e2 = null;
-          if (this.isPlayingWhite() && this.getPiece("E1") === "K" && this.getPiece("H1") === "R" && !t2.includes("E1") ? e2 = "E1" : this.isPlayingBlack() && this.getPiece("E8") === "k" && this.getPiece("H8") === "r" && !t2.includes("E8") && (e2 = "E8"), !e2)
-            return false;
-          let i2 = b(e2);
-          return !this.getPiece(i2) && !t2.includes(i2) && (i2 = b(i2), !this.getPiece(i2) && !t2.includes(i2));
-        }
-        getPieceMoves(t2, e2) {
-          return this.isPawn(t2) ? this.getPawnMoves(t2, e2) : this.isKnight(t2) ? this.getKnightMoves(t2, e2) : this.isRook(t2) ? this.getRookMoves(t2, e2) : this.isBishop(t2) ? this.getBishopMoves(t2, e2) : this.isQueen(t2) ? this.getQueenMoves(t2, e2) : this.isKing(t2) ? this.getKingMoves(t2, e2) : [];
-        }
-        isPawn(t2) {
-          return t2.toUpperCase() === "P";
-        }
-        isKnight(t2) {
-          return t2.toUpperCase() === "N";
-        }
-        isRook(t2) {
-          return t2.toUpperCase() === "R";
-        }
-        isBishop(t2) {
-          return t2.toUpperCase() === "B";
-        }
-        isQueen(t2) {
-          return t2.toUpperCase() === "Q";
-        }
-        isKing(t2) {
-          return t2.toUpperCase() === "K";
-        }
-        getPawnMoves(t2, e2) {
-          const i2 = [], n2 = this.getPieceColor(t2);
-          let o2 = j(e2, n2);
-          return o2 && !this.getPiece(o2) && (i2.push(o2), o2 = j(o2, n2), function(t3, e3) {
-            if (t3 === c && e3[1] === "2")
-              return true;
-            if (t3 === r && e3[1] === "7")
-              return true;
-            return false;
-          }(n2, e2) && o2 && !this.getPiece(o2) && i2.push(o2)), o2 = _(e2, n2), o2 && (this.getPiece(o2) && this.getPieceOnLocationColor(o2) !== n2 || o2 === this.configuration.enPassant) && i2.push(o2), o2 = W(e2, n2), o2 && (this.getPiece(o2) && this.getPieceOnLocationColor(o2) !== n2 || o2 === this.configuration.enPassant) && i2.push(o2), i2;
-        }
-        getKnightMoves(t2, e2) {
-          const i2 = [], n2 = this.getPieceColor(t2);
-          let o2 = L(e2);
-          return o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), o2 = m(e2), o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), o2 = w(e2), o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), o2 = O(e2), o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), o2 = K(e2), o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), o2 = M(e2), o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), o2 = S(e2), o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), o2 = N(e2), o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), i2;
-        }
-        getRookMoves(t2, e2) {
-          const i2 = [], n2 = this.getPieceColor(t2);
-          let o2 = e2;
-          for (;D(o2); ) {
-            o2 = D(o2);
-            const t3 = this.getPieceOnLocationColor(o2);
-            if (this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), t3)
-              break;
-          }
-          for (o2 = e2;A(o2); ) {
-            o2 = A(o2);
-            const t3 = this.getPieceOnLocationColor(o2);
-            if (this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), t3)
-              break;
-          }
-          for (o2 = e2;b(o2); ) {
-            o2 = b(o2);
-            const t3 = this.getPieceOnLocationColor(o2);
-            if (this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), t3)
-              break;
-          }
-          for (o2 = e2;H(o2); ) {
-            o2 = H(o2);
-            const t3 = this.getPieceOnLocationColor(o2);
-            if (this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), t3)
-              break;
-          }
-          return i2;
-        }
-        getBishopMoves(t2, e2) {
-          const i2 = [], n2 = this.getPieceColor(t2);
-          let o2 = e2;
-          for (;d(o2); ) {
-            o2 = d(o2);
-            const t3 = this.getPieceOnLocationColor(o2);
-            if (this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), t3)
-              break;
-          }
-          for (o2 = e2;k(o2); ) {
-            o2 = k(o2);
-            const t3 = this.getPieceOnLocationColor(o2);
-            if (this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), t3)
-              break;
-          }
-          for (o2 = e2;v(o2); ) {
-            o2 = v(o2);
-            const t3 = this.getPieceOnLocationColor(o2);
-            if (this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), t3)
-              break;
-          }
-          for (o2 = e2;y(o2); ) {
-            o2 = y(o2);
-            const t3 = this.getPieceOnLocationColor(o2);
-            if (this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), t3)
-              break;
-          }
-          return i2;
-        }
-        getQueenMoves(t2, e2) {
-          return [...this.getRookMoves(t2, e2), ...this.getBishopMoves(t2, e2)];
-        }
-        getKingMoves(t2, e2) {
-          const i2 = [], n2 = this.getPieceColor(t2);
-          let o2 = e2;
-          return o2 = D(o2), o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), o2 = e2, o2 = b(o2), o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), o2 = e2, o2 = A(o2), o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), o2 = e2, o2 = H(o2), o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), o2 = e2, o2 = d(o2), o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), o2 = e2, o2 = k(o2), o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), o2 = e2, o2 = v(o2), o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), o2 = e2, o2 = y(o2), o2 && this.getPieceOnLocationColor(o2) !== n2 && i2.push(o2), i2;
-        }
-        getPieceColor(t2) {
-          return t2.toUpperCase() === t2 ? c : r;
-        }
-        getPieceOnLocationColor(t2) {
-          const e2 = this.getPiece(t2);
-          return e2 ? e2.toUpperCase() === e2 ? c : r : null;
-        }
-        getPiece(t2) {
-          return this.configuration.pieces[t2];
-        }
-        setPiece(t2, e2) {
-          if (!function(t3) {
-            return Object.values(s).includes(t3);
-          }(e2))
-            throw new Error("Invalid piece " + e2);
-          if (!I(t2))
-            throw new Error("Invalid location " + t2);
-          this.configuration.pieces[t2.toUpperCase()] = e2;
-        }
-        removePiece(t2) {
-          if (!I(t2))
-            throw new Error("Invalid location " + t2);
-          delete this.configuration.pieces[t2.toUpperCase()];
-        }
-        isEmpty(t2) {
-          if (!I(t2))
-            throw new Error("Invalid location " + t2);
-          return !this.configuration.pieces[t2.toUpperCase()];
-        }
-        getEnemyColor(t2) {
-          return t2 === c ? r : c;
-        }
-        getPlayingColor() {
-          return this.configuration.turn;
-        }
-        getNonPlayingColor() {
-          return this.isPlayingWhite() ? r : c;
-        }
-        isPlayingWhite() {
-          return this.configuration.turn === c;
-        }
-        isPlayingBlack() {
-          return this.configuration.turn === r;
-        }
-        addMoveToHistory(t2, e2) {
-          const i2 = JSON.parse(JSON.stringify(this.configuration));
-          i2.check = this.hasPlayingPlayerCheck(), this.history.push({ from: t2, to: e2, configuration: i2 });
-        }
-        move(t2, e2) {
-          const i2 = this.getPiece(t2), n2 = this.getPiece(e2);
-          if (!i2)
-            throw new Error("There is no piece at " + t2);
-          var o2, s2;
-          if (Object.assign(this.configuration.pieces, { [e2]: i2 }), delete this.configuration.pieces[t2], this.isPlayingWhite() && this.isPawn(i2) && e2[1] === "8" && Object.assign(this.configuration.pieces, { [e2]: "Q" }), this.isPlayingBlack() && this.isPawn(i2) && e2[1] === "1" && Object.assign(this.configuration.pieces, { [e2]: "q" }), this.isPawn(i2) && e2 === this.configuration.enPassant && delete this.configuration.pieces[o2 = e2, s2 = this.getPlayingColor(), s2 === c ? f.DOWN[o2] : f.UP[o2]], this.isPawn(i2) && this.isPlayingWhite() && t2[1] === "2" && e2[1] === "4" ? this.configuration.enPassant = t2[0] + "3" : this.isPawn(i2) && this.isPlayingBlack() && t2[1] === "7" && e2[1] === "5" ? this.configuration.enPassant = t2[0] + "6" : this.configuration.enPassant = null, t2 === "E1" && Object.assign(this.configuration.castling, { whiteLong: false, whiteShort: false }), t2 === "E8" && Object.assign(this.configuration.castling, { blackLong: false, blackShort: false }), t2 === "A1" && Object.assign(this.configuration.castling, { whiteLong: false }), t2 === "H1" && Object.assign(this.configuration.castling, { whiteShort: false }), t2 === "A8" && Object.assign(this.configuration.castling, { blackLong: false }), t2 === "H8" && Object.assign(this.configuration.castling, { blackShort: false }), this.isKing(i2)) {
-            if (t2 === "E1" && e2 === "C1")
-              return this.move("A1", "D1");
-            if (t2 === "E8" && e2 === "C8")
-              return this.move("A8", "D8");
-            if (t2 === "E1" && e2 === "G1")
-              return this.move("H1", "F1");
-            if (t2 === "E8" && e2 === "G8")
-              return this.move("H8", "F8");
-          }
-          this.configuration.turn = this.isPlayingWhite() ? r : c, this.isPlayingWhite() && this.configuration.fullMove++, this.configuration.halfMove++, (n2 || this.isPawn(i2)) && (this.configuration.halfMove = 0);
-        }
-        exportJson() {
-          return { moves: this.getMoves(), pieces: this.configuration.pieces, turn: this.configuration.turn, isFinished: this.configuration.isFinished, check: this.hasPlayingPlayerCheck(), checkMate: this.configuration.checkMate, castling: this.configuration.castling, enPassant: this.configuration.enPassant, halfMove: this.configuration.halfMove, fullMove: this.configuration.fullMove };
-        }
-        calculateAiMove(t2) {
-          return this.calculateAiMoves(t2)[0];
-        }
-        calculateAiMoves(t2) {
-          if (t2 = parseInt(t2), !l.includes(t2))
-            throw new Error(`Invalid level ${t2}. You can choose ${l.join(",")}`);
-          this.shouldIncreaseLevel() && t2++;
-          const e2 = [], i2 = this.calculateScore(this.getPlayingColor()), n2 = this.getMoves();
-          for (const o2 in n2)
-            n2[o2].map((n3) => {
-              const s2 = this.getTestBoard(), r2 = Boolean(s2.getPiece(n3));
-              s2.move(o2, n3), e2.push({ from: o2, to: n3, score: s2.testMoveScores(this.getPlayingColor(), t2, r2, r2 ? s2.calculateScore(this.getPlayingColor()) : i2, n3).score + s2.calculateScoreByPiecesLocation(this.getPlayingColor()) + Math.floor(Math.random() * (this.configuration.halfMove > 10 ? this.configuration.halfMove - 10 : 1) * 10) / 10 });
-            });
-          return e2.sort((t3, e3) => t3.score < e3.score ? 1 : t3.score > e3.score ? -1 : 0), e2;
-        }
-        shouldIncreaseLevel() {
-          return this.getIngamePiecesValue() < 50;
-        }
-        getIngamePiecesValue() {
-          let t2 = 0;
-          for (const e2 in this.configuration.pieces) {
-            t2 += T(this.getPiece(e2));
-          }
-          return t2;
-        }
-        getTestBoard() {
-          const t2 = { pieces: Object.assign({}, this.configuration.pieces), castling: Object.assign({}, this.configuration.castling), turn: this.configuration.turn, enPassant: this.configuration.enPassant };
-          return new q(t2);
-        }
-        testMoveScores(t2, e2, i2, n2, o2, s2 = 1) {
-          let r2 = null;
-          if (s2 < u[e2] && this.hasPlayingPlayerCheck() ? r2 = this.getMoves(this.getPlayingColor()) : (s2 < a[e2] || i2 && s2 < u[e2]) && (r2 = this.getMoves(this.getPlayingColor(), 5)), this.configuration.isFinished)
-            return { score: this.calculateScore(t2) + (this.getPlayingColor() === t2 ? s2 : -s2), max: true };
-          if (!r2) {
-            if (n2 !== null)
-              return { score: n2, max: false };
-            return { score: this.calculateScore(t2), max: false };
-          }
-          let c2 = this.getPlayingColor() === t2 ? x : Q, l2 = false;
-          for (const i3 in r2)
-            l2 || r2[i3].map((o3) => {
-              if (l2)
-                return;
-              const r3 = this.getTestBoard(), a2 = Boolean(r3.getPiece(o3));
-              if (r3.move(i3, o3), r3.hasNonPlayingPlayerCheck())
-                return;
-              const u2 = r3.testMoveScores(t2, e2, a2, a2 ? r3.calculateScore(t2) : n2, o3, s2 + 1);
-              u2.max && (l2 = true), c2 = this.getPlayingColor() === t2 ? Math.max(c2, u2.score) : Math.min(c2, u2.score);
-            });
-          return { score: c2, max: false };
-        }
-        calculateScoreByPiecesLocation(t2 = this.getPlayingColor()) {
-          const e2 = { A: 0, B: 1, C: 2, D: 3, E: 4, F: 5, G: 6, H: 7 };
-          let i2 = 0;
-          for (const n2 in this.configuration.pieces) {
-            const o2 = this.getPiece(n2);
-            if (G[o2]) {
-              const s2 = G[o2][n2[1] - 1][e2[n2[0]]];
-              i2 += 0.5 * (this.getPieceColor(o2) === t2 ? s2 : -s2);
-            }
-          }
-          return i2;
-        }
-        calculateScore(t2 = this.getPlayingColor()) {
-          let e2 = 0;
-          if (this.configuration.checkMate)
-            return this.getPlayingColor() === t2 ? x : Q;
-          if (this.configuration.isFinished)
-            return this.getPlayingColor() === t2 ? Q : x;
-          for (const i2 in this.configuration.pieces) {
-            const n2 = this.getPiece(i2);
-            this.getPieceColor(n2) === t2 ? e2 += 10 * T(n2) : e2 -= 10 * T(n2);
-          }
-          return e2;
-        }
-      }
+// node_modules/js-chess-engine/dist/types/move.types.js
+var require_move_types = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.MoveOrderType = exports.CastlingType = exports.PromotionPiece = exports.MoveFlag = undefined;
+  var MoveFlag;
+  (function(MoveFlag2) {
+    MoveFlag2[MoveFlag2["NONE"] = 0] = "NONE";
+    MoveFlag2[MoveFlag2["EN_PASSANT"] = 1] = "EN_PASSANT";
+    MoveFlag2[MoveFlag2["CASTLING"] = 2] = "CASTLING";
+    MoveFlag2[MoveFlag2["PROMOTION"] = 4] = "PROMOTION";
+    MoveFlag2[MoveFlag2["PAWN_DOUBLE_PUSH"] = 8] = "PAWN_DOUBLE_PUSH";
+    MoveFlag2[MoveFlag2["CAPTURE"] = 16] = "CAPTURE";
+  })(MoveFlag || (exports.MoveFlag = MoveFlag = {}));
+  var PromotionPiece;
+  (function(PromotionPiece2) {
+    PromotionPiece2[PromotionPiece2["QUEEN"] = 5] = "QUEEN";
+    PromotionPiece2[PromotionPiece2["ROOK"] = 4] = "ROOK";
+    PromotionPiece2[PromotionPiece2["BISHOP"] = 3] = "BISHOP";
+    PromotionPiece2[PromotionPiece2["KNIGHT"] = 2] = "KNIGHT";
+  })(PromotionPiece || (exports.PromotionPiece = PromotionPiece = {}));
+  var CastlingType;
+  (function(CastlingType2) {
+    CastlingType2[CastlingType2["NONE"] = 0] = "NONE";
+    CastlingType2[CastlingType2["WHITE_SHORT"] = 1] = "WHITE_SHORT";
+    CastlingType2[CastlingType2["WHITE_LONG"] = 2] = "WHITE_LONG";
+    CastlingType2[CastlingType2["BLACK_SHORT"] = 3] = "BLACK_SHORT";
+    CastlingType2[CastlingType2["BLACK_LONG"] = 4] = "BLACK_LONG";
+  })(CastlingType || (exports.CastlingType = CastlingType = {}));
+  var MoveOrderType;
+  (function(MoveOrderType2) {
+    MoveOrderType2[MoveOrderType2["TT_MOVE"] = 1e6] = "TT_MOVE";
+    MoveOrderType2[MoveOrderType2["WINNING_CAPTURE"] = 1e5] = "WINNING_CAPTURE";
+    MoveOrderType2[MoveOrderType2["KILLER_1"] = 90000] = "KILLER_1";
+    MoveOrderType2[MoveOrderType2["KILLER_2"] = 80000] = "KILLER_2";
+    MoveOrderType2[MoveOrderType2["HISTORY"] = 0] = "HISTORY";
+    MoveOrderType2[MoveOrderType2["LOSING_CAPTURE"] = -1e4] = "LOSING_CAPTURE";
+  })(MoveOrderType || (exports.MoveOrderType = MoveOrderType = {}));
+});
 
-      class $ {
-        constructor(t2) {
-          this.board = new q(t2);
-        }
-        move(t2, e2) {
-          t2 = t2.toUpperCase(), e2 = e2.toUpperCase();
-          const i2 = this.board.getMoves();
-          if (!i2[t2] || !i2[t2].includes(e2))
-            throw new Error(`Invalid move from ${t2} to ${e2} for ${this.board.getPlayingColor()}`);
-          return this.board.addMoveToHistory(t2, e2), this.board.move(t2, e2), { [t2]: e2 };
-        }
-        moves(t2 = null) {
-          return (t2 ? this.board.getMoves()[t2.toUpperCase()] : this.board.getMoves()) || [];
-        }
-        setPiece(t2, e2) {
-          this.board.setPiece(t2, e2);
-        }
-        removePiece(t2) {
-          this.board.removePiece(t2);
-        }
-        aiMove(t2 = 2) {
-          const e2 = this.board.calculateAiMove(t2);
-          return this.move(e2.from, e2.to);
-        }
-        getHistory(t2 = false) {
-          return t2 ? this.board.history.reverse() : this.board.history;
-        }
-        printToConsole() {
-          (function(t2) {
-            process.stdout.write(`
-`);
-            let e2 = c;
-            Object.assign([], o).reverse().map((i2) => {
-              process.stdout.write("" + i2), n.map((n2) => {
-                switch (t2.pieces[`${n2}${i2}`]) {
-                  case "K":
-                    process.stdout.write("♚");
-                    break;
-                  case "Q":
-                    process.stdout.write("♛");
-                    break;
-                  case "R":
-                    process.stdout.write("♜");
-                    break;
-                  case "B":
-                    process.stdout.write("♝");
-                    break;
-                  case "N":
-                    process.stdout.write("♞");
-                    break;
-                  case "P":
-                    process.stdout.write("♟");
-                    break;
-                  case "k":
-                    process.stdout.write("♔");
-                    break;
-                  case "q":
-                    process.stdout.write("♕");
-                    break;
-                  case "r":
-                    process.stdout.write("♖");
-                    break;
-                  case "b":
-                    process.stdout.write("♗");
-                    break;
-                  case "n":
-                    process.stdout.write("♘");
-                    break;
-                  case "p":
-                    process.stdout.write("♙");
-                    break;
-                  default:
-                    process.stdout.write(e2 === c ? "█" : "░");
-                }
-                e2 = e2 === c ? r : c;
-              }), e2 = e2 === c ? r : c, process.stdout.write(`
-`);
-            }), process.stdout.write(" "), n.map((t3) => {
-              process.stdout.write("" + t3);
-            }), process.stdout.write(`
-`);
-          })(this.board.configuration);
-        }
-        exportJson() {
-          return this.board.exportJson();
-        }
-        exportFEN() {
-          return function(t2) {
-            let e2 = "";
-            Object.assign([], o).reverse().map((i3) => {
-              let o2 = 0;
-              i3 < 8 && (e2 += "/"), n.map((n2) => {
-                const s3 = t2.pieces[`${n2}${i3}`];
-                s3 ? (o2 && (e2 += o2.toString(), o2 = 0), e2 += s3) : o2++;
-              }), e2 += "" + (o2 || "");
-            }), e2 += t2.turn === c ? " w " : " b ";
-            const { whiteShort: i2, whiteLong: s2, blackLong: r2, blackShort: l2 } = t2.castling;
-            return s2 || i2 || r2 || l2 ? (i2 && (e2 += "K"), s2 && (e2 += "Q"), l2 && (e2 += "k"), r2 && (e2 += "q")) : e2 += "-", e2 += " " + (t2.enPassant ? t2.enPassant.toLowerCase() : "-"), e2 += " " + t2.halfMove, e2 += " " + t2.fullMove, e2;
-          }(this.board.configuration);
-        }
-      }
-      function J(t2) {
-        if (!t2)
-          throw new Error("Configuration param required.");
-        return new $(t2).moves();
-      }
-      function V(t2) {
-        if (!t2)
-          throw new Error("Configuration param required.");
-        return new $(t2).exportJson();
-      }
-      function Y(t2) {
-        if (!t2)
-          throw new Error("Configuration param required.");
-        return new $(t2).exportFEN();
-      }
-      function z(t2, e2, i2) {
-        if (!t2)
-          throw new Error("Configuration param required.");
-        const n2 = new $(t2);
-        return n2.move(e2, i2), typeof t2 == "object" ? n2.exportJson() : n2.exportFEN();
-      }
-      function X(t2, e2 = 2) {
-        if (!t2)
-          throw new Error("Configuration param required.");
-        const i2 = new $(t2).board.calculateAiMove(e2);
-        return { [i2.from]: i2.to };
-      }
-    }]);
+// node_modules/js-chess-engine/dist/types/ai.types.js
+var require_ai_types = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.TTEntryType = undefined;
+  var TTEntryType;
+  (function(TTEntryType2) {
+    TTEntryType2[TTEntryType2["EXACT"] = 0] = "EXACT";
+    TTEntryType2[TTEntryType2["LOWERBOUND"] = 1] = "LOWERBOUND";
+    TTEntryType2[TTEntryType2["UPPERBOUND"] = 2] = "UPPERBOUND";
+  })(TTEntryType || (exports.TTEntryType = TTEntryType = {}));
+});
+
+// node_modules/js-chess-engine/dist/types/index.js
+var require_types = __commonJS((exports) => {
+  var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
+    if (k2 === undefined)
+      k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() {
+        return m[k];
+      } };
+    }
+    Object.defineProperty(o, k2, desc);
+  } : function(o, m, k, k2) {
+    if (k2 === undefined)
+      k2 = k;
+    o[k2] = m[k];
   });
+  var __exportStar = exports && exports.__exportStar || function(m, exports2) {
+    for (var p in m)
+      if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports2, p))
+        __createBinding(exports2, m, p);
+  };
+  Object.defineProperty(exports, "__esModule", { value: true });
+  __exportStar(require_board_types(), exports);
+  __exportStar(require_move_types(), exports);
+  __exportStar(require_ai_types(), exports);
+});
+
+// node_modules/js-chess-engine/dist/utils/constants.js
+var require_constants = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.CASTLING = exports.ROWS = exports.COLUMNS = exports.TOTAL_SQUARES = exports.BOARD_SIZE = undefined;
+  exports.BOARD_SIZE = 8;
+  exports.TOTAL_SQUARES = 64;
+  exports.COLUMNS = ["A", "B", "C", "D", "E", "F", "G", "H"];
+  exports.ROWS = ["1", "2", "3", "4", "5", "6", "7", "8"];
+  exports.CASTLING = {
+    WHITE_SHORT: {
+      kingFrom: 4,
+      kingTo: 6,
+      rookFrom: 7,
+      rookTo: 5
+    },
+    WHITE_LONG: {
+      kingFrom: 4,
+      kingTo: 2,
+      rookFrom: 0,
+      rookTo: 3
+    },
+    BLACK_SHORT: {
+      kingFrom: 60,
+      kingTo: 62,
+      rookFrom: 63,
+      rookTo: 61
+    },
+    BLACK_LONG: {
+      kingFrom: 60,
+      kingTo: 58,
+      rookFrom: 56,
+      rookTo: 59
+    }
+  };
+});
+
+// node_modules/js-chess-engine/dist/core/Board.js
+var require_Board = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.createEmptyBoard = createEmptyBoard;
+  exports.createStartingBoard = createStartingBoard;
+  exports.setPiece = setPiece;
+  exports.removePiece = removePiece;
+  exports.getPiece = getPiece;
+  exports.getBitboard = getBitboard;
+  exports.copyBoard = copyBoard;
+  exports.isPieceColor = isPieceColor;
+  exports.getPieceColor = getPieceColor;
+  exports.oppositeColor = oppositeColor;
+  exports.isSquareEmpty = isSquareEmpty;
+  exports.isSquareEnemy = isSquareEnemy;
+  exports.isSquareFriendly = isSquareFriendly;
+  var types_1 = require_types();
+  var constants_1 = require_constants();
+  function createEmptyBoard() {
+    return {
+      mailbox: new Int8Array(constants_1.TOTAL_SQUARES),
+      whitePawns: 0n,
+      whiteKnights: 0n,
+      whiteBishops: 0n,
+      whiteRooks: 0n,
+      whiteQueens: 0n,
+      whiteKing: 0n,
+      blackPawns: 0n,
+      blackKnights: 0n,
+      blackBishops: 0n,
+      blackRooks: 0n,
+      blackQueens: 0n,
+      blackKing: 0n,
+      whitePieces: 0n,
+      blackPieces: 0n,
+      allPieces: 0n,
+      turn: types_1.InternalColor.WHITE,
+      castlingRights: {
+        whiteShort: true,
+        blackShort: true,
+        whiteLong: true,
+        blackLong: true
+      },
+      enPassantSquare: null,
+      halfMoveClock: 0,
+      fullMoveNumber: 1,
+      zobristHash: 0n,
+      isCheck: false,
+      isCheckmate: false,
+      isStalemate: false
+    };
+  }
+  function createStartingBoard() {
+    const board = createEmptyBoard();
+    for (let i = 8;i < 16; i++) {
+      setPiece(board, i, types_1.Piece.WHITE_PAWN);
+    }
+    for (let i = 48;i < 56; i++) {
+      setPiece(board, i, types_1.Piece.BLACK_PAWN);
+    }
+    setPiece(board, 0, types_1.Piece.WHITE_ROOK);
+    setPiece(board, 1, types_1.Piece.WHITE_KNIGHT);
+    setPiece(board, 2, types_1.Piece.WHITE_BISHOP);
+    setPiece(board, 3, types_1.Piece.WHITE_QUEEN);
+    setPiece(board, 4, types_1.Piece.WHITE_KING);
+    setPiece(board, 5, types_1.Piece.WHITE_BISHOP);
+    setPiece(board, 6, types_1.Piece.WHITE_KNIGHT);
+    setPiece(board, 7, types_1.Piece.WHITE_ROOK);
+    setPiece(board, 56, types_1.Piece.BLACK_ROOK);
+    setPiece(board, 57, types_1.Piece.BLACK_KNIGHT);
+    setPiece(board, 58, types_1.Piece.BLACK_BISHOP);
+    setPiece(board, 59, types_1.Piece.BLACK_QUEEN);
+    setPiece(board, 60, types_1.Piece.BLACK_KING);
+    setPiece(board, 61, types_1.Piece.BLACK_BISHOP);
+    setPiece(board, 62, types_1.Piece.BLACK_KNIGHT);
+    setPiece(board, 63, types_1.Piece.BLACK_ROOK);
+    board.castlingRights = {
+      whiteShort: true,
+      whiteLong: true,
+      blackShort: true,
+      blackLong: true
+    };
+    return board;
+  }
+  function setPiece(board, index, piece) {
+    const existingPiece = board.mailbox[index];
+    if (existingPiece !== types_1.Piece.EMPTY) {
+      removePiece(board, index);
+    }
+    board.mailbox[index] = piece;
+    if (piece === types_1.Piece.EMPTY) {
+      return;
+    }
+    const bitboard = 1n << BigInt(index);
+    switch (piece) {
+      case types_1.Piece.WHITE_PAWN:
+        board.whitePawns |= bitboard;
+        board.whitePieces |= bitboard;
+        break;
+      case types_1.Piece.WHITE_KNIGHT:
+        board.whiteKnights |= bitboard;
+        board.whitePieces |= bitboard;
+        break;
+      case types_1.Piece.WHITE_BISHOP:
+        board.whiteBishops |= bitboard;
+        board.whitePieces |= bitboard;
+        break;
+      case types_1.Piece.WHITE_ROOK:
+        board.whiteRooks |= bitboard;
+        board.whitePieces |= bitboard;
+        break;
+      case types_1.Piece.WHITE_QUEEN:
+        board.whiteQueens |= bitboard;
+        board.whitePieces |= bitboard;
+        break;
+      case types_1.Piece.WHITE_KING:
+        board.whiteKing |= bitboard;
+        board.whitePieces |= bitboard;
+        break;
+      case types_1.Piece.BLACK_PAWN:
+        board.blackPawns |= bitboard;
+        board.blackPieces |= bitboard;
+        break;
+      case types_1.Piece.BLACK_KNIGHT:
+        board.blackKnights |= bitboard;
+        board.blackPieces |= bitboard;
+        break;
+      case types_1.Piece.BLACK_BISHOP:
+        board.blackBishops |= bitboard;
+        board.blackPieces |= bitboard;
+        break;
+      case types_1.Piece.BLACK_ROOK:
+        board.blackRooks |= bitboard;
+        board.blackPieces |= bitboard;
+        break;
+      case types_1.Piece.BLACK_QUEEN:
+        board.blackQueens |= bitboard;
+        board.blackPieces |= bitboard;
+        break;
+      case types_1.Piece.BLACK_KING:
+        board.blackKing |= bitboard;
+        board.blackPieces |= bitboard;
+        break;
+    }
+    board.allPieces = board.whitePieces | board.blackPieces;
+  }
+  function removePiece(board, index) {
+    const piece = board.mailbox[index];
+    if (piece === types_1.Piece.EMPTY) {
+      return;
+    }
+    board.mailbox[index] = types_1.Piece.EMPTY;
+    const bitboard = ~(1n << BigInt(index));
+    switch (piece) {
+      case types_1.Piece.WHITE_PAWN:
+        board.whitePawns &= bitboard;
+        board.whitePieces &= bitboard;
+        break;
+      case types_1.Piece.WHITE_KNIGHT:
+        board.whiteKnights &= bitboard;
+        board.whitePieces &= bitboard;
+        break;
+      case types_1.Piece.WHITE_BISHOP:
+        board.whiteBishops &= bitboard;
+        board.whitePieces &= bitboard;
+        break;
+      case types_1.Piece.WHITE_ROOK:
+        board.whiteRooks &= bitboard;
+        board.whitePieces &= bitboard;
+        break;
+      case types_1.Piece.WHITE_QUEEN:
+        board.whiteQueens &= bitboard;
+        board.whitePieces &= bitboard;
+        break;
+      case types_1.Piece.WHITE_KING:
+        board.whiteKing &= bitboard;
+        board.whitePieces &= bitboard;
+        break;
+      case types_1.Piece.BLACK_PAWN:
+        board.blackPawns &= bitboard;
+        board.blackPieces &= bitboard;
+        break;
+      case types_1.Piece.BLACK_KNIGHT:
+        board.blackKnights &= bitboard;
+        board.blackPieces &= bitboard;
+        break;
+      case types_1.Piece.BLACK_BISHOP:
+        board.blackBishops &= bitboard;
+        board.blackPieces &= bitboard;
+        break;
+      case types_1.Piece.BLACK_ROOK:
+        board.blackRooks &= bitboard;
+        board.blackPieces &= bitboard;
+        break;
+      case types_1.Piece.BLACK_QUEEN:
+        board.blackQueens &= bitboard;
+        board.blackPieces &= bitboard;
+        break;
+      case types_1.Piece.BLACK_KING:
+        board.blackKing &= bitboard;
+        board.blackPieces &= bitboard;
+        break;
+    }
+    board.allPieces = board.whitePieces | board.blackPieces;
+  }
+  function getPiece(board, index) {
+    return board.mailbox[index];
+  }
+  function getBitboard(board, piece) {
+    switch (piece) {
+      case types_1.Piece.WHITE_PAWN:
+        return board.whitePawns;
+      case types_1.Piece.WHITE_KNIGHT:
+        return board.whiteKnights;
+      case types_1.Piece.WHITE_BISHOP:
+        return board.whiteBishops;
+      case types_1.Piece.WHITE_ROOK:
+        return board.whiteRooks;
+      case types_1.Piece.WHITE_QUEEN:
+        return board.whiteQueens;
+      case types_1.Piece.WHITE_KING:
+        return board.whiteKing;
+      case types_1.Piece.BLACK_PAWN:
+        return board.blackPawns;
+      case types_1.Piece.BLACK_KNIGHT:
+        return board.blackKnights;
+      case types_1.Piece.BLACK_BISHOP:
+        return board.blackBishops;
+      case types_1.Piece.BLACK_ROOK:
+        return board.blackRooks;
+      case types_1.Piece.BLACK_QUEEN:
+        return board.blackQueens;
+      case types_1.Piece.BLACK_KING:
+        return board.blackKing;
+      default:
+        return 0n;
+    }
+  }
+  function copyBoard(source) {
+    return {
+      mailbox: new Int8Array(source.mailbox),
+      whitePawns: source.whitePawns,
+      whiteKnights: source.whiteKnights,
+      whiteBishops: source.whiteBishops,
+      whiteRooks: source.whiteRooks,
+      whiteQueens: source.whiteQueens,
+      whiteKing: source.whiteKing,
+      blackPawns: source.blackPawns,
+      blackKnights: source.blackKnights,
+      blackBishops: source.blackBishops,
+      blackRooks: source.blackRooks,
+      blackQueens: source.blackQueens,
+      blackKing: source.blackKing,
+      whitePieces: source.whitePieces,
+      blackPieces: source.blackPieces,
+      allPieces: source.allPieces,
+      turn: source.turn,
+      castlingRights: { ...source.castlingRights },
+      enPassantSquare: source.enPassantSquare,
+      halfMoveClock: source.halfMoveClock,
+      fullMoveNumber: source.fullMoveNumber,
+      zobristHash: source.zobristHash,
+      isCheck: source.isCheck,
+      isCheckmate: source.isCheckmate,
+      isStalemate: source.isStalemate
+    };
+  }
+  function isPieceColor(piece, color) {
+    if (piece === types_1.Piece.EMPTY) {
+      return false;
+    }
+    if (color === types_1.InternalColor.WHITE) {
+      return piece >= types_1.Piece.WHITE_PAWN && piece <= types_1.Piece.WHITE_KING;
+    } else {
+      return piece >= types_1.Piece.BLACK_PAWN && piece <= types_1.Piece.BLACK_KING;
+    }
+  }
+  function getPieceColor(piece) {
+    if (piece === types_1.Piece.EMPTY) {
+      return null;
+    }
+    return piece >= types_1.Piece.WHITE_PAWN && piece <= types_1.Piece.WHITE_KING ? types_1.InternalColor.WHITE : types_1.InternalColor.BLACK;
+  }
+  function oppositeColor(color) {
+    return color === types_1.InternalColor.WHITE ? types_1.InternalColor.BLACK : types_1.InternalColor.WHITE;
+  }
+  function isSquareEmpty(board, index) {
+    return board.mailbox[index] === types_1.Piece.EMPTY;
+  }
+  function isSquareEnemy(board, index, color) {
+    const piece = board.mailbox[index];
+    if (piece === types_1.Piece.EMPTY) {
+      return false;
+    }
+    const pieceColor = getPieceColor(piece);
+    return pieceColor !== null && pieceColor !== color;
+  }
+  function isSquareFriendly(board, index, color) {
+    const piece = board.mailbox[index];
+    if (piece === types_1.Piece.EMPTY) {
+      return false;
+    }
+    return isPieceColor(piece, color);
+  }
+});
+
+// node_modules/js-chess-engine/dist/utils/conversion.js
+var require_conversion = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.squareToIndex = squareToIndex;
+  exports.indexToSquare = indexToSquare;
+  exports.getFileIndex = getFileIndex;
+  exports.getRankIndex = getRankIndex;
+  exports.getFile = getFile;
+  exports.getRank = getRank;
+  exports.fileRankToIndex = fileRankToIndex;
+  exports.isValidSquare = isValidSquare;
+  exports.isValidIndex = isValidIndex;
+  exports.indexToBitboard = indexToBitboard;
+  exports.squareToBitboard = squareToBitboard;
+  exports.bitboardToIndices = bitboardToIndices;
+  exports.getLowestSetBit = getLowestSetBit;
+  exports.getHighestSetBit = getHighestSetBit;
+  exports.popCount = popCount;
+  exports.manhattanDistance = manhattanDistance;
+  exports.chebyshevDistance = chebyshevDistance;
+  exports.isOnEdge = isOnEdge;
+  exports.isAFile = isAFile;
+  exports.isHFile = isHFile;
+  exports.isRank1 = isRank1;
+  exports.isRank8 = isRank8;
+  var constants_1 = require_constants();
+  function squareToIndex(square) {
+    const normalized = square.toUpperCase();
+    if (normalized.length !== 2) {
+      throw new Error(`Invalid square notation: ${square}`);
+    }
+    const file2 = normalized[0];
+    const rank2 = normalized[1];
+    const fileIndex = constants_1.COLUMNS.indexOf(file2);
+    const rankIndex = constants_1.ROWS.indexOf(rank2);
+    if (fileIndex === -1 || rankIndex === -1) {
+      throw new Error(`Invalid square notation: ${square}`);
+    }
+    return rankIndex * 8 + fileIndex;
+  }
+  function indexToSquare(index) {
+    if (index < 0 || index > 63) {
+      throw new Error(`Invalid square index: ${index}`);
+    }
+    const fileIndex = index % 8;
+    const rankIndex = Math.floor(index / 8);
+    return `${constants_1.COLUMNS[fileIndex]}${constants_1.ROWS[rankIndex]}`;
+  }
+  function getFileIndex(index) {
+    return index % 8;
+  }
+  function getRankIndex(index) {
+    return Math.floor(index / 8);
+  }
+  function getFile(square) {
+    const normalized = square.toUpperCase();
+    const fileIndex = constants_1.COLUMNS.indexOf(normalized[0]);
+    if (fileIndex === -1) {
+      throw new Error(`Invalid square notation: ${square}`);
+    }
+    return fileIndex;
+  }
+  function getRank(square) {
+    const normalized = square.toUpperCase();
+    const rankIndex = constants_1.ROWS.indexOf(normalized[1]);
+    if (rankIndex === -1) {
+      throw new Error(`Invalid square notation: ${square}`);
+    }
+    return rankIndex;
+  }
+  function fileRankToIndex(file2, rank2) {
+    return rank2 * 8 + file2;
+  }
+  function isValidSquare(square) {
+    if (typeof square !== "string" || square.length !== 2) {
+      return false;
+    }
+    const normalized = square.toUpperCase();
+    const file2 = normalized[0];
+    const rank2 = normalized[1];
+    return constants_1.COLUMNS.includes(file2) && constants_1.ROWS.includes(rank2);
+  }
+  function isValidIndex(index) {
+    return Number.isInteger(index) && index >= 0 && index <= 63;
+  }
+  function indexToBitboard(index) {
+    return 1n << BigInt(index);
+  }
+  function squareToBitboard(square) {
+    return indexToBitboard(squareToIndex(square));
+  }
+  function bitboardToIndices(bitboard) {
+    const indices = [];
+    let bb = bitboard;
+    while (bb !== 0n) {
+      const index = getLowestSetBit(bb);
+      indices.push(index);
+      bb &= bb - 1n;
+    }
+    return indices;
+  }
+  var DE_BRUIJN_64 = 0x03f79d71b4cb0a89n;
+  var MASK_64 = 0xffffffffffffffffn;
+  var DE_BRUIJN_TABLE = new Int8Array(64);
+  for (let i = 0;i < 64; i++) {
+    DE_BRUIJN_TABLE[Number(((1n << BigInt(i)) * DE_BRUIJN_64 & MASK_64) >> 58n)] = i;
+  }
+  function getLowestSetBit(bitboard) {
+    if (bitboard === 0n)
+      return -1;
+    const isolated = bitboard & -bitboard;
+    return DE_BRUIJN_TABLE[Number((isolated * DE_BRUIJN_64 & MASK_64) >> 58n)];
+  }
+  function getHighestSetBit(bitboard) {
+    if (bitboard === 0n)
+      return -1;
+    let bb = bitboard;
+    bb |= bb >> 1n;
+    bb |= bb >> 2n;
+    bb |= bb >> 4n;
+    bb |= bb >> 8n;
+    bb |= bb >> 16n;
+    bb |= bb >> 32n;
+    const msb = bb - (bb >> 1n);
+    return DE_BRUIJN_TABLE[Number((msb * DE_BRUIJN_64 & MASK_64) >> 58n)];
+  }
+  function popCount(bitboard) {
+    let count = 0;
+    let bb = bitboard;
+    while (bb !== 0n) {
+      bb &= bb - 1n;
+      count++;
+    }
+    return count;
+  }
+  function manhattanDistance(from, to) {
+    const fromFile = getFileIndex(from);
+    const fromRank = getRankIndex(from);
+    const toFile = getFileIndex(to);
+    const toRank = getRankIndex(to);
+    return Math.abs(fromFile - toFile) + Math.abs(fromRank - toRank);
+  }
+  function chebyshevDistance(from, to) {
+    const fromFile = getFileIndex(from);
+    const fromRank = getRankIndex(from);
+    const toFile = getFileIndex(to);
+    const toRank = getRankIndex(to);
+    return Math.max(Math.abs(fromFile - toFile), Math.abs(fromRank - toRank));
+  }
+  function isOnEdge(index) {
+    const file2 = getFileIndex(index);
+    const rank2 = getRankIndex(index);
+    return file2 === 0 || file2 === 7 || rank2 === 0 || rank2 === 7;
+  }
+  function isAFile(index) {
+    return getFileIndex(index) === 0;
+  }
+  function isHFile(index) {
+    return getFileIndex(index) === 7;
+  }
+  function isRank1(index) {
+    return getRankIndex(index) === 0;
+  }
+  function isRank8(index) {
+    return getRankIndex(index) === 7;
+  }
+});
+
+// node_modules/js-chess-engine/dist/core/Position.js
+var require_Position = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.KNIGHT_ATTACKS = exports.KING_ATTACKS = exports.NOT_RANK_8 = exports.NOT_RANK_1 = exports.NOT_GH_FILE = exports.NOT_AB_FILE = exports.NOT_H_FILE = exports.NOT_A_FILE = exports.EDGE_MASK = exports.ANTI_DIAGONAL_MASKS = exports.DIAGONAL_MASKS = exports.RANK_MASKS = exports.FILE_MASKS = undefined;
+  exports.shiftNorth = shiftNorth;
+  exports.shiftSouth = shiftSouth;
+  exports.shiftEast = shiftEast;
+  exports.shiftWest = shiftWest;
+  exports.shiftNorthEast = shiftNorthEast;
+  exports.shiftNorthWest = shiftNorthWest;
+  exports.shiftSouthEast = shiftSouthEast;
+  exports.shiftSouthWest = shiftSouthWest;
+  exports.getFileMask = getFileMask;
+  exports.getRankMask = getRankMask;
+  exports.getDiagonalMask = getDiagonalMask;
+  exports.getAntiDiagonalMask = getAntiDiagonalMask;
+  exports.getRookAttacks = getRookAttacks;
+  exports.getBishopAttacks = getBishopAttacks;
+  exports.getQueenAttacks = getQueenAttacks;
+  exports.initializeAttackTables = initializeAttackTables;
+  exports.getKingAttacks = getKingAttacks;
+  exports.getKnightAttacks = getKnightAttacks;
+  exports.getWhitePawnAttacks = getWhitePawnAttacks;
+  exports.getBlackPawnAttacks = getBlackPawnAttacks;
+  exports.getWhitePawnsAttacks = getWhitePawnsAttacks;
+  exports.getBlackPawnsAttacks = getBlackPawnsAttacks;
+  var conversion_1 = require_conversion();
+  exports.FILE_MASKS = [
+    0x0101010101010101n,
+    0x0202020202020202n,
+    0x0404040404040404n,
+    0x0808080808080808n,
+    0x1010101010101010n,
+    0x2020202020202020n,
+    0x4040404040404040n,
+    0x8080808080808080n
+  ];
+  exports.RANK_MASKS = [
+    0x00000000000000ffn,
+    0x000000000000ff00n,
+    0x0000000000ff0000n,
+    0x00000000ff000000n,
+    0x000000ff00000000n,
+    0x0000ff0000000000n,
+    0x00ff000000000000n,
+    0xff00000000000000n
+  ];
+  exports.DIAGONAL_MASKS = [
+    0x0000000000000001n,
+    0x0000000000000102n,
+    0x0000000000010204n,
+    0x0000000001020408n,
+    0x0000000102040810n,
+    0x0000010204081020n,
+    0x0001020408102040n,
+    0x0102040810204080n,
+    0x0204081020408000n,
+    0x0408102040800000n,
+    0x0810204080000000n,
+    0x1020408000000000n,
+    0x2040800000000000n,
+    0x4080000000000000n,
+    0x8000000000000000n
+  ];
+  exports.ANTI_DIAGONAL_MASKS = [
+    0x0000000000000080n,
+    0x0000000000008040n,
+    0x0000000000804020n,
+    0x0000000080402010n,
+    0x0000008040201008n,
+    0x0000804020100804n,
+    0x0080402010080402n,
+    0x8040201008040201n,
+    0x4020100804020100n,
+    0x2010080402010000n,
+    0x1008040201000000n,
+    0x0804020100000000n,
+    0x0402010000000000n,
+    0x0201000000000000n,
+    0x0100000000000000n
+  ];
+  exports.EDGE_MASK = 0xff818181818181ffn;
+  exports.NOT_A_FILE = 0xfefefefefefefefen;
+  exports.NOT_H_FILE = 0x7f7f7f7f7f7f7f7fn;
+  exports.NOT_AB_FILE = 0xfcfcfcfcfcfcfcfcn;
+  exports.NOT_GH_FILE = 0x3f3f3f3f3f3f3f3fn;
+  exports.NOT_RANK_1 = 0xffffffffffffff00n;
+  exports.NOT_RANK_8 = 0x00ffffffffffffffn;
+  function shiftNorth(bb) {
+    return (bb & exports.NOT_RANK_8) << 8n;
+  }
+  function shiftSouth(bb) {
+    return (bb & exports.NOT_RANK_1) >> 8n;
+  }
+  function shiftEast(bb) {
+    return (bb & exports.NOT_H_FILE) << 1n;
+  }
+  function shiftWest(bb) {
+    return (bb & exports.NOT_A_FILE) >> 1n;
+  }
+  function shiftNorthEast(bb) {
+    return (bb & exports.NOT_H_FILE & exports.NOT_RANK_8) << 9n;
+  }
+  function shiftNorthWest(bb) {
+    return (bb & exports.NOT_A_FILE & exports.NOT_RANK_8) << 7n;
+  }
+  function shiftSouthEast(bb) {
+    return (bb & exports.NOT_H_FILE & exports.NOT_RANK_1) >> 7n;
+  }
+  function shiftSouthWest(bb) {
+    return (bb & exports.NOT_A_FILE & exports.NOT_RANK_1) >> 9n;
+  }
+  function getFileMask(index) {
+    const file2 = (0, conversion_1.getFileIndex)(index);
+    return exports.FILE_MASKS[file2];
+  }
+  function getRankMask(index) {
+    const rank2 = (0, conversion_1.getRankIndex)(index);
+    return exports.RANK_MASKS[rank2];
+  }
+  function getDiagonalMask(index) {
+    const file2 = (0, conversion_1.getFileIndex)(index);
+    const rank2 = (0, conversion_1.getRankIndex)(index);
+    const diagonalIndex = 7 + rank2 - file2;
+    return exports.DIAGONAL_MASKS[diagonalIndex];
+  }
+  function getAntiDiagonalMask(index) {
+    const file2 = (0, conversion_1.getFileIndex)(index);
+    const rank2 = (0, conversion_1.getRankIndex)(index);
+    const antiDiagonalIndex = rank2 + file2;
+    return exports.ANTI_DIAGONAL_MASKS[antiDiagonalIndex];
+  }
+  var RAY_TABLE = Array.from({ length: 8 }, () => new Array(64));
+  function initRayTables() {
+    const directions = [8, -8, 1, -1, 9, 7, -7, -9];
+    for (let dirIdx = 0;dirIdx < 8; dirIdx++) {
+      const dir = directions[dirIdx];
+      for (let sq = 0;sq < 64; sq++) {
+        let attacks = 0n;
+        let current = sq;
+        while (true) {
+          const next = current + dir;
+          if (next < 0 || next > 63)
+            break;
+          const cf = current % 8;
+          const nf = next % 8;
+          const fd = Math.abs(nf - cf);
+          if (dir === 1 || dir === -1) {
+            if (fd !== 1)
+              break;
+          } else if (dir === 8 || dir === -8) {
+            if (fd !== 0)
+              break;
+          } else {
+            if (fd !== 1)
+              break;
+          }
+          attacks |= 1n << BigInt(next);
+          current = next;
+        }
+        RAY_TABLE[dirIdx][sq] = attacks;
+      }
+    }
+  }
+  initRayTables();
+  function positiveRay(dirIdx, square, occupied) {
+    const ray = RAY_TABLE[dirIdx][square];
+    const blockers = ray & occupied;
+    if (blockers === 0n)
+      return ray;
+    const first = (0, conversion_1.getLowestSetBit)(blockers);
+    return ray ^ RAY_TABLE[dirIdx][first];
+  }
+  function negativeRay(dirIdx, square, occupied) {
+    const ray = RAY_TABLE[dirIdx][square];
+    const blockers = ray & occupied;
+    if (blockers === 0n)
+      return ray;
+    const first = (0, conversion_1.getHighestSetBit)(blockers);
+    return ray ^ RAY_TABLE[dirIdx][first];
+  }
+  function getRookAttacks(square, occupied) {
+    return positiveRay(0, square, occupied) | negativeRay(1, square, occupied) | positiveRay(2, square, occupied) | negativeRay(3, square, occupied);
+  }
+  function getBishopAttacks(square, occupied) {
+    return positiveRay(4, square, occupied) | positiveRay(5, square, occupied) | negativeRay(6, square, occupied) | negativeRay(7, square, occupied);
+  }
+  function getQueenAttacks(square, occupied) {
+    return getRookAttacks(square, occupied) | getBishopAttacks(square, occupied);
+  }
+  exports.KING_ATTACKS = new Array(64);
+  exports.KNIGHT_ATTACKS = new Array(64);
+  function initializeAttackTables() {
+    for (let sq = 0;sq < 64; sq++) {
+      let attacks = 0n;
+      const sqBit = 1n << BigInt(sq);
+      attacks |= shiftNorth(sqBit);
+      attacks |= shiftSouth(sqBit);
+      attacks |= shiftEast(sqBit);
+      attacks |= shiftWest(sqBit);
+      attacks |= shiftNorthEast(sqBit);
+      attacks |= shiftNorthWest(sqBit);
+      attacks |= shiftSouthEast(sqBit);
+      attacks |= shiftSouthWest(sqBit);
+      exports.KING_ATTACKS[sq] = attacks;
+    }
+    for (let sq = 0;sq < 64; sq++) {
+      let attacks = 0n;
+      const sqBit = 1n << BigInt(sq);
+      const nnw = shiftNorth(shiftNorth(shiftWest(sqBit)));
+      const nne = shiftNorth(shiftNorth(shiftEast(sqBit)));
+      const nee = shiftEast(shiftEast(shiftNorth(sqBit)));
+      const see = shiftEast(shiftEast(shiftSouth(sqBit)));
+      const sse = shiftSouth(shiftSouth(shiftEast(sqBit)));
+      const ssw = shiftSouth(shiftSouth(shiftWest(sqBit)));
+      const sww = shiftWest(shiftWest(shiftSouth(sqBit)));
+      const nww = shiftWest(shiftWest(shiftNorth(sqBit)));
+      attacks = nnw | nne | nee | see | sse | ssw | sww | nww;
+      exports.KNIGHT_ATTACKS[sq] = attacks;
+    }
+  }
+  initializeAttackTables();
+  function getKingAttacks(square) {
+    const attacks = exports.KING_ATTACKS[square];
+    return attacks !== undefined ? attacks : 0n;
+  }
+  function getKnightAttacks(square) {
+    const attacks = exports.KNIGHT_ATTACKS[square];
+    return attacks !== undefined ? attacks : 0n;
+  }
+  function getWhitePawnAttacks(square) {
+    const sqBit = 1n << BigInt(square);
+    return shiftNorthEast(sqBit) | shiftNorthWest(sqBit);
+  }
+  function getBlackPawnAttacks(square) {
+    const sqBit = 1n << BigInt(square);
+    return shiftSouthEast(sqBit) | shiftSouthWest(sqBit);
+  }
+  function getWhitePawnsAttacks(pawns) {
+    return shiftNorthEast(pawns) | shiftNorthWest(pawns);
+  }
+  function getBlackPawnsAttacks(pawns) {
+    return shiftSouthEast(pawns) | shiftSouthWest(pawns);
+  }
+});
+
+// node_modules/js-chess-engine/dist/core/AttackDetector.js
+var require_AttackDetector = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.isSquareAttacked = isSquareAttacked;
+  exports.isKingInCheck = isKingInCheck;
+  exports.getAttackedSquares = getAttackedSquares;
+  exports.getAttackers = getAttackers;
+  exports.wouldLeaveKingInCheck = wouldLeaveKingInCheck;
+  var types_1 = require_types();
+  var Position_1 = require_Position();
+  var conversion_1 = require_conversion();
+  function isSquareAttacked(board, square, attackerColor) {
+    const attackers = attackerColor === types_1.InternalColor.WHITE ? board.whitePieces : board.blackPieces;
+    const pawnAttackOrigins = attackerColor === types_1.InternalColor.WHITE ? (0, Position_1.getBlackPawnAttacks)(square) : (0, Position_1.getWhitePawnAttacks)(square);
+    const pawns = attackerColor === types_1.InternalColor.WHITE ? board.whitePawns : board.blackPawns;
+    if ((pawnAttackOrigins & pawns) !== 0n) {
+      return true;
+    }
+    const knightAttacks = (0, Position_1.getKnightAttacks)(square);
+    const knights = attackerColor === types_1.InternalColor.WHITE ? board.whiteKnights : board.blackKnights;
+    if ((knightAttacks & knights) !== 0n) {
+      return true;
+    }
+    const bishopAttacks = (0, Position_1.getBishopAttacks)(square, board.allPieces);
+    const bishops = attackerColor === types_1.InternalColor.WHITE ? board.whiteBishops : board.blackBishops;
+    const queens = attackerColor === types_1.InternalColor.WHITE ? board.whiteQueens : board.blackQueens;
+    if ((bishopAttacks & (bishops | queens)) !== 0n) {
+      return true;
+    }
+    const rookAttacks = (0, Position_1.getRookAttacks)(square, board.allPieces);
+    const rooks = attackerColor === types_1.InternalColor.WHITE ? board.whiteRooks : board.blackRooks;
+    if ((rookAttacks & (rooks | queens)) !== 0n) {
+      return true;
+    }
+    const kingAttacks = (0, Position_1.getKingAttacks)(square);
+    const king = attackerColor === types_1.InternalColor.WHITE ? board.whiteKing : board.blackKing;
+    if ((kingAttacks & king) !== 0n) {
+      return true;
+    }
+    return false;
+  }
+  function isKingInCheck(board) {
+    const kingBitboard = board.turn === types_1.InternalColor.WHITE ? board.whiteKing : board.blackKing;
+    if (kingBitboard === 0n) {
+      return false;
+    }
+    const kingSquare = (0, conversion_1.getLowestSetBit)(kingBitboard);
+    const opponentColor = board.turn === types_1.InternalColor.WHITE ? types_1.InternalColor.BLACK : types_1.InternalColor.WHITE;
+    return isSquareAttacked(board, kingSquare, opponentColor);
+  }
+  function getAttackedSquares(board, attackerColor) {
+    let attacked = 0n;
+    const pawns = attackerColor === types_1.InternalColor.WHITE ? board.whitePawns : board.blackPawns;
+    if (attackerColor === types_1.InternalColor.WHITE) {
+      attacked |= (pawns & 0xfefefefefefefefen) << 9n;
+      attacked |= (pawns & 0x7f7f7f7f7f7f7f7fn) << 7n;
+    } else {
+      attacked |= (pawns & 0xfefefefefefefefen) >> 7n;
+      attacked |= (pawns & 0x7f7f7f7f7f7f7f7fn) >> 9n;
+    }
+    const knights = attackerColor === types_1.InternalColor.WHITE ? board.whiteKnights : board.blackKnights;
+    let knightsBB = knights;
+    while (knightsBB !== 0n) {
+      const sq = (0, conversion_1.getLowestSetBit)(knightsBB);
+      attacked |= (0, Position_1.getKnightAttacks)(sq);
+      knightsBB &= knightsBB - 1n;
+    }
+    const bishops = attackerColor === types_1.InternalColor.WHITE ? board.whiteBishops : board.blackBishops;
+    let bishopsBB = bishops;
+    while (bishopsBB !== 0n) {
+      const sq = (0, conversion_1.getLowestSetBit)(bishopsBB);
+      attacked |= (0, Position_1.getBishopAttacks)(sq, board.allPieces);
+      bishopsBB &= bishopsBB - 1n;
+    }
+    const rooks = attackerColor === types_1.InternalColor.WHITE ? board.whiteRooks : board.blackRooks;
+    let rooksBB = rooks;
+    while (rooksBB !== 0n) {
+      const sq = (0, conversion_1.getLowestSetBit)(rooksBB);
+      attacked |= (0, Position_1.getRookAttacks)(sq, board.allPieces);
+      rooksBB &= rooksBB - 1n;
+    }
+    const queens = attackerColor === types_1.InternalColor.WHITE ? board.whiteQueens : board.blackQueens;
+    let queensBB = queens;
+    while (queensBB !== 0n) {
+      const sq = (0, conversion_1.getLowestSetBit)(queensBB);
+      attacked |= (0, Position_1.getQueenAttacks)(sq, board.allPieces);
+      queensBB &= queensBB - 1n;
+    }
+    const king = attackerColor === types_1.InternalColor.WHITE ? board.whiteKing : board.blackKing;
+    if (king !== 0n) {
+      const kingSquare = (0, conversion_1.getLowestSetBit)(king);
+      attacked |= (0, Position_1.getKingAttacks)(kingSquare);
+    }
+    return attacked;
+  }
+  function getAttackers(board, square, attackerColor) {
+    let attackers = 0n;
+    const pawnAttackOrigins = attackerColor === types_1.InternalColor.WHITE ? (0, Position_1.getBlackPawnAttacks)(square) : (0, Position_1.getWhitePawnAttacks)(square);
+    const pawns = attackerColor === types_1.InternalColor.WHITE ? board.whitePawns : board.blackPawns;
+    attackers |= pawnAttackOrigins & pawns;
+    const knightAttacks = (0, Position_1.getKnightAttacks)(square);
+    const knights = attackerColor === types_1.InternalColor.WHITE ? board.whiteKnights : board.blackKnights;
+    attackers |= knightAttacks & knights;
+    const bishopAttacks = (0, Position_1.getBishopAttacks)(square, board.allPieces);
+    const bishops = attackerColor === types_1.InternalColor.WHITE ? board.whiteBishops : board.blackBishops;
+    const queens = attackerColor === types_1.InternalColor.WHITE ? board.whiteQueens : board.blackQueens;
+    attackers |= bishopAttacks & (bishops | queens);
+    const rookAttacks = (0, Position_1.getRookAttacks)(square, board.allPieces);
+    const rooks = attackerColor === types_1.InternalColor.WHITE ? board.whiteRooks : board.blackRooks;
+    attackers |= rookAttacks & (rooks | queens);
+    const kingAttacks = (0, Position_1.getKingAttacks)(square);
+    const king = attackerColor === types_1.InternalColor.WHITE ? board.whiteKing : board.blackKing;
+    attackers |= kingAttacks & king;
+    return attackers;
+  }
+  function wouldLeaveKingInCheck(board, from, to) {
+    const piece = board.mailbox[from];
+    const capturedPiece = board.mailbox[to];
+    const color = board.turn;
+    board.mailbox[from] = types_1.Piece.EMPTY;
+    board.mailbox[to] = piece;
+    const fromBit = 1n << BigInt(from);
+    const toBit = 1n << BigInt(to);
+    const moveBits = fromBit | toBit;
+    let originalPieceBB;
+    let originalCapturedBB = null;
+    switch (piece) {
+      case types_1.Piece.WHITE_PAWN:
+        originalPieceBB = board.whitePawns;
+        board.whitePawns = board.whitePawns & ~fromBit | toBit;
+        break;
+      case types_1.Piece.WHITE_KNIGHT:
+        originalPieceBB = board.whiteKnights;
+        board.whiteKnights = board.whiteKnights & ~fromBit | toBit;
+        break;
+      case types_1.Piece.WHITE_BISHOP:
+        originalPieceBB = board.whiteBishops;
+        board.whiteBishops = board.whiteBishops & ~fromBit | toBit;
+        break;
+      case types_1.Piece.WHITE_ROOK:
+        originalPieceBB = board.whiteRooks;
+        board.whiteRooks = board.whiteRooks & ~fromBit | toBit;
+        break;
+      case types_1.Piece.WHITE_QUEEN:
+        originalPieceBB = board.whiteQueens;
+        board.whiteQueens = board.whiteQueens & ~fromBit | toBit;
+        break;
+      case types_1.Piece.WHITE_KING:
+        originalPieceBB = board.whiteKing;
+        board.whiteKing = board.whiteKing & ~fromBit | toBit;
+        break;
+      case types_1.Piece.BLACK_PAWN:
+        originalPieceBB = board.blackPawns;
+        board.blackPawns = board.blackPawns & ~fromBit | toBit;
+        break;
+      case types_1.Piece.BLACK_KNIGHT:
+        originalPieceBB = board.blackKnights;
+        board.blackKnights = board.blackKnights & ~fromBit | toBit;
+        break;
+      case types_1.Piece.BLACK_BISHOP:
+        originalPieceBB = board.blackBishops;
+        board.blackBishops = board.blackBishops & ~fromBit | toBit;
+        break;
+      case types_1.Piece.BLACK_ROOK:
+        originalPieceBB = board.blackRooks;
+        board.blackRooks = board.blackRooks & ~fromBit | toBit;
+        break;
+      case types_1.Piece.BLACK_QUEEN:
+        originalPieceBB = board.blackQueens;
+        board.blackQueens = board.blackQueens & ~fromBit | toBit;
+        break;
+      case types_1.Piece.BLACK_KING:
+        originalPieceBB = board.blackKing;
+        board.blackKing = board.blackKing & ~fromBit | toBit;
+        break;
+      default:
+        originalPieceBB = 0n;
+    }
+    if (capturedPiece !== types_1.Piece.EMPTY) {
+      switch (capturedPiece) {
+        case types_1.Piece.WHITE_PAWN:
+          originalCapturedBB = board.whitePawns;
+          board.whitePawns &= ~toBit;
+          break;
+        case types_1.Piece.WHITE_KNIGHT:
+          originalCapturedBB = board.whiteKnights;
+          board.whiteKnights &= ~toBit;
+          break;
+        case types_1.Piece.WHITE_BISHOP:
+          originalCapturedBB = board.whiteBishops;
+          board.whiteBishops &= ~toBit;
+          break;
+        case types_1.Piece.WHITE_ROOK:
+          originalCapturedBB = board.whiteRooks;
+          board.whiteRooks &= ~toBit;
+          break;
+        case types_1.Piece.WHITE_QUEEN:
+          originalCapturedBB = board.whiteQueens;
+          board.whiteQueens &= ~toBit;
+          break;
+        case types_1.Piece.BLACK_PAWN:
+          originalCapturedBB = board.blackPawns;
+          board.blackPawns &= ~toBit;
+          break;
+        case types_1.Piece.BLACK_KNIGHT:
+          originalCapturedBB = board.blackKnights;
+          board.blackKnights &= ~toBit;
+          break;
+        case types_1.Piece.BLACK_BISHOP:
+          originalCapturedBB = board.blackBishops;
+          board.blackBishops &= ~toBit;
+          break;
+        case types_1.Piece.BLACK_ROOK:
+          originalCapturedBB = board.blackRooks;
+          board.blackRooks &= ~toBit;
+          break;
+        case types_1.Piece.BLACK_QUEEN:
+          originalCapturedBB = board.blackQueens;
+          board.blackQueens &= ~toBit;
+          break;
+      }
+    }
+    const originalWhitePieces = board.whitePieces;
+    const originalBlackPieces = board.blackPieces;
+    const originalAllPieces = board.allPieces;
+    board.whitePieces = board.whitePawns | board.whiteKnights | board.whiteBishops | board.whiteRooks | board.whiteQueens | board.whiteKing;
+    board.blackPieces = board.blackPawns | board.blackKnights | board.blackBishops | board.blackRooks | board.blackQueens | board.blackKing;
+    board.allPieces = board.whitePieces | board.blackPieces;
+    const inCheck = isKingInCheck(board);
+    board.mailbox[from] = piece;
+    board.mailbox[to] = capturedPiece;
+    switch (piece) {
+      case types_1.Piece.WHITE_PAWN:
+        board.whitePawns = originalPieceBB;
+        break;
+      case types_1.Piece.WHITE_KNIGHT:
+        board.whiteKnights = originalPieceBB;
+        break;
+      case types_1.Piece.WHITE_BISHOP:
+        board.whiteBishops = originalPieceBB;
+        break;
+      case types_1.Piece.WHITE_ROOK:
+        board.whiteRooks = originalPieceBB;
+        break;
+      case types_1.Piece.WHITE_QUEEN:
+        board.whiteQueens = originalPieceBB;
+        break;
+      case types_1.Piece.WHITE_KING:
+        board.whiteKing = originalPieceBB;
+        break;
+      case types_1.Piece.BLACK_PAWN:
+        board.blackPawns = originalPieceBB;
+        break;
+      case types_1.Piece.BLACK_KNIGHT:
+        board.blackKnights = originalPieceBB;
+        break;
+      case types_1.Piece.BLACK_BISHOP:
+        board.blackBishops = originalPieceBB;
+        break;
+      case types_1.Piece.BLACK_ROOK:
+        board.blackRooks = originalPieceBB;
+        break;
+      case types_1.Piece.BLACK_QUEEN:
+        board.blackQueens = originalPieceBB;
+        break;
+      case types_1.Piece.BLACK_KING:
+        board.blackKing = originalPieceBB;
+        break;
+    }
+    if (originalCapturedBB !== null) {
+      switch (capturedPiece) {
+        case types_1.Piece.WHITE_PAWN:
+          board.whitePawns = originalCapturedBB;
+          break;
+        case types_1.Piece.WHITE_KNIGHT:
+          board.whiteKnights = originalCapturedBB;
+          break;
+        case types_1.Piece.WHITE_BISHOP:
+          board.whiteBishops = originalCapturedBB;
+          break;
+        case types_1.Piece.WHITE_ROOK:
+          board.whiteRooks = originalCapturedBB;
+          break;
+        case types_1.Piece.WHITE_QUEEN:
+          board.whiteQueens = originalCapturedBB;
+          break;
+        case types_1.Piece.BLACK_PAWN:
+          board.blackPawns = originalCapturedBB;
+          break;
+        case types_1.Piece.BLACK_KNIGHT:
+          board.blackKnights = originalCapturedBB;
+          break;
+        case types_1.Piece.BLACK_BISHOP:
+          board.blackBishops = originalCapturedBB;
+          break;
+        case types_1.Piece.BLACK_ROOK:
+          board.blackRooks = originalCapturedBB;
+          break;
+        case types_1.Piece.BLACK_QUEEN:
+          board.blackQueens = originalCapturedBB;
+          break;
+      }
+    }
+    board.whitePieces = originalWhitePieces;
+    board.blackPieces = originalBlackPieces;
+    board.allPieces = originalAllPieces;
+    return inCheck;
+  }
+});
+
+// node_modules/js-chess-engine/dist/core/zobrist.js
+var require_zobrist = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.initZobrist = initZobrist;
+  exports.computeZobristHash = computeZobristHash;
+  exports.updateHashMove = updateHashMove;
+  exports.updateHashCapture = updateHashCapture;
+  exports.toggleSide = toggleSide;
+  exports.updateHashCastling = updateHashCastling;
+  exports.updateHashEnPassant = updateHashEnPassant;
+  exports.addPieceToHash = addPieceToHash;
+  exports.removePieceFromHash = removePieceFromHash;
+  var types_1 = require_types();
+  var constants_1 = require_constants();
+  var pieceKeys = [];
+  var sideKey = 0n;
+  var castlingKeys = [];
+  var enPassantKeys = [];
+  function initZobrist() {
+    let seed = 12345n;
+    const rand64 = () => {
+      seed ^= seed << 13n;
+      seed ^= seed >> 7n;
+      seed ^= seed << 17n;
+      return seed;
+    };
+    pieceKeys = [];
+    for (let piece = 0;piece <= 12; piece++) {
+      pieceKeys[piece] = [];
+      for (let square = 0;square < constants_1.TOTAL_SQUARES; square++) {
+        pieceKeys[piece][square] = rand64();
+      }
+    }
+    sideKey = rand64();
+    castlingKeys = [
+      rand64(),
+      rand64(),
+      rand64(),
+      rand64()
+    ];
+    enPassantKeys = [];
+    for (let file2 = 0;file2 < 8; file2++) {
+      enPassantKeys[file2] = rand64();
+    }
+  }
+  function computeZobristHash(board) {
+    let hash = 0n;
+    for (let square = 0;square < constants_1.TOTAL_SQUARES; square++) {
+      const piece = board.mailbox[square];
+      if (piece !== types_1.Piece.EMPTY) {
+        hash ^= pieceKeys[piece][square];
+      }
+    }
+    if (board.turn === types_1.InternalColor.WHITE) {
+      hash ^= sideKey;
+    }
+    if (board.castlingRights.whiteShort) {
+      hash ^= castlingKeys[0];
+    }
+    if (board.castlingRights.whiteLong) {
+      hash ^= castlingKeys[1];
+    }
+    if (board.castlingRights.blackShort) {
+      hash ^= castlingKeys[2];
+    }
+    if (board.castlingRights.blackLong) {
+      hash ^= castlingKeys[3];
+    }
+    if (board.enPassantSquare !== null) {
+      const file2 = board.enPassantSquare % 8;
+      hash ^= enPassantKeys[file2];
+    }
+    return hash;
+  }
+  function updateHashMove(hash, piece, from, to) {
+    hash ^= pieceKeys[piece][from];
+    hash ^= pieceKeys[piece][to];
+    return hash;
+  }
+  function updateHashCapture(hash, capturedPiece, square) {
+    hash ^= pieceKeys[capturedPiece][square];
+    return hash;
+  }
+  function toggleSide(hash) {
+    return hash ^ sideKey;
+  }
+  function updateHashCastling(hash, whiteShortOld, whiteShortNew, whiteLongOld, whiteLongNew, blackShortOld, blackShortNew, blackLongOld, blackLongNew) {
+    if (whiteShortOld)
+      hash ^= castlingKeys[0];
+    if (whiteLongOld)
+      hash ^= castlingKeys[1];
+    if (blackShortOld)
+      hash ^= castlingKeys[2];
+    if (blackLongOld)
+      hash ^= castlingKeys[3];
+    if (whiteShortNew)
+      hash ^= castlingKeys[0];
+    if (whiteLongNew)
+      hash ^= castlingKeys[1];
+    if (blackShortNew)
+      hash ^= castlingKeys[2];
+    if (blackLongNew)
+      hash ^= castlingKeys[3];
+    return hash;
+  }
+  function updateHashEnPassant(hash, oldSquare, newSquare) {
+    if (oldSquare !== null) {
+      const oldFile = oldSquare % 8;
+      hash ^= enPassantKeys[oldFile];
+    }
+    if (newSquare !== null) {
+      const newFile = newSquare % 8;
+      hash ^= enPassantKeys[newFile];
+    }
+    return hash;
+  }
+  function addPieceToHash(hash, piece, square) {
+    return hash ^ pieceKeys[piece][square];
+  }
+  function removePieceFromHash(hash, piece, square) {
+    return hash ^ pieceKeys[piece][square];
+  }
+  initZobrist();
+});
+
+// node_modules/js-chess-engine/dist/core/MoveGenerator.js
+var require_MoveGenerator = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.generateLegalMoves = generateLegalMoves;
+  exports.generatePseudoLegalMoves = generatePseudoLegalMoves;
+  exports.getMovesForPiece = getMovesForPiece;
+  exports.isMoveLegal = isMoveLegal;
+  exports.applyMoveComplete = applyMoveComplete;
+  var types_1 = require_types();
+  var Position_1 = require_Position();
+  var AttackDetector_1 = require_AttackDetector();
+  var conversion_1 = require_conversion();
+  var Board_1 = require_Board();
+  var constants_1 = require_constants();
+  var zobrist_1 = require_zobrist();
+  function generateLegalMoves(board) {
+    const pseudoLegalMoves = generatePseudoLegalMoves(board);
+    const currentColor = board.turn;
+    const ourKingBitboard = currentColor === types_1.InternalColor.WHITE ? board.whiteKing : board.blackKing;
+    if (ourKingBitboard === 0n) {
+      return pseudoLegalMoves;
+    }
+    return pseudoLegalMoves.filter((move) => {
+      if (move.flags & types_1.MoveFlag.CASTLING) {
+        return true;
+      }
+      const testBoard = (0, Board_1.copyBoard)(board);
+      const originalTurn = testBoard.turn;
+      makeMove(testBoard, move);
+      const kingBitboardAfter = originalTurn === types_1.InternalColor.WHITE ? testBoard.whiteKing : testBoard.blackKing;
+      if (kingBitboardAfter === 0n) {
+        return true;
+      }
+      const kingSquare = (0, conversion_1.getLowestSetBit)(kingBitboardAfter);
+      const opponentColor = originalTurn === types_1.InternalColor.WHITE ? types_1.InternalColor.BLACK : types_1.InternalColor.WHITE;
+      return !(0, AttackDetector_1.isSquareAttacked)(testBoard, kingSquare, opponentColor);
+    });
+  }
+  function makeMove(board, move) {
+    if (move.flags & types_1.MoveFlag.CASTLING) {
+      (0, Board_1.removePiece)(board, move.from);
+      (0, Board_1.setPiece)(board, move.to, move.piece);
+      const color = board.turn;
+      if (color === types_1.InternalColor.WHITE) {
+        if (move.to === constants_1.CASTLING.WHITE_SHORT.kingTo) {
+          (0, Board_1.removePiece)(board, constants_1.CASTLING.WHITE_SHORT.rookFrom);
+          (0, Board_1.setPiece)(board, constants_1.CASTLING.WHITE_SHORT.rookTo, types_1.Piece.WHITE_ROOK);
+        } else {
+          (0, Board_1.removePiece)(board, constants_1.CASTLING.WHITE_LONG.rookFrom);
+          (0, Board_1.setPiece)(board, constants_1.CASTLING.WHITE_LONG.rookTo, types_1.Piece.WHITE_ROOK);
+        }
+      } else {
+        if (move.to === constants_1.CASTLING.BLACK_SHORT.kingTo) {
+          (0, Board_1.removePiece)(board, constants_1.CASTLING.BLACK_SHORT.rookFrom);
+          (0, Board_1.setPiece)(board, constants_1.CASTLING.BLACK_SHORT.rookTo, types_1.Piece.BLACK_ROOK);
+        } else {
+          (0, Board_1.removePiece)(board, constants_1.CASTLING.BLACK_LONG.rookFrom);
+          (0, Board_1.setPiece)(board, constants_1.CASTLING.BLACK_LONG.rookTo, types_1.Piece.BLACK_ROOK);
+        }
+      }
+    } else if (move.flags & types_1.MoveFlag.EN_PASSANT) {
+      (0, Board_1.removePiece)(board, move.from);
+      (0, Board_1.setPiece)(board, move.to, move.piece);
+      const capturedPawnSquare = board.turn === types_1.InternalColor.WHITE ? move.to - 8 : move.to + 8;
+      (0, Board_1.removePiece)(board, capturedPawnSquare);
+    } else if (move.flags & types_1.MoveFlag.PROMOTION) {
+      (0, Board_1.removePiece)(board, move.from);
+      if (move.capturedPiece !== types_1.Piece.EMPTY) {
+        (0, Board_1.removePiece)(board, move.to);
+      }
+      (0, Board_1.setPiece)(board, move.to, move.promotionPiece);
+    } else {
+      (0, Board_1.removePiece)(board, move.from);
+      if (move.capturedPiece !== types_1.Piece.EMPTY) {
+        (0, Board_1.removePiece)(board, move.to);
+      }
+      (0, Board_1.setPiece)(board, move.to, move.piece);
+    }
+    if (move.flags & types_1.MoveFlag.PAWN_DOUBLE_PUSH) {
+      const epSquare = board.turn === types_1.InternalColor.WHITE ? move.from + 8 : move.from - 8;
+      board.enPassantSquare = epSquare;
+    } else {
+      board.enPassantSquare = null;
+    }
+    board.turn = board.turn === types_1.InternalColor.WHITE ? types_1.InternalColor.BLACK : types_1.InternalColor.WHITE;
+  }
+  function generatePseudoLegalMoves(board) {
+    const moves = [];
+    const color = board.turn;
+    const friendlyPieces = color === types_1.InternalColor.WHITE ? board.whitePieces : board.blackPieces;
+    const enemyPieces = color === types_1.InternalColor.WHITE ? board.blackPieces : board.whitePieces;
+    generatePawnMoves(board, moves, color, friendlyPieces, enemyPieces);
+    generateKnightMoves(board, moves, color, friendlyPieces);
+    generateBishopMoves(board, moves, color, friendlyPieces);
+    generateRookMoves(board, moves, color, friendlyPieces);
+    generateQueenMoves(board, moves, color, friendlyPieces);
+    generateKingMoves(board, moves, color, friendlyPieces);
+    generateCastlingMoves(board, moves, color);
+    return moves;
+  }
+  function generatePawnMoves(board, moves, color, _friendlyPieces, enemyPieces) {
+    const pawns = color === types_1.InternalColor.WHITE ? board.whitePawns : board.blackPawns;
+    const pawnPiece = color === types_1.InternalColor.WHITE ? types_1.Piece.WHITE_PAWN : types_1.Piece.BLACK_PAWN;
+    const promotionRank = color === types_1.InternalColor.WHITE ? 7 : 0;
+    const empty = ~board.allPieces;
+    if (color === types_1.InternalColor.WHITE) {
+      let singlePushBB = (0, Position_1.shiftNorth)(pawns) & empty;
+      while (singlePushBB !== 0n) {
+        const to = (0, conversion_1.getLowestSetBit)(singlePushBB);
+        singlePushBB &= singlePushBB - 1n;
+        const from = to - 8;
+        const toRank = (0, conversion_1.getRankIndex)(to);
+        if (toRank === promotionRank) {
+          moves.push(createMove(from, to, pawnPiece, types_1.Piece.EMPTY, types_1.MoveFlag.PROMOTION, types_1.Piece.WHITE_QUEEN));
+          moves.push(createMove(from, to, pawnPiece, types_1.Piece.EMPTY, types_1.MoveFlag.PROMOTION, types_1.Piece.WHITE_ROOK));
+          moves.push(createMove(from, to, pawnPiece, types_1.Piece.EMPTY, types_1.MoveFlag.PROMOTION, types_1.Piece.WHITE_BISHOP));
+          moves.push(createMove(from, to, pawnPiece, types_1.Piece.EMPTY, types_1.MoveFlag.PROMOTION, types_1.Piece.WHITE_KNIGHT));
+        } else {
+          moves.push(createMove(from, to, pawnPiece, types_1.Piece.EMPTY, types_1.MoveFlag.NONE));
+        }
+      }
+      const doublePushSource = pawns & 0x000000000000ff00n;
+      let doublePushBB = (0, Position_1.shiftNorth)((0, Position_1.shiftNorth)(doublePushSource) & empty) & empty;
+      while (doublePushBB !== 0n) {
+        const to = (0, conversion_1.getLowestSetBit)(doublePushBB);
+        doublePushBB &= doublePushBB - 1n;
+        const from = to - 16;
+        moves.push(createMove(from, to, pawnPiece, types_1.Piece.EMPTY, types_1.MoveFlag.PAWN_DOUBLE_PUSH));
+      }
+      let capturesNEBB = (0, Position_1.shiftNorthEast)(pawns) & enemyPieces;
+      while (capturesNEBB !== 0n) {
+        const to = (0, conversion_1.getLowestSetBit)(capturesNEBB);
+        capturesNEBB &= capturesNEBB - 1n;
+        const from = to - 9;
+        const capturedPiece = (0, Board_1.getPiece)(board, to);
+        const toRank = (0, conversion_1.getRankIndex)(to);
+        if (toRank === promotionRank) {
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.WHITE_QUEEN));
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.WHITE_ROOK));
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.WHITE_BISHOP));
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.WHITE_KNIGHT));
+        } else {
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.CAPTURE));
+        }
+      }
+      let capturesNWBB = (0, Position_1.shiftNorthWest)(pawns) & enemyPieces;
+      while (capturesNWBB !== 0n) {
+        const to = (0, conversion_1.getLowestSetBit)(capturesNWBB);
+        capturesNWBB &= capturesNWBB - 1n;
+        const from = to - 7;
+        const capturedPiece = (0, Board_1.getPiece)(board, to);
+        const toRank = (0, conversion_1.getRankIndex)(to);
+        if (toRank === promotionRank) {
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.WHITE_QUEEN));
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.WHITE_ROOK));
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.WHITE_BISHOP));
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.WHITE_KNIGHT));
+        } else {
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.CAPTURE));
+        }
+      }
+      if (board.enPassantSquare !== null) {
+        const epSquare = board.enPassantSquare;
+        const epTarget = 1n << BigInt(epSquare);
+        const canCaptureEP = ((0, Position_1.shiftSouthWest)(epTarget) | (0, Position_1.shiftSouthEast)(epTarget)) & pawns;
+        let epBB = canCaptureEP;
+        while (epBB !== 0n) {
+          const from = (0, conversion_1.getLowestSetBit)(epBB);
+          epBB &= epBB - 1n;
+          const capturedPiece = types_1.Piece.BLACK_PAWN;
+          moves.push(createMove(from, epSquare, pawnPiece, capturedPiece, types_1.MoveFlag.EN_PASSANT | types_1.MoveFlag.CAPTURE));
+        }
+      }
+    } else {
+      let singlePushBB = (0, Position_1.shiftSouth)(pawns) & empty;
+      while (singlePushBB !== 0n) {
+        const to = (0, conversion_1.getLowestSetBit)(singlePushBB);
+        singlePushBB &= singlePushBB - 1n;
+        const from = to + 8;
+        const toRank = (0, conversion_1.getRankIndex)(to);
+        if (toRank === promotionRank) {
+          moves.push(createMove(from, to, pawnPiece, types_1.Piece.EMPTY, types_1.MoveFlag.PROMOTION, types_1.Piece.BLACK_QUEEN));
+          moves.push(createMove(from, to, pawnPiece, types_1.Piece.EMPTY, types_1.MoveFlag.PROMOTION, types_1.Piece.BLACK_ROOK));
+          moves.push(createMove(from, to, pawnPiece, types_1.Piece.EMPTY, types_1.MoveFlag.PROMOTION, types_1.Piece.BLACK_BISHOP));
+          moves.push(createMove(from, to, pawnPiece, types_1.Piece.EMPTY, types_1.MoveFlag.PROMOTION, types_1.Piece.BLACK_KNIGHT));
+        } else {
+          moves.push(createMove(from, to, pawnPiece, types_1.Piece.EMPTY, types_1.MoveFlag.NONE));
+        }
+      }
+      const doublePushSource = pawns & 0x00ff000000000000n;
+      let doublePushBB = (0, Position_1.shiftSouth)((0, Position_1.shiftSouth)(doublePushSource) & empty) & empty;
+      while (doublePushBB !== 0n) {
+        const to = (0, conversion_1.getLowestSetBit)(doublePushBB);
+        doublePushBB &= doublePushBB - 1n;
+        const from = to + 16;
+        moves.push(createMove(from, to, pawnPiece, types_1.Piece.EMPTY, types_1.MoveFlag.PAWN_DOUBLE_PUSH));
+      }
+      let capturesSEBB = (0, Position_1.shiftSouthEast)(pawns) & enemyPieces;
+      while (capturesSEBB !== 0n) {
+        const to = (0, conversion_1.getLowestSetBit)(capturesSEBB);
+        capturesSEBB &= capturesSEBB - 1n;
+        const from = to + 7;
+        const capturedPiece = (0, Board_1.getPiece)(board, to);
+        const toRank = (0, conversion_1.getRankIndex)(to);
+        if (toRank === promotionRank) {
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.BLACK_QUEEN));
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.BLACK_ROOK));
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.BLACK_BISHOP));
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.BLACK_KNIGHT));
+        } else {
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.CAPTURE));
+        }
+      }
+      let capturesSWBB = (0, Position_1.shiftSouthWest)(pawns) & enemyPieces;
+      while (capturesSWBB !== 0n) {
+        const to = (0, conversion_1.getLowestSetBit)(capturesSWBB);
+        capturesSWBB &= capturesSWBB - 1n;
+        const from = to + 9;
+        const capturedPiece = (0, Board_1.getPiece)(board, to);
+        const toRank = (0, conversion_1.getRankIndex)(to);
+        if (toRank === promotionRank) {
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.BLACK_QUEEN));
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.BLACK_ROOK));
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.BLACK_BISHOP));
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.PROMOTION | types_1.MoveFlag.CAPTURE, types_1.Piece.BLACK_KNIGHT));
+        } else {
+          moves.push(createMove(from, to, pawnPiece, capturedPiece, types_1.MoveFlag.CAPTURE));
+        }
+      }
+      if (board.enPassantSquare !== null) {
+        const epSquare = board.enPassantSquare;
+        const epTarget = 1n << BigInt(epSquare);
+        const canCaptureEP = ((0, Position_1.shiftNorthWest)(epTarget) | (0, Position_1.shiftNorthEast)(epTarget)) & pawns;
+        let epBB = canCaptureEP;
+        while (epBB !== 0n) {
+          const from = (0, conversion_1.getLowestSetBit)(epBB);
+          epBB &= epBB - 1n;
+          const capturedPiece = types_1.Piece.WHITE_PAWN;
+          moves.push(createMove(from, epSquare, pawnPiece, capturedPiece, types_1.MoveFlag.EN_PASSANT | types_1.MoveFlag.CAPTURE));
+        }
+      }
+    }
+  }
+  function generateKnightMoves(board, moves, color, friendlyPieces) {
+    const knights = color === types_1.InternalColor.WHITE ? board.whiteKnights : board.blackKnights;
+    const knightPiece = color === types_1.InternalColor.WHITE ? types_1.Piece.WHITE_KNIGHT : types_1.Piece.BLACK_KNIGHT;
+    let knightsBB = knights;
+    while (knightsBB !== 0n) {
+      const from = (0, conversion_1.getLowestSetBit)(knightsBB);
+      const attacks = (0, Position_1.getKnightAttacks)(from) & ~friendlyPieces;
+      let attacksBB = attacks;
+      while (attacksBB !== 0n) {
+        const to = (0, conversion_1.getLowestSetBit)(attacksBB);
+        attacksBB &= attacksBB - 1n;
+        const capturedPiece = (0, Board_1.getPiece)(board, to);
+        const flags = capturedPiece !== types_1.Piece.EMPTY ? types_1.MoveFlag.CAPTURE : types_1.MoveFlag.NONE;
+        moves.push(createMove(from, to, knightPiece, capturedPiece, flags));
+      }
+      knightsBB &= knightsBB - 1n;
+    }
+  }
+  function generateBishopMoves(board, moves, color, friendlyPieces) {
+    const bishops = color === types_1.InternalColor.WHITE ? board.whiteBishops : board.blackBishops;
+    const bishopPiece = color === types_1.InternalColor.WHITE ? types_1.Piece.WHITE_BISHOP : types_1.Piece.BLACK_BISHOP;
+    let bishopsBB = bishops;
+    while (bishopsBB !== 0n) {
+      const from = (0, conversion_1.getLowestSetBit)(bishopsBB);
+      const attacks = (0, Position_1.getBishopAttacks)(from, board.allPieces) & ~friendlyPieces;
+      let attacksBB = attacks;
+      while (attacksBB !== 0n) {
+        const to = (0, conversion_1.getLowestSetBit)(attacksBB);
+        attacksBB &= attacksBB - 1n;
+        const capturedPiece = (0, Board_1.getPiece)(board, to);
+        const flags = capturedPiece !== types_1.Piece.EMPTY ? types_1.MoveFlag.CAPTURE : types_1.MoveFlag.NONE;
+        moves.push(createMove(from, to, bishopPiece, capturedPiece, flags));
+      }
+      bishopsBB &= bishopsBB - 1n;
+    }
+  }
+  function generateRookMoves(board, moves, color, friendlyPieces) {
+    const rooks = color === types_1.InternalColor.WHITE ? board.whiteRooks : board.blackRooks;
+    const rookPiece = color === types_1.InternalColor.WHITE ? types_1.Piece.WHITE_ROOK : types_1.Piece.BLACK_ROOK;
+    let rooksBB = rooks;
+    while (rooksBB !== 0n) {
+      const from = (0, conversion_1.getLowestSetBit)(rooksBB);
+      const attacks = (0, Position_1.getRookAttacks)(from, board.allPieces) & ~friendlyPieces;
+      let attacksBB = attacks;
+      while (attacksBB !== 0n) {
+        const to = (0, conversion_1.getLowestSetBit)(attacksBB);
+        attacksBB &= attacksBB - 1n;
+        const capturedPiece = (0, Board_1.getPiece)(board, to);
+        const flags = capturedPiece !== types_1.Piece.EMPTY ? types_1.MoveFlag.CAPTURE : types_1.MoveFlag.NONE;
+        moves.push(createMove(from, to, rookPiece, capturedPiece, flags));
+      }
+      rooksBB &= rooksBB - 1n;
+    }
+  }
+  function generateQueenMoves(board, moves, color, friendlyPieces) {
+    const queens = color === types_1.InternalColor.WHITE ? board.whiteQueens : board.blackQueens;
+    const queenPiece = color === types_1.InternalColor.WHITE ? types_1.Piece.WHITE_QUEEN : types_1.Piece.BLACK_QUEEN;
+    let queensBB = queens;
+    while (queensBB !== 0n) {
+      const from = (0, conversion_1.getLowestSetBit)(queensBB);
+      const attacks = (0, Position_1.getQueenAttacks)(from, board.allPieces) & ~friendlyPieces;
+      let attacksBB = attacks;
+      while (attacksBB !== 0n) {
+        const to = (0, conversion_1.getLowestSetBit)(attacksBB);
+        attacksBB &= attacksBB - 1n;
+        const capturedPiece = (0, Board_1.getPiece)(board, to);
+        const flags = capturedPiece !== types_1.Piece.EMPTY ? types_1.MoveFlag.CAPTURE : types_1.MoveFlag.NONE;
+        moves.push(createMove(from, to, queenPiece, capturedPiece, flags));
+      }
+      queensBB &= queensBB - 1n;
+    }
+  }
+  function generateKingMoves(board, moves, color, friendlyPieces) {
+    const king = color === types_1.InternalColor.WHITE ? board.whiteKing : board.blackKing;
+    const kingPiece = color === types_1.InternalColor.WHITE ? types_1.Piece.WHITE_KING : types_1.Piece.BLACK_KING;
+    if (king === 0n)
+      return;
+    const from = (0, conversion_1.getLowestSetBit)(king);
+    const attacks = (0, Position_1.getKingAttacks)(from) & ~friendlyPieces;
+    let attacksBB = attacks;
+    while (attacksBB !== 0n) {
+      const to = (0, conversion_1.getLowestSetBit)(attacksBB);
+      attacksBB &= attacksBB - 1n;
+      const capturedPiece = (0, Board_1.getPiece)(board, to);
+      const flags = capturedPiece !== types_1.Piece.EMPTY ? types_1.MoveFlag.CAPTURE : types_1.MoveFlag.NONE;
+      moves.push(createMove(from, to, kingPiece, capturedPiece, flags));
+    }
+  }
+  function generateCastlingMoves(board, moves, color) {
+    const opponentColor = color === types_1.InternalColor.WHITE ? types_1.InternalColor.BLACK : types_1.InternalColor.WHITE;
+    if (color === types_1.InternalColor.WHITE) {
+      if (board.castlingRights.whiteShort && (0, Board_1.getPiece)(board, constants_1.CASTLING.WHITE_SHORT.kingFrom) === types_1.Piece.WHITE_KING && (0, Board_1.getPiece)(board, constants_1.CASTLING.WHITE_SHORT.rookFrom) === types_1.Piece.WHITE_ROOK && (0, Board_1.isSquareEmpty)(board, 5) && (0, Board_1.isSquareEmpty)(board, 6) && !(0, AttackDetector_1.isSquareAttacked)(board, 4, opponentColor) && !(0, AttackDetector_1.isSquareAttacked)(board, 5, opponentColor) && !(0, AttackDetector_1.isSquareAttacked)(board, 6, opponentColor)) {
+        moves.push(createMove(constants_1.CASTLING.WHITE_SHORT.kingFrom, constants_1.CASTLING.WHITE_SHORT.kingTo, types_1.Piece.WHITE_KING, types_1.Piece.EMPTY, types_1.MoveFlag.CASTLING));
+      }
+      if (board.castlingRights.whiteLong && (0, Board_1.getPiece)(board, constants_1.CASTLING.WHITE_LONG.kingFrom) === types_1.Piece.WHITE_KING && (0, Board_1.getPiece)(board, constants_1.CASTLING.WHITE_LONG.rookFrom) === types_1.Piece.WHITE_ROOK && (0, Board_1.isSquareEmpty)(board, 1) && (0, Board_1.isSquareEmpty)(board, 2) && (0, Board_1.isSquareEmpty)(board, 3) && !(0, AttackDetector_1.isSquareAttacked)(board, 4, opponentColor) && !(0, AttackDetector_1.isSquareAttacked)(board, 3, opponentColor) && !(0, AttackDetector_1.isSquareAttacked)(board, 2, opponentColor)) {
+        moves.push(createMove(constants_1.CASTLING.WHITE_LONG.kingFrom, constants_1.CASTLING.WHITE_LONG.kingTo, types_1.Piece.WHITE_KING, types_1.Piece.EMPTY, types_1.MoveFlag.CASTLING));
+      }
+    } else {
+      if (board.castlingRights.blackShort && (0, Board_1.getPiece)(board, constants_1.CASTLING.BLACK_SHORT.kingFrom) === types_1.Piece.BLACK_KING && (0, Board_1.getPiece)(board, constants_1.CASTLING.BLACK_SHORT.rookFrom) === types_1.Piece.BLACK_ROOK && (0, Board_1.isSquareEmpty)(board, 61) && (0, Board_1.isSquareEmpty)(board, 62) && !(0, AttackDetector_1.isSquareAttacked)(board, 60, opponentColor) && !(0, AttackDetector_1.isSquareAttacked)(board, 61, opponentColor) && !(0, AttackDetector_1.isSquareAttacked)(board, 62, opponentColor)) {
+        moves.push(createMove(constants_1.CASTLING.BLACK_SHORT.kingFrom, constants_1.CASTLING.BLACK_SHORT.kingTo, types_1.Piece.BLACK_KING, types_1.Piece.EMPTY, types_1.MoveFlag.CASTLING));
+      }
+      if (board.castlingRights.blackLong && (0, Board_1.getPiece)(board, constants_1.CASTLING.BLACK_LONG.kingFrom) === types_1.Piece.BLACK_KING && (0, Board_1.getPiece)(board, constants_1.CASTLING.BLACK_LONG.rookFrom) === types_1.Piece.BLACK_ROOK && (0, Board_1.isSquareEmpty)(board, 57) && (0, Board_1.isSquareEmpty)(board, 58) && (0, Board_1.isSquareEmpty)(board, 59) && !(0, AttackDetector_1.isSquareAttacked)(board, 60, opponentColor) && !(0, AttackDetector_1.isSquareAttacked)(board, 59, opponentColor) && !(0, AttackDetector_1.isSquareAttacked)(board, 58, opponentColor)) {
+        moves.push(createMove(constants_1.CASTLING.BLACK_LONG.kingFrom, constants_1.CASTLING.BLACK_LONG.kingTo, types_1.Piece.BLACK_KING, types_1.Piece.EMPTY, types_1.MoveFlag.CASTLING));
+      }
+    }
+  }
+  function createMove(from, to, piece, capturedPiece, flags, promotionPiece) {
+    return {
+      from,
+      to,
+      piece,
+      capturedPiece,
+      flags,
+      promotionPiece
+    };
+  }
+  function getMovesForPiece(board, square) {
+    const allMoves = generateLegalMoves(board);
+    return allMoves.filter((move) => move.from === square);
+  }
+  function isMoveLegal(board, from, to) {
+    const legalMoves = generateLegalMoves(board);
+    return legalMoves.some((move) => move.from === from && move.to === to);
+  }
+  function applyMoveComplete(board, move) {
+    const { from, to, piece, capturedPiece, flags, promotionPiece } = move;
+    const oldEnPassant = board.enPassantSquare;
+    const oldCastling = { ...board.castlingRights };
+    board.enPassantSquare = null;
+    if (capturedPiece !== types_1.Piece.EMPTY) {
+      (0, Board_1.removePiece)(board, to);
+      board.zobristHash = (0, zobrist_1.updateHashCapture)(board.zobristHash, capturedPiece, to);
+      board.halfMoveClock = 0;
+    } else {
+      board.halfMoveClock++;
+    }
+    if (flags & types_1.MoveFlag.EN_PASSANT) {
+      const captureSquare = board.turn === types_1.InternalColor.WHITE ? to - 8 : to + 8;
+      const capturedPawn = board.turn === types_1.InternalColor.WHITE ? types_1.Piece.BLACK_PAWN : types_1.Piece.WHITE_PAWN;
+      (0, Board_1.removePiece)(board, captureSquare);
+      board.zobristHash = (0, zobrist_1.updateHashCapture)(board.zobristHash, capturedPawn, captureSquare);
+      board.halfMoveClock = 0;
+    }
+    if (flags & types_1.MoveFlag.CASTLING) {
+      if (to === constants_1.CASTLING.WHITE_SHORT.kingTo) {
+        (0, Board_1.removePiece)(board, constants_1.CASTLING.WHITE_SHORT.rookFrom);
+        (0, Board_1.setPiece)(board, constants_1.CASTLING.WHITE_SHORT.rookTo, types_1.Piece.WHITE_ROOK);
+        board.zobristHash = (0, zobrist_1.updateHashMove)(board.zobristHash, types_1.Piece.WHITE_ROOK, constants_1.CASTLING.WHITE_SHORT.rookFrom, constants_1.CASTLING.WHITE_SHORT.rookTo);
+      } else if (to === constants_1.CASTLING.WHITE_LONG.kingTo) {
+        (0, Board_1.removePiece)(board, constants_1.CASTLING.WHITE_LONG.rookFrom);
+        (0, Board_1.setPiece)(board, constants_1.CASTLING.WHITE_LONG.rookTo, types_1.Piece.WHITE_ROOK);
+        board.zobristHash = (0, zobrist_1.updateHashMove)(board.zobristHash, types_1.Piece.WHITE_ROOK, constants_1.CASTLING.WHITE_LONG.rookFrom, constants_1.CASTLING.WHITE_LONG.rookTo);
+      } else if (to === constants_1.CASTLING.BLACK_SHORT.kingTo) {
+        (0, Board_1.removePiece)(board, constants_1.CASTLING.BLACK_SHORT.rookFrom);
+        (0, Board_1.setPiece)(board, constants_1.CASTLING.BLACK_SHORT.rookTo, types_1.Piece.BLACK_ROOK);
+        board.zobristHash = (0, zobrist_1.updateHashMove)(board.zobristHash, types_1.Piece.BLACK_ROOK, constants_1.CASTLING.BLACK_SHORT.rookFrom, constants_1.CASTLING.BLACK_SHORT.rookTo);
+      } else if (to === constants_1.CASTLING.BLACK_LONG.kingTo) {
+        (0, Board_1.removePiece)(board, constants_1.CASTLING.BLACK_LONG.rookFrom);
+        (0, Board_1.setPiece)(board, constants_1.CASTLING.BLACK_LONG.rookTo, types_1.Piece.BLACK_ROOK);
+        board.zobristHash = (0, zobrist_1.updateHashMove)(board.zobristHash, types_1.Piece.BLACK_ROOK, constants_1.CASTLING.BLACK_LONG.rookFrom, constants_1.CASTLING.BLACK_LONG.rookTo);
+      }
+    }
+    (0, Board_1.removePiece)(board, from);
+    board.zobristHash = (0, zobrist_1.updateHashMove)(board.zobristHash, piece, from, to);
+    if (flags & types_1.MoveFlag.PROMOTION && promotionPiece) {
+      board.zobristHash = (0, zobrist_1.removePieceFromHash)(board.zobristHash, piece, to);
+      board.zobristHash = (0, zobrist_1.addPieceToHash)(board.zobristHash, promotionPiece, to);
+      (0, Board_1.setPiece)(board, to, promotionPiece);
+    } else {
+      (0, Board_1.setPiece)(board, to, piece);
+    }
+    if (piece === types_1.Piece.WHITE_PAWN || piece === types_1.Piece.BLACK_PAWN) {
+      board.halfMoveClock = 0;
+    }
+    if (flags & types_1.MoveFlag.PAWN_DOUBLE_PUSH) {
+      const enPassantSquare = board.turn === types_1.InternalColor.WHITE ? from + 8 : from - 8;
+      board.enPassantSquare = enPassantSquare;
+    }
+    updateCastlingRights(board, from, to, piece);
+    board.zobristHash = (0, zobrist_1.updateHashEnPassant)(board.zobristHash, oldEnPassant, board.enPassantSquare);
+    board.zobristHash = (0, zobrist_1.updateHashCastling)(board.zobristHash, oldCastling.whiteShort, board.castlingRights.whiteShort, oldCastling.whiteLong, board.castlingRights.whiteLong, oldCastling.blackShort, board.castlingRights.blackShort, oldCastling.blackLong, board.castlingRights.blackLong);
+    board.turn = board.turn === types_1.InternalColor.WHITE ? types_1.InternalColor.BLACK : types_1.InternalColor.WHITE;
+    board.zobristHash = (0, zobrist_1.toggleSide)(board.zobristHash);
+    if (board.turn === types_1.InternalColor.WHITE) {
+      board.fullMoveNumber++;
+    }
+    updateGameStatus(board);
+    return move;
+  }
+  function updateCastlingRights(board, from, to, piece) {
+    if (piece === types_1.Piece.WHITE_KING) {
+      board.castlingRights.whiteShort = false;
+      board.castlingRights.whiteLong = false;
+    } else if (piece === types_1.Piece.BLACK_KING) {
+      board.castlingRights.blackShort = false;
+      board.castlingRights.blackLong = false;
+    }
+    if (piece === types_1.Piece.WHITE_ROOK) {
+      if (from === constants_1.CASTLING.WHITE_SHORT.rookFrom) {
+        board.castlingRights.whiteShort = false;
+      } else if (from === constants_1.CASTLING.WHITE_LONG.rookFrom) {
+        board.castlingRights.whiteLong = false;
+      }
+    } else if (piece === types_1.Piece.BLACK_ROOK) {
+      if (from === constants_1.CASTLING.BLACK_SHORT.rookFrom) {
+        board.castlingRights.blackShort = false;
+      } else if (from === constants_1.CASTLING.BLACK_LONG.rookFrom) {
+        board.castlingRights.blackLong = false;
+      }
+    }
+    if (to === constants_1.CASTLING.WHITE_SHORT.rookFrom) {
+      board.castlingRights.whiteShort = false;
+    } else if (to === constants_1.CASTLING.WHITE_LONG.rookFrom) {
+      board.castlingRights.whiteLong = false;
+    } else if (to === constants_1.CASTLING.BLACK_SHORT.rookFrom) {
+      board.castlingRights.blackShort = false;
+    } else if (to === constants_1.CASTLING.BLACK_LONG.rookFrom) {
+      board.castlingRights.blackLong = false;
+    }
+  }
+  function updateGameStatus(board) {
+    const currentColor = board.turn;
+    const kingBitboard = currentColor === types_1.InternalColor.WHITE ? board.whiteKing : board.blackKing;
+    if (kingBitboard === 0n) {
+      board.isCheck = false;
+      board.isCheckmate = false;
+      board.isStalemate = false;
+      return;
+    }
+    const kingSquare = (0, conversion_1.getLowestSetBit)(kingBitboard);
+    const opponentColor = currentColor === types_1.InternalColor.WHITE ? types_1.InternalColor.BLACK : types_1.InternalColor.WHITE;
+    const inCheck = (0, AttackDetector_1.isSquareAttacked)(board, kingSquare, opponentColor);
+    board.isCheck = inCheck;
+    board.isCheckmate = false;
+    board.isStalemate = false;
+  }
+});
+
+// node_modules/js-chess-engine/dist/utils/fen.js
+var require_fen = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.parseFEN = parseFEN;
+  exports.validateFEN = validateFEN;
+  exports.toFEN = toFEN;
+  exports.getStartingFEN = getStartingFEN;
+  var types_1 = require_types();
+  var Board_1 = require_Board();
+  var AttackDetector_1 = require_AttackDetector();
+  var zobrist_1 = require_zobrist();
+  var conversion_1 = require_conversion();
+  var FEN_CASTLING_RE = /^(-|[KQkq]{1,4})$/;
+  var FEN_EN_PASSANT_RE = /^(-|[a-h][36])$/;
+  function parseFEN(fen) {
+    const parts = fen.trim().split(/\s+/);
+    if (parts.length !== 6) {
+      throw new Error(`Invalid FEN: expected 6 parts, got ${parts.length}`);
+    }
+    const [piecePlacement, activeColor, castling, enPassant, halfMove, fullMove] = parts;
+    const board = (0, Board_1.createEmptyBoard)();
+    const ranks = piecePlacement.split("/");
+    if (ranks.length !== 8) {
+      throw new Error(`Invalid FEN: expected 8 ranks, got ${ranks.length}`);
+    }
+    for (let rank2 = 0;rank2 < 8; rank2++) {
+      const rankStr = ranks[rank2];
+      let file2 = 0;
+      for (const char of rankStr) {
+        if (char >= "1" && char <= "8") {
+          file2 += parseInt(char, 10);
+        } else {
+          const piece = fenCharToPiece(char);
+          if (piece === null) {
+            throw new Error(`Invalid FEN: unknown piece character '${char}'`);
+          }
+          const squareIndex = (7 - rank2) * 8 + file2;
+          (0, Board_1.setPiece)(board, squareIndex, piece);
+          file2++;
+        }
+      }
+      if (file2 !== 8) {
+        throw new Error(`Invalid FEN: rank ${8 - rank2} has ${file2} files instead of 8`);
+      }
+    }
+    let whiteKings = 0;
+    let blackKings = 0;
+    for (const p of board.mailbox) {
+      if (p === types_1.Piece.WHITE_KING)
+        whiteKings++;
+      if (p === types_1.Piece.BLACK_KING)
+        blackKings++;
+    }
+    if (whiteKings !== 1 || blackKings !== 1) {
+      throw new Error(`Invalid FEN: expected exactly one white king and one black king`);
+    }
+    if (activeColor === "w") {
+      board.turn = types_1.InternalColor.WHITE;
+    } else if (activeColor === "b") {
+      board.turn = types_1.InternalColor.BLACK;
+    } else {
+      throw new Error(`Invalid FEN: unknown active color '${activeColor}'`);
+    }
+    if (!FEN_CASTLING_RE.test(castling)) {
+      throw new Error(`Invalid FEN: invalid castling rights '${castling}'`);
+    }
+    if (castling !== "-") {
+      const unique = new Set(castling.split(""));
+      if (unique.size !== castling.length) {
+        throw new Error(`Invalid FEN: duplicate castling rights '${castling}'`);
+      }
+    }
+    board.castlingRights.whiteShort = castling.includes("K");
+    board.castlingRights.whiteLong = castling.includes("Q");
+    board.castlingRights.blackShort = castling.includes("k");
+    board.castlingRights.blackLong = castling.includes("q");
+    if (!FEN_EN_PASSANT_RE.test(enPassant)) {
+      throw new Error(`Invalid FEN: invalid en passant square '${enPassant}'`);
+    }
+    if (enPassant !== "-") {
+      board.enPassantSquare = (0, conversion_1.squareToIndex)(enPassant.toUpperCase());
+    }
+    board.halfMoveClock = parseInt(halfMove, 10);
+    if (isNaN(board.halfMoveClock)) {
+      throw new Error(`Invalid FEN: invalid half-move clock '${halfMove}'`);
+    }
+    if (board.halfMoveClock < 0) {
+      throw new Error(`Invalid FEN: half-move clock must be >= 0`);
+    }
+    board.fullMoveNumber = parseInt(fullMove, 10);
+    if (isNaN(board.fullMoveNumber)) {
+      throw new Error(`Invalid FEN: invalid full move number '${fullMove}'`);
+    }
+    if (board.fullMoveNumber < 1) {
+      throw new Error(`Invalid FEN: full move number must be >= 1`);
+    }
+    board.zobristHash = (0, zobrist_1.computeZobristHash)(board);
+    const notToMove = board.turn === types_1.InternalColor.WHITE ? types_1.InternalColor.BLACK : types_1.InternalColor.WHITE;
+    const originalTurn = board.turn;
+    try {
+      board.turn = notToMove;
+      if ((0, AttackDetector_1.isKingInCheck)(board)) {
+        const side = notToMove === types_1.InternalColor.WHITE ? "white" : "black";
+        throw new Error(`Invalid FEN: ${side} is in check but it is not ${side}'s turn`);
+      }
+    } finally {
+      board.turn = originalTurn;
+    }
+    return board;
+  }
+  function validateFEN(fen) {
+    parseFEN(fen);
+  }
+  function toFEN(board) {
+    const parts = [];
+    const rankStrings = [];
+    for (let rank2 = 7;rank2 >= 0; rank2--) {
+      let rankStr = "";
+      let emptyCount = 0;
+      for (let file2 = 0;file2 < 8; file2++) {
+        const squareIndex = rank2 * 8 + file2;
+        const piece = board.mailbox[squareIndex];
+        if (piece === types_1.Piece.EMPTY) {
+          emptyCount++;
+        } else {
+          if (emptyCount > 0) {
+            rankStr += emptyCount.toString();
+            emptyCount = 0;
+          }
+          rankStr += pieceToFenChar(piece);
+        }
+      }
+      if (emptyCount > 0) {
+        rankStr += emptyCount.toString();
+      }
+      rankStrings.push(rankStr);
+    }
+    parts.push(rankStrings.join("/"));
+    parts.push(board.turn === types_1.InternalColor.WHITE ? "w" : "b");
+    let castling = "";
+    if (board.castlingRights.whiteShort)
+      castling += "K";
+    if (board.castlingRights.whiteLong)
+      castling += "Q";
+    if (board.castlingRights.blackShort)
+      castling += "k";
+    if (board.castlingRights.blackLong)
+      castling += "q";
+    parts.push(castling || "-");
+    if (board.enPassantSquare !== null) {
+      parts.push((0, conversion_1.indexToSquare)(board.enPassantSquare).toLowerCase());
+    } else {
+      parts.push("-");
+    }
+    parts.push(board.halfMoveClock.toString());
+    parts.push(board.fullMoveNumber.toString());
+    return parts.join(" ");
+  }
+  function fenCharToPiece(char) {
+    switch (char) {
+      case "K":
+        return types_1.Piece.WHITE_KING;
+      case "Q":
+        return types_1.Piece.WHITE_QUEEN;
+      case "R":
+        return types_1.Piece.WHITE_ROOK;
+      case "B":
+        return types_1.Piece.WHITE_BISHOP;
+      case "N":
+        return types_1.Piece.WHITE_KNIGHT;
+      case "P":
+        return types_1.Piece.WHITE_PAWN;
+      case "k":
+        return types_1.Piece.BLACK_KING;
+      case "q":
+        return types_1.Piece.BLACK_QUEEN;
+      case "r":
+        return types_1.Piece.BLACK_ROOK;
+      case "b":
+        return types_1.Piece.BLACK_BISHOP;
+      case "n":
+        return types_1.Piece.BLACK_KNIGHT;
+      case "p":
+        return types_1.Piece.BLACK_PAWN;
+      default:
+        return null;
+    }
+  }
+  function pieceToFenChar(piece) {
+    switch (piece) {
+      case types_1.Piece.WHITE_KING:
+        return "K";
+      case types_1.Piece.WHITE_QUEEN:
+        return "Q";
+      case types_1.Piece.WHITE_ROOK:
+        return "R";
+      case types_1.Piece.WHITE_BISHOP:
+        return "B";
+      case types_1.Piece.WHITE_KNIGHT:
+        return "N";
+      case types_1.Piece.WHITE_PAWN:
+        return "P";
+      case types_1.Piece.BLACK_KING:
+        return "k";
+      case types_1.Piece.BLACK_QUEEN:
+        return "q";
+      case types_1.Piece.BLACK_ROOK:
+        return "r";
+      case types_1.Piece.BLACK_BISHOP:
+        return "b";
+      case types_1.Piece.BLACK_KNIGHT:
+        return "n";
+      case types_1.Piece.BLACK_PAWN:
+        return "p";
+      default:
+        return "";
+    }
+  }
+  function getStartingFEN() {
+    return "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
+  }
+});
+
+// node_modules/js-chess-engine/dist/ai/Evaluator.js
+var require_Evaluator = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.Evaluator = exports.SCORE_MAX = exports.SCORE_MIN = undefined;
+  var types_1 = require_types();
+  exports.SCORE_MIN = -1e6;
+  exports.SCORE_MAX = 1e6;
+  var V = {
+    [types_1.Piece.EMPTY]: 0,
+    [types_1.Piece.WHITE_PAWN]: 100,
+    [types_1.Piece.BLACK_PAWN]: 100,
+    [types_1.Piece.WHITE_KNIGHT]: 320,
+    [types_1.Piece.BLACK_KNIGHT]: 320,
+    [types_1.Piece.WHITE_BISHOP]: 320,
+    [types_1.Piece.BLACK_BISHOP]: 320,
+    [types_1.Piece.WHITE_ROOK]: 500,
+    [types_1.Piece.BLACK_ROOK]: 500,
+    [types_1.Piece.WHITE_QUEEN]: 900,
+    [types_1.Piece.BLACK_QUEEN]: 900,
+    [types_1.Piece.WHITE_KING]: 0,
+    [types_1.Piece.BLACK_KING]: 0
+  };
+  var PST_PAWN = new Int16Array([
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    2,
+    2,
+    4,
+    6,
+    6,
+    4,
+    2,
+    2,
+    1,
+    1,
+    2,
+    8,
+    8,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    6,
+    6,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    -2,
+    -2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    -4,
+    -4,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]);
+  var PST_KNIGHT = new Int16Array([
+    -20,
+    -10,
+    -10,
+    -10,
+    -10,
+    -10,
+    -10,
+    -20,
+    -10,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -10,
+    -10,
+    0,
+    5,
+    6,
+    6,
+    5,
+    0,
+    -10,
+    -10,
+    2,
+    6,
+    8,
+    8,
+    6,
+    2,
+    -10,
+    -10,
+    0,
+    6,
+    8,
+    8,
+    6,
+    0,
+    -10,
+    -10,
+    2,
+    4,
+    6,
+    6,
+    4,
+    2,
+    -10,
+    -10,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -10,
+    -20,
+    -10,
+    -10,
+    -10,
+    -10,
+    -10,
+    -10,
+    -20
+  ]);
+  var PST_BISHOP = new Int16Array([
+    -10,
+    -5,
+    -5,
+    -5,
+    -5,
+    -5,
+    -5,
+    -10,
+    -5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -5,
+    -5,
+    0,
+    3,
+    5,
+    5,
+    3,
+    0,
+    -5,
+    -5,
+    2,
+    5,
+    7,
+    7,
+    5,
+    2,
+    -5,
+    -5,
+    0,
+    5,
+    7,
+    7,
+    5,
+    0,
+    -5,
+    -5,
+    2,
+    3,
+    5,
+    5,
+    3,
+    2,
+    -5,
+    -5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -5,
+    -10,
+    -5,
+    -5,
+    -5,
+    -5,
+    -5,
+    -5,
+    -10
+  ]);
+  var PST_ROOK = new Int16Array([
+    0,
+    0,
+    2,
+    4,
+    4,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    4,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    4,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    4,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    4,
+    2,
+    0,
+    0,
+    2,
+    2,
+    4,
+    6,
+    6,
+    4,
+    2,
+    2,
+    5,
+    5,
+    5,
+    7,
+    7,
+    5,
+    5,
+    5,
+    0,
+    0,
+    2,
+    4,
+    4,
+    2,
+    0,
+    0
+  ]);
+  var PST_QUEEN = new Int16Array([
+    -10,
+    -5,
+    -5,
+    -2,
+    -2,
+    -5,
+    -5,
+    -10,
+    -5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -5,
+    -5,
+    0,
+    2,
+    2,
+    2,
+    2,
+    0,
+    -5,
+    -2,
+    0,
+    2,
+    3,
+    3,
+    2,
+    0,
+    -2,
+    -2,
+    0,
+    2,
+    3,
+    3,
+    2,
+    0,
+    -2,
+    -5,
+    0,
+    2,
+    2,
+    2,
+    2,
+    0,
+    -5,
+    -5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -5,
+    -10,
+    -5,
+    -5,
+    -2,
+    -2,
+    -5,
+    -5,
+    -10
+  ]);
+  var PST_KING = new Int16Array([
+    -30,
+    -40,
+    -40,
+    -50,
+    -50,
+    -40,
+    -40,
+    -30,
+    -30,
+    -40,
+    -40,
+    -50,
+    -50,
+    -40,
+    -40,
+    -30,
+    -30,
+    -40,
+    -40,
+    -50,
+    -50,
+    -40,
+    -40,
+    -30,
+    -30,
+    -40,
+    -40,
+    -50,
+    -50,
+    -40,
+    -40,
+    -30,
+    -20,
+    -30,
+    -30,
+    -40,
+    -40,
+    -30,
+    -30,
+    -20,
+    -10,
+    -20,
+    -20,
+    -20,
+    -20,
+    -20,
+    -20,
+    -10,
+    10,
+    10,
+    0,
+    0,
+    0,
+    0,
+    10,
+    10,
+    20,
+    30,
+    10,
+    0,
+    0,
+    10,
+    30,
+    20
+  ]);
+  function mirrorSquare(sq) {
+    const rank2 = sq / 8 | 0;
+    const file2 = sq & 7;
+    return (7 - rank2) * 8 + file2;
+  }
+  function pst(piece, square) {
+    const isWhite = piece >= types_1.Piece.WHITE_PAWN && piece <= types_1.Piece.WHITE_KING;
+    const sq = isWhite ? mirrorSquare(square) : square;
+    switch (piece) {
+      case types_1.Piece.WHITE_PAWN:
+      case types_1.Piece.BLACK_PAWN:
+        return PST_PAWN[sq];
+      case types_1.Piece.WHITE_KNIGHT:
+      case types_1.Piece.BLACK_KNIGHT:
+        return PST_KNIGHT[sq];
+      case types_1.Piece.WHITE_BISHOP:
+      case types_1.Piece.BLACK_BISHOP:
+        return PST_BISHOP[sq];
+      case types_1.Piece.WHITE_ROOK:
+      case types_1.Piece.BLACK_ROOK:
+        return PST_ROOK[sq];
+      case types_1.Piece.WHITE_QUEEN:
+      case types_1.Piece.BLACK_QUEEN:
+        return PST_QUEEN[sq];
+      case types_1.Piece.WHITE_KING:
+      case types_1.Piece.BLACK_KING:
+        return PST_KING[sq];
+      default:
+        return 0;
+    }
+  }
+
+  class Evaluator {
+    static evaluate(board, playerColor, plyFromRoot = 0) {
+      if (board.isCheckmate) {
+        const losing = board.turn === playerColor;
+        return losing ? exports.SCORE_MIN + plyFromRoot : exports.SCORE_MAX - plyFromRoot;
+      }
+      if (board.isStalemate)
+        return 0;
+      let white = 0;
+      let black = 0;
+      const mb = board.mailbox;
+      for (let sq = 0;sq < 64; sq++) {
+        const p = mb[sq];
+        if (!p)
+          continue;
+        const val = (V[p] ?? 0) + pst(p, sq);
+        if (p <= types_1.Piece.WHITE_KING)
+          white += val;
+        else
+          black += val;
+      }
+      const scoreFromWhite = white - black;
+      return playerColor === types_1.InternalColor.WHITE ? scoreFromWhite : -scoreFromWhite;
+    }
+  }
+  exports.Evaluator = Evaluator;
+});
+
+// node_modules/js-chess-engine/dist/utils/environment.js
+var require_environment = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.isNodeEnvironment = isNodeEnvironment;
+  exports.isBrowserEnvironment = isBrowserEnvironment;
+  exports.getDefaultTTSize = getDefaultTTSize;
+  function isNodeEnvironment() {
+    return typeof process !== "undefined" && process.versions != null && process.versions.node != null;
+  }
+  function isBrowserEnvironment() {
+    return !isNodeEnvironment();
+  }
+  function getDefaultTTSize() {
+    return isNodeEnvironment() ? 4 : 2;
+  }
+});
+
+// node_modules/js-chess-engine/dist/ai/TranspositionTable.js
+var require_TranspositionTable = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.TranspositionTable = exports.TTEntryType = undefined;
+  exports.getRecommendedTTSize = getRecommendedTTSize;
+  var Evaluator_1 = require_Evaluator();
+  var environment_1 = require_environment();
+  var MATE_THRESHOLD = 500;
+  function getRecommendedTTSize(level) {
+    if ((0, environment_1.isNodeEnvironment)()) {
+      const nodeSizes = {
+        1: 0.5,
+        2: 1,
+        3: 4,
+        4: 16,
+        5: 40
+      };
+      return nodeSizes[level] ?? 4;
+    } else {
+      const browserSizes = {
+        1: 0.25,
+        2: 0.5,
+        3: 2,
+        4: 8,
+        5: 20
+      };
+      return browserSizes[level] ?? 2;
+    }
+  }
+  function adjustMateScoreForStorage(score, ply) {
+    if (score > Evaluator_1.SCORE_MAX - MATE_THRESHOLD)
+      return score + ply;
+    if (score < Evaluator_1.SCORE_MIN + MATE_THRESHOLD)
+      return score - ply;
+    return score;
+  }
+  function adjustMateScoreForRetrieval(score, ply) {
+    if (score > Evaluator_1.SCORE_MAX - MATE_THRESHOLD)
+      return score - ply;
+    if (score < Evaluator_1.SCORE_MIN + MATE_THRESHOLD)
+      return score + ply;
+    return score;
+  }
+  var TTEntryType;
+  (function(TTEntryType2) {
+    TTEntryType2[TTEntryType2["EXACT"] = 0] = "EXACT";
+    TTEntryType2[TTEntryType2["LOWER_BOUND"] = 1] = "LOWER_BOUND";
+    TTEntryType2[TTEntryType2["UPPER_BOUND"] = 2] = "UPPER_BOUND";
+  })(TTEntryType || (exports.TTEntryType = TTEntryType = {}));
+
+  class TranspositionTable {
+    table;
+    size;
+    currentAge = 0;
+    hits = 0;
+    misses = 0;
+    constructor(sizeMB = 16) {
+      const entrySize = 40;
+      const bytesPerMB = 1024 * 1024;
+      const totalBytes = sizeMB * bytesPerMB;
+      this.size = Math.pow(2, Math.floor(Math.log2(totalBytes / entrySize)));
+      this.table = new Array(this.size).fill(null);
+    }
+    store(zobristHash, depth, score, type, bestMove, ply = 0) {
+      const index = this.getIndex(zobristHash);
+      const existingEntry = this.table[index];
+      const shouldReplace = !existingEntry || existingEntry.zobristHash === zobristHash || depth >= existingEntry.depth || existingEntry.age < this.currentAge;
+      if (shouldReplace) {
+        this.table[index] = {
+          zobristHash,
+          depth,
+          score: adjustMateScoreForStorage(score, ply),
+          type,
+          bestMove,
+          age: this.currentAge
+        };
+      }
+    }
+    probe(zobristHash, depth, alpha, beta, ply = 0) {
+      const index = this.getIndex(zobristHash);
+      const entry = this.table[index];
+      if (!entry || entry.zobristHash !== zobristHash) {
+        this.misses++;
+        return null;
+      }
+      if (entry.depth < depth) {
+        this.misses++;
+        return null;
+      }
+      const adjustedScore = adjustMateScoreForRetrieval(entry.score, ply);
+      switch (entry.type) {
+        case TTEntryType.EXACT:
+          this.hits++;
+          return { ...entry, score: adjustedScore };
+        case TTEntryType.LOWER_BOUND:
+          if (adjustedScore >= beta) {
+            this.hits++;
+            return { ...entry, score: adjustedScore };
+          }
+          break;
+        case TTEntryType.UPPER_BOUND:
+          if (adjustedScore <= alpha) {
+            this.hits++;
+            return { ...entry, score: adjustedScore };
+          }
+          break;
+      }
+      return { ...entry, score: adjustedScore };
+    }
+    getBestMove(zobristHash) {
+      const index = this.getIndex(zobristHash);
+      const entry = this.table[index];
+      if (entry && entry.zobristHash === zobristHash) {
+        return entry.bestMove;
+      }
+      return null;
+    }
+    clear() {
+      this.table.fill(null);
+      this.currentAge = 0;
+      this.hits = 0;
+      this.misses = 0;
+    }
+    newSearch() {
+      this.currentAge++;
+    }
+    getIndex(hash) {
+      return Number(hash & BigInt(this.size - 1));
+    }
+    getStats() {
+      const total = this.hits + this.misses;
+      const hitRate = total > 0 ? this.hits / total : 0;
+      return {
+        hits: this.hits,
+        misses: this.misses,
+        hitRate,
+        size: this.size
+      };
+    }
+  }
+  exports.TranspositionTable = TranspositionTable;
+});
+
+// node_modules/js-chess-engine/dist/adapters/APIAdapter.js
+var require_APIAdapter = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.boardToConfig = boardToConfig;
+  exports.configToBoard = configToBoard;
+  exports.configToFEN = configToFEN;
+  exports.movesToMap = movesToMap;
+  exports.movesFromSquare = movesFromSquare;
+  exports.pieceToSymbol = pieceToSymbol;
+  exports.symbolToPiece = symbolToPiece;
+  exports.colorToInternal = colorToInternal;
+  exports.internalToColor = internalToColor;
+  exports.normalizeSquare = normalizeSquare;
+  var types_1 = require_types();
+  var conversion_1 = require_conversion();
+  function boardToConfig(board) {
+    const pieces = {};
+    for (let i = 0;i < 64; i++) {
+      const piece = board.mailbox[i];
+      if (piece !== types_1.Piece.EMPTY) {
+        const square = (0, conversion_1.indexToSquare)(i);
+        const symbol = pieceToSymbol(piece);
+        if (symbol) {
+          pieces[square] = symbol;
+        }
+      }
+    }
+    return {
+      pieces,
+      turn: board.turn === types_1.InternalColor.WHITE ? "white" : "black",
+      isFinished: board.isCheckmate || board.isStalemate,
+      check: board.isCheck,
+      checkMate: board.isCheckmate,
+      staleMate: board.isStalemate,
+      castling: { ...board.castlingRights },
+      enPassant: board.enPassantSquare !== null ? (0, conversion_1.indexToSquare)(board.enPassantSquare) : null,
+      halfMove: board.halfMoveClock,
+      fullMove: board.fullMoveNumber
+    };
+  }
+  function configToBoard(config) {
+    const { parseFEN } = require_fen();
+    const fen = configToFEN(config);
+    return parseFEN(fen);
+  }
+  function configToFEN(config) {
+    const ranks = [];
+    for (let rank2 = 7;rank2 >= 0; rank2--) {
+      let rankStr = "";
+      let emptyCount = 0;
+      for (let file2 = 0;file2 < 8; file2++) {
+        const square = (0, conversion_1.indexToSquare)(rank2 * 8 + file2);
+        const piece = config.pieces[square];
+        if (!piece) {
+          emptyCount++;
+        } else {
+          if (emptyCount > 0) {
+            rankStr += emptyCount.toString();
+            emptyCount = 0;
+          }
+          rankStr += piece;
+        }
+      }
+      if (emptyCount > 0) {
+        rankStr += emptyCount.toString();
+      }
+      ranks.push(rankStr);
+    }
+    const piecePlacement = ranks.join("/");
+    const activeColor = config.turn === "white" ? "w" : "b";
+    let castling = "";
+    if (config.castling.whiteShort)
+      castling += "K";
+    if (config.castling.whiteLong)
+      castling += "Q";
+    if (config.castling.blackShort)
+      castling += "k";
+    if (config.castling.blackLong)
+      castling += "q";
+    if (!castling)
+      castling = "-";
+    const enPassant = config.enPassant ? config.enPassant.toLowerCase() : "-";
+    const halfMove = config.halfMove.toString();
+    const fullMove = config.fullMove.toString();
+    return `${piecePlacement} ${activeColor} ${castling} ${enPassant} ${halfMove} ${fullMove}`;
+  }
+  function movesToMap(moves) {
+    const movesMap = {};
+    for (const move of moves) {
+      const fromSquare = (0, conversion_1.indexToSquare)(move.from);
+      const toSquare = (0, conversion_1.indexToSquare)(move.to);
+      if (!movesMap[fromSquare]) {
+        movesMap[fromSquare] = [];
+      }
+      movesMap[fromSquare].push(toSquare);
+    }
+    return movesMap;
+  }
+  function movesFromSquare(moves, fromIndex) {
+    return moves.filter((move) => move.from === fromIndex).map((move) => (0, conversion_1.indexToSquare)(move.to));
+  }
+  function pieceToSymbol(piece) {
+    switch (piece) {
+      case types_1.Piece.WHITE_KING:
+        return "K";
+      case types_1.Piece.WHITE_QUEEN:
+        return "Q";
+      case types_1.Piece.WHITE_ROOK:
+        return "R";
+      case types_1.Piece.WHITE_BISHOP:
+        return "B";
+      case types_1.Piece.WHITE_KNIGHT:
+        return "N";
+      case types_1.Piece.WHITE_PAWN:
+        return "P";
+      case types_1.Piece.BLACK_KING:
+        return "k";
+      case types_1.Piece.BLACK_QUEEN:
+        return "q";
+      case types_1.Piece.BLACK_ROOK:
+        return "r";
+      case types_1.Piece.BLACK_BISHOP:
+        return "b";
+      case types_1.Piece.BLACK_KNIGHT:
+        return "n";
+      case types_1.Piece.BLACK_PAWN:
+        return "p";
+      default:
+        return null;
+    }
+  }
+  function symbolToPiece(symbol) {
+    switch (symbol) {
+      case "K":
+        return types_1.Piece.WHITE_KING;
+      case "Q":
+        return types_1.Piece.WHITE_QUEEN;
+      case "R":
+        return types_1.Piece.WHITE_ROOK;
+      case "B":
+        return types_1.Piece.WHITE_BISHOP;
+      case "N":
+        return types_1.Piece.WHITE_KNIGHT;
+      case "P":
+        return types_1.Piece.WHITE_PAWN;
+      case "k":
+        return types_1.Piece.BLACK_KING;
+      case "q":
+        return types_1.Piece.BLACK_QUEEN;
+      case "r":
+        return types_1.Piece.BLACK_ROOK;
+      case "b":
+        return types_1.Piece.BLACK_BISHOP;
+      case "n":
+        return types_1.Piece.BLACK_KNIGHT;
+      case "p":
+        return types_1.Piece.BLACK_PAWN;
+    }
+  }
+  function colorToInternal(color) {
+    return color === "white" ? types_1.InternalColor.WHITE : types_1.InternalColor.BLACK;
+  }
+  function internalToColor(color) {
+    return color === types_1.InternalColor.WHITE ? "white" : "black";
+  }
+  function normalizeSquare(square) {
+    return square.toUpperCase();
+  }
+});
+
+// node_modules/js-chess-engine/dist/ai/MoveOrdering.js
+var require_MoveOrdering = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.MoveSelector = exports.KillerMoves = undefined;
+  var types_1 = require_types();
+  var PIECE_VALUE = {
+    [types_1.Piece.EMPTY]: 0,
+    [types_1.Piece.WHITE_PAWN]: 100,
+    [types_1.Piece.BLACK_PAWN]: 100,
+    [types_1.Piece.WHITE_KNIGHT]: 320,
+    [types_1.Piece.BLACK_KNIGHT]: 320,
+    [types_1.Piece.WHITE_BISHOP]: 320,
+    [types_1.Piece.BLACK_BISHOP]: 320,
+    [types_1.Piece.WHITE_ROOK]: 500,
+    [types_1.Piece.BLACK_ROOK]: 500,
+    [types_1.Piece.WHITE_QUEEN]: 900,
+    [types_1.Piece.BLACK_QUEEN]: 900,
+    [types_1.Piece.WHITE_KING]: 20000,
+    [types_1.Piece.BLACK_KING]: 20000
+  };
+
+  class KillerMoves {
+    killers;
+    maxPly;
+    constructor(maxPly = 64) {
+      this.maxPly = maxPly;
+      this.killers = Array.from({ length: maxPly }, () => [null, null]);
+    }
+    clear() {
+      this.killers = Array.from({ length: this.maxPly }, () => [null, null]);
+    }
+    store(move, ply) {
+      if (ply < 0 || ply >= this.maxPly)
+        return;
+      if (move.flags & types_1.MoveFlag.CAPTURE)
+        return;
+      const k1 = this.killers[ply][0];
+      if (k1 && k1.from === move.from && k1.to === move.to)
+        return;
+      this.killers[ply][1] = k1;
+      this.killers[ply][0] = move;
+    }
+    isKiller(move, ply) {
+      if (ply < 0 || ply >= this.maxPly)
+        return false;
+      const [k1, k2] = this.killers[ply];
+      return !!(k1 && k1.from === move.from && k1.to === move.to || k2 && k2.from === move.from && k2.to === move.to);
+    }
+  }
+  exports.KillerMoves = KillerMoves;
+  function mvvLvaScore(move) {
+    const victim = PIECE_VALUE[move.capturedPiece] ?? 0;
+    const attacker = PIECE_VALUE[move.piece] ?? 0;
+    return victim * 16 - attacker;
+  }
+
+  class MoveSelector {
+    moves;
+    scores;
+    n;
+    cursor = 0;
+    constructor(moves, ttMove, killers, ply) {
+      this.moves = moves;
+      this.n = moves.length;
+      const scores = new Int32Array(this.n);
+      for (let i = 0;i < this.n; i++) {
+        const m = moves[i];
+        let score = 0;
+        if (ttMove && m.from === ttMove.from && m.to === ttMove.to) {
+          score += 1e7;
+        }
+        if (m.flags & types_1.MoveFlag.PROMOTION && (m.promotionPiece === types_1.Piece.WHITE_QUEEN || m.promotionPiece === types_1.Piece.BLACK_QUEEN)) {
+          score += 9000000;
+        }
+        if (m.flags & types_1.MoveFlag.CAPTURE) {
+          score += 5000000 + mvvLvaScore(m);
+        }
+        if (killers && killers.isKiller(m, ply)) {
+          score += 3000000;
+        }
+        scores[i] = score;
+      }
+      this.scores = scores;
+    }
+    pickNext() {
+      const { cursor, n, scores, moves } = this;
+      if (cursor >= n)
+        return null;
+      let bestIdx = cursor;
+      let bestScore = scores[cursor];
+      for (let j = cursor + 1;j < n; j++) {
+        if (scores[j] > bestScore) {
+          bestScore = scores[j];
+          bestIdx = j;
+        }
+      }
+      if (bestIdx !== cursor) {
+        const tmpMove = moves[cursor];
+        moves[cursor] = moves[bestIdx];
+        moves[bestIdx] = tmpMove;
+        scores[bestIdx] = scores[cursor];
+      }
+      this.cursor++;
+      return moves[cursor];
+    }
+  }
+  exports.MoveSelector = MoveSelector;
+});
+
+// node_modules/js-chess-engine/dist/ai/Search.js
+var require_Search = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.Search = undefined;
+  var types_1 = require_types();
+  var MoveGenerator_1 = require_MoveGenerator();
+  var Board_1 = require_Board();
+  var AttackDetector_1 = require_AttackDetector();
+  var conversion_1 = require_conversion();
+  var Evaluator_1 = require_Evaluator();
+  var TranspositionTable_1 = require_TranspositionTable();
+  var MoveOrdering_1 = require_MoveOrdering();
+  var INF = Evaluator_1.SCORE_MAX;
+
+  class Search {
+    nodesSearched = 0;
+    qMaxDepth = 4;
+    checkExtension = true;
+    transpositionTable;
+    killerMoves;
+    constructor(ttSizeMB = 16) {
+      this.transpositionTable = ttSizeMB > 0 ? new TranspositionTable_1.TranspositionTable(ttSizeMB) : null;
+      this.killerMoves = new MoveOrdering_1.KillerMoves;
+    }
+    clear() {
+      this.transpositionTable?.clear();
+      this.killerMoves.clear();
+    }
+    findBestMove(board, baseDepth, qMaxDepth = 4, checkExtension = true, options = {}) {
+      this.qMaxDepth = qMaxDepth;
+      this.checkExtension = checkExtension;
+      this.nodesSearched = 0;
+      this.transpositionTable?.newSearch();
+      this.killerMoves.clear();
+      const analysis = options.analysis ?? false;
+      const randomness = options.randomness ?? 0;
+      const moves = (0, MoveGenerator_1.generateLegalMoves)(board);
+      if (moves.length === 0) {
+        const inCheck = (0, AttackDetector_1.isKingInCheck)(board);
+        const score = inCheck ? Evaluator_1.SCORE_MIN + 0 : 0;
+        return { move: null, score, depth: 0, nodesSearched: this.nodesSearched };
+      }
+      let bestMove = null;
+      let bestScore = Evaluator_1.SCORE_MIN;
+      let scoredMoves;
+      const ASPIRATION_DELTA = 25;
+      for (let d = 1;d <= baseDepth; d++) {
+        const collectScores = d === baseDepth && (randomness > 0 || analysis);
+        let alpha = Evaluator_1.SCORE_MIN;
+        let beta = Evaluator_1.SCORE_MAX;
+        let delta = ASPIRATION_DELTA;
+        if (d >= 4 && bestScore > Evaluator_1.SCORE_MIN && bestScore < Evaluator_1.SCORE_MAX) {
+          alpha = bestScore - delta;
+          beta = bestScore + delta;
+        }
+        let iterBestMove = null;
+        let iterBestScore = Evaluator_1.SCORE_MIN;
+        let iterScoredMoves = null;
+        while (true) {
+          const pvMove = this.transpositionTable?.getBestMove(board.zobristHash) ?? null;
+          const selector = new MoveOrdering_1.MoveSelector(moves, pvMove, this.killerMoves, 0);
+          iterScoredMoves = collectScores ? [] : null;
+          iterBestMove = null;
+          iterBestScore = Evaluator_1.SCORE_MIN;
+          let iterAlpha = alpha;
+          let move;
+          let moveIndex = 0;
+          while ((move = selector.pickNext()) !== null) {
+            if (move.flags & types_1.MoveFlag.PROMOTION && move.promotionPiece) {
+              const isQueenPromotion = move.promotionPiece === types_1.Piece.WHITE_QUEEN || move.promotionPiece === types_1.Piece.BLACK_QUEEN;
+              if (!isQueenPromotion)
+                continue;
+            }
+            const child = (0, Board_1.copyBoard)(board);
+            (0, MoveGenerator_1.applyMoveComplete)(child, move);
+            const extension = this.checkExtension && child.isCheck ? 1 : 0;
+            let score;
+            if (moveIndex === 0) {
+              score = -this.negamax(child, d - 1 + extension, -beta, -iterAlpha, 1);
+            } else {
+              score = -this.negamax(child, d - 1 + extension, -iterAlpha - 1, -iterAlpha, 1);
+              if (score > iterAlpha && score < beta) {
+                score = -this.negamax(child, d - 1 + extension, -beta, -iterAlpha, 1);
+              }
+            }
+            moveIndex++;
+            if (iterScoredMoves) {
+              iterScoredMoves.push({ move, score });
+            }
+            if (score > iterBestScore || iterBestMove === null) {
+              iterBestScore = score;
+              iterBestMove = move;
+            }
+            if (score > iterAlpha)
+              iterAlpha = score;
+            if (iterAlpha >= beta)
+              break;
+          }
+          if (d >= 4 && (alpha > Evaluator_1.SCORE_MIN || beta < Evaluator_1.SCORE_MAX)) {
+            if (iterBestScore <= alpha) {
+              delta *= 2;
+              alpha = delta > 400 ? Evaluator_1.SCORE_MIN : Math.max(Evaluator_1.SCORE_MIN, alpha - delta);
+              continue;
+            }
+            if (iterBestScore >= beta) {
+              delta *= 2;
+              beta = delta > 400 ? Evaluator_1.SCORE_MAX : Math.min(Evaluator_1.SCORE_MAX, beta + delta);
+              continue;
+            }
+          }
+          break;
+        }
+        if (iterScoredMoves) {
+          iterScoredMoves.sort((a, b) => b.score - a.score);
+          scoredMoves = iterScoredMoves;
+          if (iterScoredMoves.length > 0) {
+            bestMove = iterScoredMoves[0].move;
+            bestScore = iterScoredMoves[0].score;
+          }
+        } else if (iterBestMove) {
+          bestMove = iterBestMove;
+          bestScore = iterBestScore;
+        }
+      }
+      if (randomness > 0 && scoredMoves && scoredMoves.length > 1) {
+        const threshold = bestScore - randomness;
+        let candidates = scoredMoves.filter((e) => e.score >= threshold);
+        if (candidates.length > 1) {
+          const bestIsCapture = !!(scoredMoves[0].move.flags & types_1.MoveFlag.CAPTURE);
+          if (bestIsCapture) {
+            const captureCandidates = candidates.filter((e) => e.move.flags & types_1.MoveFlag.CAPTURE);
+            if (captureCandidates.length > 0)
+              candidates = captureCandidates;
+          }
+          bestMove = candidates[Math.floor(Math.random() * candidates.length)].move;
+        }
+      }
+      return bestMove ? { move: bestMove, score: bestScore, depth: baseDepth, nodesSearched: this.nodesSearched, scoredMoves } : null;
+    }
+    negamax(board, depth, alpha, beta, ply) {
+      this.nodesSearched++;
+      if (depth <= 0) {
+        return this.quiescence(board, alpha, beta, ply, 0);
+      }
+      const tt = this.transpositionTable;
+      const hash = board.zobristHash;
+      let ttMove = null;
+      if (tt) {
+        const entry = tt.probe(hash, depth, alpha, beta, ply);
+        if (entry) {
+          ttMove = entry.bestMove;
+          if (entry.type === TranspositionTable_1.TTEntryType.EXACT)
+            return entry.score;
+          if (entry.type === TranspositionTable_1.TTEntryType.LOWER_BOUND && entry.score >= beta)
+            return entry.score;
+          if (entry.type === TranspositionTable_1.TTEntryType.UPPER_BOUND && entry.score <= alpha)
+            return entry.score;
+        }
+      }
+      const moves = (0, MoveGenerator_1.generatePseudoLegalMoves)(board);
+      const selector = new MoveOrdering_1.MoveSelector(moves, ttMove, this.killerMoves, ply);
+      const startAlpha = alpha;
+      let bestScore = -INF;
+      let bestMove = null;
+      let legalMoveCount = 0;
+      let move;
+      while ((move = selector.pickNext()) !== null) {
+        if (move.flags & types_1.MoveFlag.PROMOTION && move.promotionPiece) {
+          const isQueenPromotion = move.promotionPiece === types_1.Piece.WHITE_QUEEN || move.promotionPiece === types_1.Piece.BLACK_QUEEN;
+          if (!isQueenPromotion)
+            continue;
+        }
+        const child = (0, Board_1.copyBoard)(board);
+        (0, MoveGenerator_1.applyMoveComplete)(child, move);
+        if (this.isIllegalMove(child))
+          continue;
+        legalMoveCount++;
+        const extension = this.checkExtension && child.isCheck ? 1 : 0;
+        let score;
+        if (legalMoveCount === 1) {
+          score = -this.negamax(child, depth - 1 + extension, -beta, -alpha, ply + 1);
+        } else {
+          score = -this.negamax(child, depth - 1 + extension, -alpha - 1, -alpha, ply + 1);
+          if (score > alpha && score < beta) {
+            score = -this.negamax(child, depth - 1 + extension, -beta, -alpha, ply + 1);
+          }
+        }
+        if (score > bestScore || bestMove === null) {
+          bestScore = score;
+          bestMove = move;
+        }
+        if (score > alpha)
+          alpha = score;
+        if (alpha >= beta) {
+          this.killerMoves.store(move, ply);
+          break;
+        }
+      }
+      if (legalMoveCount === 0) {
+        if ((0, AttackDetector_1.isKingInCheck)(board))
+          return Evaluator_1.SCORE_MIN + ply;
+        return 0;
+      }
+      if (tt && bestMove) {
+        let type = TranspositionTable_1.TTEntryType.EXACT;
+        if (bestScore <= startAlpha)
+          type = TranspositionTable_1.TTEntryType.UPPER_BOUND;
+        else if (bestScore >= beta)
+          type = TranspositionTable_1.TTEntryType.LOWER_BOUND;
+        tt.store(hash, depth, bestScore, type, bestMove, ply);
+      }
+      return bestScore;
+    }
+    quiescence(board, alpha, beta, ply, qDepth) {
+      this.nodesSearched++;
+      const standPat = Evaluator_1.Evaluator.evaluate(board, board.turn, ply);
+      if (standPat >= beta)
+        return standPat;
+      if (standPat > alpha)
+        alpha = standPat;
+      if (qDepth >= this.qMaxDepth)
+        return standPat;
+      const allMoves = (0, MoveGenerator_1.generatePseudoLegalMoves)(board);
+      const forcingMask = types_1.MoveFlag.CAPTURE | types_1.MoveFlag.PROMOTION;
+      const forcing = [];
+      for (let i = 0;i < allMoves.length; i++) {
+        if (allMoves[i].flags & forcingMask)
+          forcing.push(allMoves[i]);
+      }
+      const tt = this.transpositionTable;
+      const ttMove = tt ? tt.getBestMove(board.zobristHash) : null;
+      const selector = new MoveOrdering_1.MoveSelector(forcing, ttMove, this.killerMoves, ply);
+      let bestScore = standPat;
+      let legalForcingFound = false;
+      let move;
+      while ((move = selector.pickNext()) !== null) {
+        if (move.flags & types_1.MoveFlag.PROMOTION && move.promotionPiece) {
+          const isQueenPromotion = move.promotionPiece === types_1.Piece.WHITE_QUEEN || move.promotionPiece === types_1.Piece.BLACK_QUEEN;
+          if (!isQueenPromotion)
+            continue;
+        }
+        const child = (0, Board_1.copyBoard)(board);
+        (0, MoveGenerator_1.applyMoveComplete)(child, move);
+        if (this.isIllegalMove(child))
+          continue;
+        legalForcingFound = true;
+        const score = -this.quiescence(child, -beta, -alpha, ply + 1, qDepth + 1);
+        if (score > bestScore)
+          bestScore = score;
+        if (score >= beta)
+          return score;
+        if (score > alpha)
+          alpha = score;
+      }
+      if (!legalForcingFound && (0, AttackDetector_1.isKingInCheck)(board)) {
+        for (const m of allMoves) {
+          if (m.flags & types_1.MoveFlag.CAPTURE || m.flags & types_1.MoveFlag.PROMOTION)
+            continue;
+          const child = (0, Board_1.copyBoard)(board);
+          (0, MoveGenerator_1.applyMoveComplete)(child, m);
+          if (!this.isIllegalMove(child))
+            return standPat;
+        }
+        return Evaluator_1.SCORE_MIN + ply;
+      }
+      return bestScore;
+    }
+    isIllegalMove(child) {
+      const prevColor = child.turn === types_1.InternalColor.WHITE ? types_1.InternalColor.BLACK : types_1.InternalColor.WHITE;
+      const prevKingBB = prevColor === types_1.InternalColor.WHITE ? child.whiteKing : child.blackKing;
+      if (prevKingBB === 0n)
+        return false;
+      const prevKingSq = (0, conversion_1.getLowestSetBit)(prevKingBB);
+      return (0, AttackDetector_1.isSquareAttacked)(child, prevKingSq, child.turn);
+    }
+  }
+  exports.Search = Search;
+});
+
+// node_modules/js-chess-engine/dist/ai/AIEngine.js
+var require_AIEngine = __commonJS((exports) => {
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.AIEngine = undefined;
+  var Search_1 = require_Search();
+  var MoveGenerator_1 = require_MoveGenerator();
+  var types_1 = require_types();
+  var LEVEL_CONFIG = {
+    1: { baseDepth: 1, extendedDepth: 0, checkExtension: false, qMaxDepth: 0 },
+    2: { baseDepth: 2, extendedDepth: 0, checkExtension: true, qMaxDepth: 0 },
+    3: { baseDepth: 2, extendedDepth: 1, checkExtension: true, qMaxDepth: 1 },
+    4: { baseDepth: 3, extendedDepth: 2, checkExtension: true, qMaxDepth: 2 },
+    5: { baseDepth: 4, extendedDepth: 3, checkExtension: true, qMaxDepth: 4 }
+  };
+
+  class AIEngine {
+    search;
+    currentTTSize = 16;
+    constructor() {
+      this.search = new Search_1.Search(this.currentTTSize);
+    }
+    findBestMove(board, level = 3, ttSizeMB = 16, depth, randomness) {
+      const result = this.findBestMoveDetailed(board, { level, ttSizeMB, depth, analysis: false, randomness });
+      return result ? result.move : null;
+    }
+    findBestMoveDetailed(board, options = {}) {
+      const level = options.level ?? 3;
+      const ttSizeMB = options.ttSizeMB ?? 16;
+      if (ttSizeMB !== this.currentTTSize) {
+        this.currentTTSize = ttSizeMB;
+        this.search = new Search_1.Search(ttSizeMB);
+      }
+      const config = LEVEL_CONFIG[level];
+      const baseDepth = options.depth?.base ?? config.baseDepth;
+      const extendedDepth = options.depth?.extended ?? config.extendedDepth;
+      const qMaxDepth = options.depth?.quiescence ?? config.qMaxDepth;
+      const checkExtension = options.depth?.check ?? config.checkExtension;
+      const effectiveDepth = this.getAdaptiveDepth(board, baseDepth, extendedDepth);
+      const OPENING_RANDOMNESS = 5;
+      const effectiveRandomness = options.randomness === undefined && board.fullMoveNumber === 1 ? OPENING_RANDOMNESS : options.randomness ?? 0;
+      return this.search.findBestMove(board, effectiveDepth, qMaxDepth, checkExtension, {
+        analysis: options.analysis ?? false,
+        randomness: effectiveRandomness
+      });
+    }
+    static getLevelDepth(level) {
+      return LEVEL_CONFIG[level];
+    }
+    getAdaptiveDepth(board, baseDepth, allowedExtendedDepth) {
+      if (allowedExtendedDepth <= 0)
+        return Math.max(1, baseDepth);
+      const rootMoves = (0, MoveGenerator_1.generateLegalMoves)(board).length;
+      let pieceCount = 0;
+      for (const p of board.mailbox) {
+        if (p !== types_1.Piece.EMPTY)
+          pieceCount++;
+      }
+      let depth = baseDepth;
+      if (pieceCount <= 10)
+        depth += 2;
+      else if (pieceCount <= 18)
+        depth += 1;
+      if (rootMoves <= 12)
+        depth += 1;
+      if (depth < baseDepth)
+        depth = baseDepth;
+      if (depth < 1)
+        depth = 1;
+      const maxDepth = baseDepth + allowedExtendedDepth;
+      if (depth > maxDepth)
+        depth = maxDepth;
+      return depth;
+    }
+  }
+  exports.AIEngine = AIEngine;
+});
+
+// node_modules/js-chess-engine/dist/index.js
+var require_dist = __commonJS((exports) => {
+  var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
+    if (k2 === undefined)
+      k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() {
+        return m[k];
+      } };
+    }
+    Object.defineProperty(o, k2, desc);
+  } : function(o, m, k, k2) {
+    if (k2 === undefined)
+      k2 = k;
+    o[k2] = m[k];
+  });
+  var __exportStar = exports && exports.__exportStar || function(m, exports2) {
+    for (var p in m)
+      if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports2, p))
+        __createBinding(exports2, m, p);
+  };
+  Object.defineProperty(exports, "__esModule", { value: true });
+  exports.Game = undefined;
+  exports.moves = moves;
+  exports.status = status;
+  exports.getFen = getFen;
+  exports.move = move;
+  exports.aiMove = aiMove;
+  exports.ai = ai;
+  var Board_1 = require_Board();
+  var MoveGenerator_1 = require_MoveGenerator();
+  var AttackDetector_1 = require_AttackDetector();
+  var fen_1 = require_fen();
+  var conversion_1 = require_conversion();
+  var TranspositionTable_1 = require_TranspositionTable();
+  var APIAdapter_1 = require_APIAdapter();
+  var AIEngine_1 = require_AIEngine();
+  __exportStar(require_types(), exports);
+
+  class Game {
+    board;
+    history = [];
+    aiEngine;
+    constructor(configuration) {
+      this.aiEngine = new AIEngine_1.AIEngine;
+      if (!configuration) {
+        this.board = (0, Board_1.createStartingBoard)();
+      } else if (typeof configuration === "string") {
+        (0, fen_1.validateFEN)(configuration);
+        this.board = (0, fen_1.parseFEN)(configuration);
+      } else {
+        this.board = (0, APIAdapter_1.configToBoard)(configuration);
+      }
+    }
+    move(from, to) {
+      const fromNorm = (0, APIAdapter_1.normalizeSquare)(from);
+      const toNorm = (0, APIAdapter_1.normalizeSquare)(to);
+      const fromIndex = (0, conversion_1.squareToIndex)(fromNorm);
+      const toIndex = (0, conversion_1.squareToIndex)(toNorm);
+      const legalMoves = (0, MoveGenerator_1.generateLegalMoves)(this.board);
+      const move2 = legalMoves.find((m) => m.from === fromIndex && m.to === toIndex);
+      if (!move2) {
+        throw new Error(`Invalid move from ${fromNorm} to ${toNorm}`);
+      }
+      const historyEntry = { [fromNorm]: toNorm };
+      this.history.push(historyEntry);
+      (0, MoveGenerator_1.applyMoveComplete)(this.board, move2);
+      return (0, APIAdapter_1.boardToConfig)(this.board);
+    }
+    moves(from) {
+      if (from) {
+        const fromNorm = (0, APIAdapter_1.normalizeSquare)(from);
+        const fromIndex = (0, conversion_1.squareToIndex)(fromNorm);
+        const pieceMoves = (0, MoveGenerator_1.getMovesForPiece)(this.board, fromIndex);
+        const toSquares = (0, APIAdapter_1.movesFromSquare)(pieceMoves, fromIndex);
+        return { [fromNorm]: toSquares };
+      } else {
+        const allMoves = (0, MoveGenerator_1.generateLegalMoves)(this.board);
+        return (0, APIAdapter_1.movesToMap)(allMoves);
+      }
+    }
+    setPiece(square, piece) {
+      const squareNorm = (0, APIAdapter_1.normalizeSquare)(square);
+      const squareIndex = (0, conversion_1.squareToIndex)(squareNorm);
+      const pieceEnum = (0, APIAdapter_1.symbolToPiece)(piece);
+      (0, Board_1.setPiece)(this.board, squareIndex, pieceEnum);
+    }
+    removePiece(square) {
+      const squareNorm = (0, APIAdapter_1.normalizeSquare)(square);
+      const squareIndex = (0, conversion_1.squareToIndex)(squareNorm);
+      (0, Board_1.removePiece)(this.board, squareIndex);
+    }
+    getHistory() {
+      const result = [];
+      const startingBoard = typeof this.board === "string" ? (0, fen_1.parseFEN)(this.board) : (0, Board_1.createStartingBoard)();
+      const tempBoard = (0, Board_1.copyBoard)(startingBoard);
+      for (const move2 of this.history) {
+        const [from, to] = Object.entries(move2)[0];
+        const fromIndex = (0, conversion_1.squareToIndex)(from);
+        const toIndex = (0, conversion_1.squareToIndex)(to);
+        const legalMoves = (0, MoveGenerator_1.generateLegalMoves)(tempBoard);
+        const matchingMove = legalMoves.find((m) => m.from === fromIndex && m.to === toIndex);
+        if (matchingMove) {
+          (0, MoveGenerator_1.applyMoveComplete)(tempBoard, matchingMove);
+          const config = (0, APIAdapter_1.boardToConfig)(tempBoard);
+          result.push({ ...config, move: move2 });
+        }
+      }
+      return result;
+    }
+    exportJson() {
+      const cfg = (0, APIAdapter_1.boardToConfig)(this.board);
+      this.updateConfigStatusFromBoard(this.board, cfg);
+      return cfg;
+    }
+    exportFEN() {
+      return (0, fen_1.toFEN)(this.board);
+    }
+    printToConsole() {
+      process.stdout.write(`
+`);
+      for (let rank2 = 7;rank2 >= 0; rank2--) {
+        process.stdout.write(`${rank2 + 1}`);
+        for (let file2 = 0;file2 < 8; file2++) {
+          const index = rank2 * 8 + file2;
+          const piece = this.board.mailbox[index];
+          const isWhiteSquare = (rank2 + file2) % 2 === 0;
+          const symbol = pieceToUnicode(piece, isWhiteSquare);
+          process.stdout.write(symbol);
+        }
+        process.stdout.write(`
+`);
+      }
+      process.stdout.write(` ABCDEFGH
+`);
+    }
+    aiMove(level = 3) {
+      if (level < 1 || level > 5) {
+        throw new Error("AI level must be between 1 and 5");
+      }
+      const ttSizeMB = (0, TranspositionTable_1.getRecommendedTTSize)(level);
+      const bestMove = this.aiEngine.findBestMove(this.board, level, ttSizeMB);
+      if (!bestMove) {
+        throw new Error("Game is already finished");
+      }
+      const fromSquare = (0, conversion_1.indexToSquare)(bestMove.from);
+      const toSquare = (0, conversion_1.indexToSquare)(bestMove.to);
+      const historyEntry = { [fromSquare]: toSquare };
+      this.history.push(historyEntry);
+      (0, MoveGenerator_1.applyMoveComplete)(this.board, bestMove);
+      return historyEntry;
+    }
+    ai(options = {}) {
+      const requestedLevel = options.level ?? 3;
+      const level = Math.max(1, Math.min(5, requestedLevel));
+      const play = options.play ?? true;
+      const analysis = options.analysis ?? false;
+      const defaultSize = (0, TranspositionTable_1.getRecommendedTTSize)(level);
+      const ttSizeMB = options.ttSizeMB === 0 ? 0 : Math.max(0.25, options.ttSizeMB ?? defaultSize);
+      if (requestedLevel < 1 || requestedLevel > 5) {
+        throw new Error("AI level must be between 1 and 5");
+      }
+      if (options.depth) {
+        const d = options.depth;
+        if (d.base !== undefined && (!Number.isInteger(d.base) || d.base < 1)) {
+          throw new Error("depth.base must be an integer > 0");
+        }
+        if (d.extended !== undefined && (!Number.isInteger(d.extended) || d.extended < 0 || d.extended > 3)) {
+          throw new Error("depth.extended must be an integer between 0 and 3");
+        }
+        if (d.quiescence !== undefined && (!Number.isInteger(d.quiescence) || d.quiescence < 0)) {
+          throw new Error("depth.quiescence must be an integer >= 0");
+        }
+        if (d.check !== undefined && typeof d.check !== "boolean") {
+          throw new Error("depth.check must be a boolean");
+        }
+      }
+      if (options.randomness !== undefined) {
+        if (typeof options.randomness !== "number" || !isFinite(options.randomness) || options.randomness < 0) {
+          throw new Error("randomness must be a non-negative number");
+        }
+      }
+      const searchResult = analysis ? this.aiEngine.findBestMoveDetailed(this.board, { level, ttSizeMB, depth: options.depth, analysis: true, randomness: options.randomness }) : null;
+      const bestMove = searchResult ? searchResult.move : this.aiEngine.findBestMove(this.board, level, ttSizeMB, options.depth, options.randomness);
+      if (!bestMove) {
+        throw new Error("Game is already finished");
+      }
+      const fromSquare = (0, conversion_1.indexToSquare)(bestMove.from);
+      const toSquare = (0, conversion_1.indexToSquare)(bestMove.to);
+      const historyEntry = { [fromSquare]: toSquare };
+      const analysisFields = analysis && searchResult?.scoredMoves ? {
+        analysis: searchResult.scoredMoves.map(({ move: move2, score }) => {
+          const from = (0, conversion_1.indexToSquare)(move2.from);
+          const to = (0, conversion_1.indexToSquare)(move2.to);
+          const historyMove = { [from]: to };
+          return { move: historyMove, score };
+        }),
+        depth: searchResult.depth,
+        nodesSearched: searchResult.nodesSearched,
+        bestScore: searchResult.score
+      } : undefined;
+      if (!play) {
+        const cfg2 = (0, APIAdapter_1.boardToConfig)(this.board);
+        this.updateConfigStatusFromBoard(this.board, cfg2);
+        return { move: historyEntry, board: cfg2, ...analysisFields ?? {} };
+      }
+      this.history.push(historyEntry);
+      (0, MoveGenerator_1.applyMoveComplete)(this.board, bestMove);
+      const cfg = (0, APIAdapter_1.boardToConfig)(this.board);
+      this.updateConfigStatusFromBoard(this.board, cfg);
+      return {
+        move: historyEntry,
+        board: cfg,
+        ...analysisFields ?? {}
+      };
+    }
+    updateConfigStatusFromBoard(board, cfg) {
+      const inCheck = (0, AttackDetector_1.isKingInCheck)(board);
+      const moves2 = (0, MoveGenerator_1.generateLegalMoves)(board);
+      const isMate = inCheck && moves2.length === 0;
+      const isStalemate = !inCheck && moves2.length === 0;
+      cfg.check = inCheck;
+      cfg.checkMate = isMate;
+      cfg.staleMate = isStalemate;
+      cfg.isFinished = isMate || isStalemate;
+    }
+  }
+  exports.Game = Game;
+  function pieceToUnicode(piece, isWhiteSquare) {
+    const symbols = {
+      0: isWhiteSquare ? "█" : "░",
+      1: "♙",
+      2: "♘",
+      3: "♗",
+      4: "♖",
+      5: "♕",
+      6: "♔",
+      7: "♟",
+      8: "♞",
+      9: "♝",
+      10: "♜",
+      11: "♛",
+      12: "♚"
+    };
+    return symbols[piece] || (isWhiteSquare ? "█" : "░");
+  }
+  function moves(config) {
+    const game = new Game(config);
+    return game.moves();
+  }
+  function status(config) {
+    const game = new Game(config);
+    return game.exportJson();
+  }
+  function getFen(config) {
+    const game = new Game(config);
+    return game.exportFEN();
+  }
+  function move(config, from, to) {
+    const game = new Game(config);
+    return game.move(from, to);
+  }
+  function aiMove(config, level = 3) {
+    const game = new Game(config);
+    return game.aiMove(level);
+  }
+  function ai(config, options = {}) {
+    const game = new Game(config);
+    return game.ai(options);
+  }
 });
 
 // index.js
@@ -8860,18 +11739,18 @@ class Chess {
 }
 
 // index.js
-var import_js_chess_engine = __toESM(require_js_chess_engine(), 1);
-var level = window.prompt("Enter the chessbot level (0-4):");
+var import_js_chess_engine = __toESM(require_dist(), 1);
+var level = window.prompt("Enter the chessbot level (1-5):");
 levelPrompt();
 function levelPrompt() {
   while (true) {
     if (level !== null) {
       level = level.trim();
     }
-    if (Number(level) >= 0 && Number(level) <= 4 && Number.isInteger(Number(level)) && level !== null && level !== "") {
+    if (Number(level) >= 1 && Number(level) <= 5 && Number.isInteger(Number(level)) && level !== null && level !== "") {
       break;
     } else {
-      level = window.prompt("Enter the chessbot level (0-4):");
+      level = window.prompt("Enter the chessbot level (1-5):");
     }
   }
 }
@@ -8916,7 +11795,8 @@ function makeBotMove() {
   if (moves.length === 0) {
     return;
   }
-  const move = import_js_chess_engine.aiMove(game.fen(), level);
+  const result = import_js_chess_engine.ai(game.fen(), { level });
+  const move = result.move;
   const squareFrom = Object.keys(move)[0];
   const squareTo = move[squareFrom];
   const from = squareFrom?.toLowerCase();
