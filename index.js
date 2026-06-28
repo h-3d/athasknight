@@ -11740,32 +11740,7 @@ class Chess {
 
 // index.js
 var import_js_chess_engine = __toESM(require_dist(), 1);
-var level = window.prompt("Enter the chessbot level (1-5):");
-levelPrompt();
-function levelPrompt() {
-  while (true) {
-    if (level !== null) {
-      level = level.trim();
-    }
-    if (Number(level) >= 1 && Number(level) <= 5 && Number.isInteger(Number(level)) && level !== null && level !== "") {
-      break;
-    } else {
-      level = window.prompt("Enter the chessbot level (1-5):");
-    }
-  }
-}
 var game = new Chess;
-var board = new Chessboard(document.getElementById("board"), {
-  position: game.fen(),
-  assetsUrl: "./assets/",
-  style: { pieces: { file: "pieces/staunty.svg" }, cssClass: "green", borderType: BORDER_TYPE.frame },
-  extensions: [
-    { class: Markers, props: { autoMarkers: MARKER_TYPE.frame } }
-  ]
-});
-function clearMoveMarkers() {
-  board.removeMarkers(MARKER_TYPE.dot);
-}
 function isPromoting(fen, move) {
   const chess = new Chess(fen);
   const piece = chess.get(move.from);
@@ -11780,112 +11755,133 @@ function isPromoting(fen, move) {
   }
   return chess.moves({ square: move.from, verbose: true }).map((it) => it.to).includes(move.to);
 }
-var promotedPiece;
-function promotionPrompt() {
-  while (true) {
-    if ((promotedPiece === "q" || promotedPiece === "r" || promotedPiece === "b" || promotedPiece === "n") && promotedPiece !== null && promotedPiece !== "") {
-      break;
-    } else {
-      promotedPiece = window.prompt("Promote pawn to (q, r, b, n):");
+import_sweetalert2.default.fire({
+  title: "Enter the chessbot level",
+  input: "range",
+  theme: "borderless",
+  allowEscapeKey: false,
+  allowOutsideClick: false,
+  confirmButtonText: "Start",
+  inputAttributes: {
+    min: "1",
+    max: "5",
+    step: "1"
+  },
+  inputValue: 3
+}).then((result) => {
+  if (result.isConfirmed) {
+    main(result.value);
+  }
+});
+async function main(level) {
+  const board = new Chessboard(document.getElementById("board"), {
+    position: game.fen(),
+    assetsUrl: "./assets/",
+    style: { pieces: { file: "pieces/staunty.svg" }, cssClass: "green", borderType: BORDER_TYPE.frame },
+    extensions: [
+      { class: Markers, props: { autoMarkers: MARKER_TYPE.frame } }
+    ]
+  });
+  function clearMoveMarkers() {
+    board.removeMarkers(MARKER_TYPE.dot);
+  }
+  function makeBotMove() {
+    const moves = game.moves();
+    if (moves.length === 0) {
+      return;
     }
+    const result = import_js_chess_engine.ai(game.fen(), { level });
+    const move = result.move;
+    const squareFrom = Object.keys(move)[0];
+    const squareTo = move[squareFrom];
+    const from = squareFrom?.toLowerCase();
+    const to = squareTo.toLowerCase();
+    if (isPromoting(game.fen(), { from, to })) {
+      game.move({ from, to, promotion: "q" });
+    } else {
+      game.move({ from, to });
+    }
+    board.setPosition(game.fen());
   }
-}
-function makeBotMove() {
-  const moves = game.moves();
-  if (moves.length === 0) {
-    return;
-  }
-  const result = import_js_chess_engine.ai(game.fen(), { level });
-  const move = result.move;
-  const squareFrom = Object.keys(move)[0];
-  const squareTo = move[squareFrom];
-  const from = squareFrom?.toLowerCase();
-  const to = squareTo.toLowerCase();
-  if (isPromoting(game.fen(), { from, to })) {
-    game.move({ from, to, promotion: "q" });
-  } else {
-    game.move({ from, to });
-  }
-  board.setPosition(game.fen());
-}
-board.enableMoveInput(inputHandler, COLOR.white);
-function inputHandler(event) {
-  switch (event.type) {
-    case INPUT_EVENT_TYPE.moveInputStarted:
-      clearMoveMarkers();
-      const moves = game.moves({
-        square: event.square,
-        verbose: true
-      });
-      moves.forEach((move) => {
-        board.addMarker(MARKER_TYPE.dot, move.to);
-      });
-      return true;
-    case INPUT_EVENT_TYPE.validateMoveInput:
-      try {
+  board.enableMoveInput(inputHandler, COLOR.white);
+  function inputHandler(event) {
+    switch (event.type) {
+      case INPUT_EVENT_TYPE.moveInputStarted:
         clearMoveMarkers();
-        if (isPromoting(game.fen(), { from: event.squareFrom, to: event.squareTo })) {
-          promotedPiece = window.prompt("Promote pawn to (q, r, b, n):");
-          promotionPrompt();
-          const move = game.move({ from: event.squareFrom, to: event.squareTo, promotion: promotedPiece });
-          if (move == null) {
-            return false;
-          }
-        } else {
-          const move = game.move({ from: event.squareFrom, to: event.squareTo });
-          if (move == null) {
-            return false;
-          }
-        }
-        board.setPosition(game.fen());
-        if (game.isGameOver()) {
-          board.disableMoveInput();
-          import_sweetalert2.default.fire({
-            title: "Game Over",
-            text: "Click to restart",
-            theme: "borderless",
-            showDenyButton: true,
-            confirmButtonText: "Restart",
-            denyButtonText: "Deny",
-            allowOutsideClick: false
-          }).then((result) => {
-            if (result.isConfirmed) {
-              window.location.reload();
-            }
-          });
-        } else {
-          setTimeout(() => {
-            makeBotMove();
-            if (game.isGameOver()) {
-              board.disableMoveInput();
-              import_sweetalert2.default.fire({
-                title: "Game Over",
-                text: "Click to restart",
-                theme: "borderless",
-                showDenyButton: true,
-                confirmButtonText: "Restart",
-                denyButtonText: "Deny",
-                allowOutsideClick: false
-              }).then((result) => {
-                if (result.isConfirmed) {
-                  window.location.reload();
-                }
-              });
-            }
-          }, 40);
-        }
+        const moves = game.moves({
+          square: event.square,
+          verbose: true
+        });
+        moves.forEach((move) => {
+          board.addMarker(MARKER_TYPE.dot, move.to);
+        });
         return true;
-      } catch (error) {
-        console.warn("Invalid move attempted", error);
-        return false;
-      }
-    case INPUT_EVENT_TYPE.moveInputCanceled:
-      clearMoveMarkers();
-      break;
-    case INPUT_EVENT_TYPE.moveInputFinished:
-      clearMoveMarkers();
-      break;
-    case INPUT_EVENT_TYPE.movingOverSquare:
-      break;
+      case INPUT_EVENT_TYPE.validateMoveInput:
+        try {
+          clearMoveMarkers();
+          if (isPromoting(game.fen(), { from: event.squareFrom, to: event.squareTo })) {
+            const move = game.move({ from: event.squareFrom, to: event.squareTo, promotion: "q" });
+            if (move == null) {
+              return false;
+            }
+          } else {
+            const move = game.move({ from: event.squareFrom, to: event.squareTo });
+            if (move == null) {
+              return false;
+            }
+          }
+          board.setPosition(game.fen());
+          if (game.isGameOver()) {
+            board.disableMoveInput();
+            import_sweetalert2.default.fire({
+              title: "Game Over",
+              text: "Click to restart",
+              theme: "borderless",
+              showDenyButton: true,
+              confirmButtonText: "Restart",
+              denyButtonText: "Deny",
+              allowOutsideClick: false,
+              allowEscapeKey: false
+            }).then((result) => {
+              if (result.isConfirmed) {
+                window.location.reload();
+              }
+            });
+          } else {
+            setTimeout(() => {
+              makeBotMove();
+              if (game.isGameOver()) {
+                board.disableMoveInput();
+                import_sweetalert2.default.fire({
+                  title: "Game Over",
+                  text: "Click to restart",
+                  theme: "borderless",
+                  showDenyButton: true,
+                  confirmButtonText: "Restart",
+                  denyButtonText: "Deny",
+                  allowOutsideClick: false,
+                  allowEscapeKey: false
+                }).then((result) => {
+                  if (result.isConfirmed) {
+                    window.location.reload();
+                  }
+                });
+              }
+            }, 40);
+          }
+          return true;
+        } catch (error) {
+          console.warn("Invalid move attempted", error);
+          return false;
+        }
+      case INPUT_EVENT_TYPE.moveInputCanceled:
+        clearMoveMarkers();
+        break;
+      case INPUT_EVENT_TYPE.moveInputFinished:
+        clearMoveMarkers();
+        break;
+      case INPUT_EVENT_TYPE.movingOverSquare:
+        break;
+    }
   }
 }
