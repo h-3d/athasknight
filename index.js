@@ -11757,7 +11757,7 @@ function isPromoting(fen, move) {
 }
 function colorPrompt(level) {
   import_sweetalert2.default.fire({
-    title: "Enter your starting color",
+    title: "Starting color",
     input: "radio",
     theme: "borderless",
     allowEscapeKey: false,
@@ -11782,7 +11782,7 @@ function colorPrompt(level) {
   });
 }
 import_sweetalert2.default.fire({
-  title: "Enter the chessbot level",
+  title: "Chessbot level",
   input: "range",
   theme: "borderless",
   allowEscapeKey: false,
@@ -11790,10 +11790,10 @@ import_sweetalert2.default.fire({
   confirmButtonText: "Next",
   inputAttributes: {
     min: "1",
-    max: "5",
+    max: "6",
     step: "1"
   },
-  inputValue: 3
+  inputValue: 4
 }).then((result) => {
   if (result.isConfirmed) {
     colorPrompt(result.value);
@@ -11812,13 +11812,21 @@ async function main(level, color) {
   function clearMoveMarkers() {
     board.removeMarkers(MARKER_TYPE.dot);
   }
+  function bot() {
+    if (level == 6) {
+      const result = import_js_chess_engine.ai(game.fen(), { level: 5, depth: { base: 5 } });
+      return result.move;
+    } else {
+      const result = import_js_chess_engine.ai(game.fen(), { level });
+      return result.move;
+    }
+  }
   function makeBotMove() {
     const moves = game.moves();
     if (moves.length === 0) {
       return;
     }
-    const result = import_js_chess_engine.ai(game.fen(), { level });
-    const move = result.move;
+    const move = bot();
     const squareFrom = Object.keys(move)[0];
     const squareTo = move[squareFrom];
     const from = squareFrom?.toLowerCase();
