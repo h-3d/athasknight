@@ -11755,13 +11755,39 @@ function isPromoting(fen, move) {
   }
   return chess.moves({ square: move.from, verbose: true }).map((it) => it.to).includes(move.to);
 }
+function colorPrompt(level) {
+  import_sweetalert2.default.fire({
+    title: "Enter your starting color",
+    input: "radio",
+    theme: "borderless",
+    allowEscapeKey: false,
+    allowOutsideClick: false,
+    confirmButtonText: "Play",
+    inputOptions: {
+      white: "white",
+      black: "black"
+    },
+    inputValidator: (value) => {
+      if (!value)
+        return "You need to choose something!";
+    }
+  }).then((result) => {
+    if (result.isConfirmed) {
+      if (result.value === "black") {
+        main(level, COLOR.black);
+      } else {
+        main(level, COLOR.white);
+      }
+    }
+  });
+}
 import_sweetalert2.default.fire({
   title: "Enter the chessbot level",
   input: "range",
   theme: "borderless",
   allowEscapeKey: false,
   allowOutsideClick: false,
-  confirmButtonText: "Start",
+  confirmButtonText: "Next",
   inputAttributes: {
     min: "1",
     max: "5",
@@ -11770,12 +11796,13 @@ import_sweetalert2.default.fire({
   inputValue: 3
 }).then((result) => {
   if (result.isConfirmed) {
-    main(result.value);
+    colorPrompt(result.value);
   }
 });
-async function main(level) {
+async function main(level, color) {
   const board = new Chessboard(document.getElementById("board"), {
     position: game.fen(),
+    orientation: color,
     assetsUrl: "./assets/",
     style: { pieces: { file: "pieces/staunty.svg" }, cssClass: "green", borderType: BORDER_TYPE.frame },
     extensions: [
@@ -11803,7 +11830,12 @@ async function main(level) {
     }
     board.setPosition(game.fen());
   }
-  board.enableMoveInput(inputHandler, COLOR.white);
+  if (color === COLOR.black) {
+    setTimeout(() => {
+      makeBotMove();
+    }, 200);
+  }
+  board.enableMoveInput(inputHandler, color);
   function inputHandler(event) {
     switch (event.type) {
       case INPUT_EVENT_TYPE.moveInputStarted:
