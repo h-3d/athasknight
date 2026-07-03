@@ -11790,7 +11790,7 @@ import_sweetalert2.default.fire({
   confirmButtonText: "Next",
   inputAttributes: {
     min: "1",
-    max: "6",
+    max: "7",
     step: "1"
   },
   inputValue: 4
@@ -11813,7 +11813,10 @@ async function main(level, color) {
     board.removeMarkers(MARKER_TYPE.dot);
   }
   function bot() {
-    if (level == 6) {
+    if (level == 7) {
+      const result = import_js_chess_engine.ai(game.fen(), { level: 5, depth: { base: 6 } });
+      return result.move;
+    } else if (level == 6) {
       const result = import_js_chess_engine.ai(game.fen(), { level: 5, depth: { base: 5 } });
       return result.move;
     } else {
